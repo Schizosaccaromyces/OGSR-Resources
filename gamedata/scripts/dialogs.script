@@ -162,6 +162,15 @@ end
 function actor_have_bandage(first_speaker, second_speaker)
 	return first_speaker:object("bandage") ~= nil
 end
+
+local actor_to_stalker_comms = {
+	['actor']           = 'stalker',
+	['actor_dolg']      = 'dolg',
+	['actor_freedom']   = 'freedom',
+	['actor_zombied']   = 'zombied',
+	['actor_prebandit'] = 'bandit',
+}
+
 function transfer_medkit(first_speaker, second_speaker)
 	if first_speaker:object("medkit") ~= nil then
 		dialogs.relocate_item_section(second_speaker, "medkit", "out")
@@ -204,7 +213,10 @@ function transfer_medkit(first_speaker, second_speaker)
 				-- нейтрал
 				make_relationship_with_actor("neutral", second_speaker, first_speaker)		
 			end
-		end	
+		end
+
+		second_speaker:set_character_community(actor_to_stalker_comms[first_speaker:character_community()] or first_speaker:character_community())
+
 	elseif second_speaker:relation(first_speaker) == game_object.neutral then
 		first_speaker:change_character_reputation(25)
 		make_relationship_with_actor("friend", second_speaker, first_speaker)	
