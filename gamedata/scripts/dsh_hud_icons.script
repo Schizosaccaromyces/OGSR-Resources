@@ -139,6 +139,7 @@ local function update_icons()
     hide_icon( icons.health )
   end
 --]=]
+
   if db.actor.psy_health < 0.95 then
     set_icon_color( icons.psy_health, db.actor.psy_health / 0.95 )
   else
@@ -150,6 +151,7 @@ local function update_icons()
   else
     hide_icon( icons.satiety )
   end
+
 --[=[
   if db.actor.power < 0.8 then
     set_icon_color( icons.power, db.actor.power / 0.8 )
@@ -157,6 +159,8 @@ local function update_icons()
     hide_icon( icons.power )
   end
 --]=]
+  if not get_console():get_bool("g_god") then hide_icon( icons.power ) end --фикс глюка при выкл годмода
+
   if db.actor:get_bleeding() > 0.05 then
     set_icon_color( icons.wound, 1 - ( db.actor:get_bleeding() / 5 ) )
   else
