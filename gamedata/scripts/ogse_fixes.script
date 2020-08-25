@@ -30,6 +30,7 @@ function on_spawn()
 		dsh.cleanup_pri_waves()
 	end
 	--
+	fix_gar_sniper_in_restrictor()
 end
 
 function on_first_update()
@@ -285,4 +286,15 @@ function fix_zone_flame_small2()
   end
   --
   ogse.save_var("fix_zone_flame_small2", true)
+end
+
+
+-- Dsh: этот рестриктор был указан в out_rest у другана притворяшки и при этом имел тип, который автоматически добавляется в in рестрикторы.
+function fix_gar_sniper_in_restrictor()
+  local sobj = alife():object( "gar_sniper_in_restrictor" )
+  local sr   = sobj:get_space_restrictor()
+  if sr.restrictor_type ~= global_flags.eRestrictorTypeNone then
+    log3( "~~[%s]: fix %s.m_space_restrictor_type: [%s] -> [%s]", script_name(), sobj:name(), sr.restrictor_type, global_flags.eRestrictorTypeNone )
+    sr.restrictor_type = global_flags.eRestrictorTypeNone
+  end
 end
