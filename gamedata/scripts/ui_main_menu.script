@@ -27,6 +27,19 @@ function main_menu:InitBackground()
 	self.bg_st:SetOriginalRect(tex_orig_x_offs, 0, tex_orig_w, 768);
 end
 
+local function get_patch_release_date()
+	local date = ""
+	stdfs.directory_iterator(
+		getFS():update_path( "$fs_root$",  "" ),
+		function( file )
+			if file.extension == ".db_base_configs" then
+				date = file.last_write_time_string_short
+			end
+		end
+	)
+	return date
+end
+
 function main_menu:InitControls()
 	local screen = device()
 	screen_aspect_ratio = screen.width / screen.height
@@ -44,7 +57,7 @@ function main_menu:InitControls()
 	self.message_box = CUIMessageBoxEx()
 	self:Register(self.message_box, "msg_box")	
 
-	self.xml:InitStatic("ogsm_version",   self):SetText("Mod version: " .. sys_ini:r_string_wq("mod_ver", "mod_ver"))
+	self.xml:InitStatic("ogsm_version",   self):SetText("Mod version: " .. sys_ini:r_string_wq("mod_ver", "mod_ver") .. " " .. get_patch_release_date())
 	self.xml:InitStatic("static_version", self):SetText("Engine version: " .. _G.main_menu.get_main_menu():GetGSVer())
 	self.xml:InitStatic("dlc_version",   self):SetText("+ Kulgband quest DLC")
 	
