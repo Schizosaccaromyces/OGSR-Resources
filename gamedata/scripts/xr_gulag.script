@@ -1193,9 +1193,11 @@ function gulag:community_populaion_inside( community )
 	local counter = 0
 	for obj_id, _ in pairs( self.Object_begin_job ) do
 		local sobj = alife():object( obj_id )
-		local comm, is_stalker = self.smrttrn:get_obj_community( sobj )
-		if comm == community and not ( is_stalker and ogse.is_quest_npc( sobj ) ) then
-			counter = counter + 1
+		if sobj then
+			local comm, is_stalker = self.smrttrn:get_obj_community( sobj )
+			if comm == community and not ( is_stalker and ogse.is_quest_npc( sobj ) ) then
+				counter = counter + 1
+			end
 		end
 	end
 	return counter
