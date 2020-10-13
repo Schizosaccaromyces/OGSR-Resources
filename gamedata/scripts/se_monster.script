@@ -189,6 +189,10 @@ function se_monster:on_register()
 	--
 	cse_alife_monster_base.on_register( self )
 	--
+	if not self.has_none_true and self:smart_terrain_id() == 65535 then
+		self:brain():update()
+	end
+	--
 	alife():set_interactive( self, true )
 end
 --------------------
