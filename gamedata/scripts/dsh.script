@@ -441,3 +441,37 @@ function cleanup_bar_ecologs()
     end
   end
 end
+
+
+local free_logic_gulag = {}
+function is_free_logic_gulag( name )
+  if not sys_ini:section_exist( "dsh.gulag.free_logic" ) then return false end
+
+  if free_logic_gulag[ name ] == nil then
+    local cond = get_string( "dsh.gulag.free_logic", name, false )
+    if cond then
+      local pc = xr_logic.parse_condlist(
+        nil, "dsh.gulag.free_logic", name, cond
+      )
+      cond = xr_logic.pick_section_from_condlist(
+        db.actor_proxy, db.actor_proxy, pc
+      ) ~= nil
+    end
+    free_logic_gulag[ name ] = cond
+  end
+  return free_logic_gulag[ name ]
+end
+
+
+function clear_smart_terrain_conditions( sobj )
+  sobj.smart_terrain_conditions = nil
+  sobj.was_in_smart_terrain     = true
+end
+
+
+function start_gtimerDHMS( name, d, h, m, s, fname, ... )
+  return ogse_st_mgr.delayed_fun_start( name )
+    :set_gdelayDHMS( d, h, m, s )
+    :init( fname, ... )
+    :start()
+end

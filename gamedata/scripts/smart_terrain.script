@@ -86,7 +86,7 @@ function se_smart_terrain:STATE_Write( packet )
 			packet:w_u8   ( v.o_group )
 			packet:w_u8   ( v.o_squad )
 			packet:w_bool ( v.exclusive )
-			utils.w_CTime ( packet, v.stay_end ) --TODO: ”далить
+			utils.w_CTime ( packet, v.stay_end )
 
 			self.gulag:save_obj( packet, id )
 		end
@@ -138,7 +138,7 @@ function se_smart_terrain:STATE_Read( packet, size )
 			o.o_group   = packet:r_u8()
 			o.o_squad   = packet:r_u8()
 			o.exclusive = packet:r_bool()
-			o.stay_end  = utils.r_CTime( packet ) --TODO: ”далить
+			o.stay_end  = utils.r_CTime( packet )
 
 			self.gulag:load_obj( packet, o_id )
 		end
@@ -555,29 +555,18 @@ function se_smart_terrain:suitable( obj )
     return 100000 --—разу возвращаем, зачем ещЄ что-то провер€ть, если это заведомо больше всех
   end
   --
-  local k = 1 -- коэффициент привлекательности смарта
-  local self_lname = object_level_name( self )
-  if object_level_name( obj ) ~= self_lname then
-    -- смарт на другой локации будет привлекательнее смарта на текущей
-    -- локации непис€. ѕолагаю, это приведет к большей движухе.
-    k = 10 + math.random( 0, 10 )
-  end
-
-  local v = 0 -- посчитаем доступное на уровне количество работ
-  -- перебираем все гулаги на одном уровне с этим
-  for id, strn in pairs( smart_terrains[ self_lname ] ) do
-    if strn:is_gulag_available() then -- если они доступны
-      -- то суммируем их вакансии
-      v = v + strn.gulag.capacity - strn.gulag:get_population()
+  if obj.level_name ~= self.level_name then
+    -- смарт на другой локации будет привлекательнее смарта на локации непис€.
+    -- ѕолагаю, это приведет к большей движухе.
+    if self.level_name == level.name() then
+      -- пусть с других локаций первым делом идут к актору
+      return math.random( 201, 300 )
+    else
+      return math.random( 101, 200 )
     end
   end
-  -- непон€тен критерий! ѕолучаетс€, неэксклюзивный непись почти
-  -- всегда пойдЄт на уровень с тупо большим числом смартов, а уровни
-  -- с небольшим количеством смартов засел€тс€ в последнюю очередь.
-  -- надо подумать над критерием.   роме того, непон€тно, где
-  -- прописываетс€ ограничение по рангу/силе монстров. ћожет это
-  -- сделать здесь?
-  return v * k -- возвращаем фактически число вакансий на уровне
+
+  return math.random( 100 )
 end
 
 ------------ добавить npc в smart terrain.
@@ -595,7 +584,7 @@ function se_smart_terrain:register_npc( obj )
 		o_squad        = obj:g_squad(),
 		exclusive      = self.obj_exclusive_tbl[obj.id] == true, 
 
-		stay_end       = game.CTime() --TODO: ”далить
+		stay_end       = game.get_game_time() -- врем€ прин€ти€ в смарт
 	}
 	--
 	self.obj_exclusive_tbl[obj.id] = nil --дальше это хранить нет смысла
@@ -1077,56 +1066,11 @@ function read_smart_terrain_conditions( self )
   return nil
 end
 
---[==[
--- ¬ывод статистики по всем смартам в симул€ции
-function stat()
-	log1( "--------------- Smart terrains statistics START ----------------------" )
 
-	local jobs, jobs_in_avail, occupied
-	local level_stats = {}
-
-	for level_name, t in pairs( smart_terrains ) do
-		jobs, jobs_in_avail, occupied = 0, 0, 0
-
-		for id, strn in pairs( t ) do
-			local avail, pop, cap = strn:stat()
-
-			jobs       = jobs     + cap
-			occupied   = occupied + pop
-
-			if avail then
-				jobs_in_avail = jobs_in_avail + cap
-			end
+function iterate_smart_terrains( f )
+	for lname, smarts in pairs(smart_terrains) do
+		for id, sobj in pairs( smarts ) do
+			f( sobj )
 		end
-
-		local l = {}
-		level_stats[level_name] = l
-
-		l.jobs          = jobs
-		l.occupied      = occupied
-		l.jobs_in_avail = jobs_in_avail
 	end
-
-	jobs, jobs_in_avail, occupied = 0, 0, 0
-
-	log1("")
-
-	for level_name, l in pairs( level_stats ) do
-		log3( "Level %s :", level_name )
-		log3( "    Jobs in all smart terrains : %d",       l.jobs )
-		log3( "    Jobs in available smart terrains : %d", l.jobs_in_avail )
-		log3( "    Occupied jobs : %d",                    l.occupied )
-
-		jobs          = jobs          + l.jobs
-		jobs_in_avail = jobs_in_avail + l.jobs_in_avail
-		occupied      = occupied      + l.occupied
-	end
-
-	log3( "All levels:" )
-	log3( "    Jobs in all smart terrains : %d",       jobs )
-	log3( "    Jobs in available smart terrains : %d", jobs_in_avail )
-	log3( "    Occupied jobs : %d",                    occupied )
-
-	log1( "--------------- Smart terrains statistics END ------------------------" )
 end
---]==]

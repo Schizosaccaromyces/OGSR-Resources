@@ -57,6 +57,7 @@ addons = {
 	"dsh_enemies",
 	"dsh_anomaly_detector", --должен быть после ogse_anomaly!
 	"dsh_hud_icons",
+	"dsh_walking_stalkers",
 	"clear_garbage",
 	"trade_manager",
 	"xr_combat_companion",
