@@ -87,11 +87,11 @@ function evaluator_wound:evaluate()
 		self.a.wound_manager:hit_callback()
 	end
 	
-	if self.mgr == nil then
+	--[[if self.mgr == nil then
 		self.mgr = self.object:motivation_action_manager()
 	end
 	
-	--[[ закомментировано KamikaZze - этот блок вызывает зависание сталкеров при одновременном ранении и активном свойстве wounded_fight
+	 закомментировано KamikaZze - этот блок вызывает зависание сталкеров при одновременном ранении и активном свойстве wounded_fight
 	-- в результате бесконечно тупят в одну точку со стрельбой или без
 	
 	-- if self.object:critically_wounded() == true then

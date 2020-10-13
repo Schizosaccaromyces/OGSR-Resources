@@ -28,12 +28,8 @@ function evaluator_contact:evaluate()
 		end
 
 		self.a.meet_manager:update()
-
-		if self.mgr == nil then
-			self.mgr = self.object:motivation_action_manager()
-		end
 		
-		if self.mgr:evaluator(stalker_ids.property_enemy):evaluate() then
+		if self.object:motivation_action_manager():evaluator(stalker_ids.property_enemy):evaluate() then
 			if not xr_companion.is_companion(self.object:id()) then
 				self.object:disable_talk()
 			end

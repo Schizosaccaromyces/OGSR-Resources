@@ -58,11 +58,6 @@ function evaluator_danger:evaluate()
 	if xr_wounded.is_heavy_wounded_by_id(self.object:id()) then
 		return false
 	end
-
-
-	if self.mgr == nil then
-		self.mgr = self.object:motivation_action_manager()
-	end
 	
 	
 	if shout_body[self.object:id()] and shout_body[self.object:id()] < time_global() then
