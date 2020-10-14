@@ -210,7 +210,7 @@ end
 
 local function cleanup_custom_data( sobj )
   local ini = sobj:spawn_ini()
-  remove_sects = {}
+  local remove_sects = {}
   for _, k in ipairs({ "logic", "smart_terrain", "smart_terrains" }) do
     if ini:section_exist( k ) then
       table.insert( remove_sects, k )

@@ -216,6 +216,17 @@ function transfer_medkit(first_speaker, second_speaker)
 		end
 
 		second_speaker:set_character_community(actor_to_stalker_comms[first_speaker:character_community()] or first_speaker:character_community())
+		second_speaker:remove_memory_object( first_speaker )
+		ogse.reset_npc_logic( second_speaker )
+		xr_gulag.resetJob( second_speaker )
+		local sobj = alife():object( second_speaker:id() )
+		if sobj then
+			sobj.custom_data = ""
+			smart_terrain.unregister_npc( sobj )
+			dsh.clear_smart_terrain_conditions( sobj )
+			sobj:brain():can_choose_alife_tasks( true )
+			sobj:brain():update()
+		end
 
 	elseif second_speaker:relation(first_speaker) == game_object.neutral then
 		first_speaker:change_character_reputation(25)

@@ -154,9 +154,9 @@ function action_wounded:initialize ()
 end
 function action_wounded:execute ()
     action_base.execute (self)
-  wound_manager = self.a.wound_manager
+  local wound_manager = self.a.wound_manager
   
-  wound_manager_victim = xr_logic.pstor_retrieve(self.object, "wounded_victim")
+  local wound_manager_victim = xr_logic.pstor_retrieve(self.object, "wounded_victim")
 
   local victim = nil  
   if wound_manager_victim == "actor" then
@@ -578,7 +578,9 @@ end
 -- первичную настройку.
 function set_wounded(npc, ini, scheme, section)
   local st = xr_logic.assign_storage_and_bind(npc, ini, scheme, section)
-  st.wound_manager = Cwound_manager(npc, st)
+  if not st.wound_manager then
+    st.wound_manager = Cwound_manager( npc, st )
+  end
 end
 -- Вызывается на переключении на новую секцию. Производит вычитывание настроек из текущей секции.
 function reset_wounded(npc, scheme, st, section)
