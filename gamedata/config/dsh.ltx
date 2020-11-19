@@ -61,11 +61,16 @@ agr_defector_stalker1 = KRodin\logic\agr_defector_stalker1.ltx ;Фикс кри�
 [dsh.se_stalker.esc_shustryi.smart_terrains]
 esc_lager = {+tutorial_wounded_give_info} ;После освобождения Шустрый пойдёт в ДН
 ;================================================================
+; ДН
+[dsh.gulag.override.esc_lager]
+dsh_walking = true
+;================================================================
 [dsh.gulag.override.esc2_st_fabric]
-communities = bandit, stalker, dolg
+communities = bandit, stalker, dolg, ecolog
 capacity = 10
 switch_0 = {=is_day}, {=gulag_empty(esc2_most)}, {!gulag_community_pop(esc2_st_fabric:bandit:6)}
 switch_1 = {=gulag_community_pop(esc2_st_fabric:bandit:6) !gulag_empty(esc2_most) !is_day}
+dsh_walking = true
 [dsh.xr_kamp.esc2_st_fabric_kamp_2] ;Сталкеров на АТП пересадил на второй этаж
 level_vertex_id = 405548
 ;================================================================
@@ -73,6 +78,7 @@ level_vertex_id = 405548
 capacity = 5
 switch_0 = {!is_day}, {!gulag_population_comed_ge(esc2_most:5)}, {!gulag_community_pop(esc2_st_fabric:bandit:1)}
 switch_1 = {=is_day =gulag_population_comed_ge(esc2_most:5) =gulag_community_pop(esc2_st_fabric:bandit:1)}
+dsh_walking = true
 ;================================================================
 [dsh.gulag.override.esc_assault]
 cond = {-esc_kill_bandits_quest_done} ;Смарт Петрухи с компанией закроется после их ухода
@@ -99,42 +105,46 @@ cond = {-gar_dm_novice_change_st}
 capacity = 10 ;7
 communities = stalker
 cond = {+gar_hellcar_dialog_end}, {+gar_hellcar_death} ;Не будем этот смарт закрывать.
+dsh_walking = true
 ;================================================================
-[dsh.se_stalker.gar_hellcar.smart_terrains] ;Бес теперь останется на кладбище техники, и никуда оттуда не уйдёт.
+[dsh.se_stalker.gar_hellcar.smart_terrains] ;Бес теперь может уходить в любой свободный смарт
 gar_hellcar_group = {-gar_hellcar_dialog_end -gar_hellcar_death}
-gar_smart_graveyard = {+gar_hellcar_dialog_end}
+any = {+gar_hellcar_dialog_end}
 ;================================================================
-[dsh.se_stalker.gar_hellcar_group_1.smart_terrains] ;Команда Беса теперь останется на кладбище техники, и никуда оттуда не уйдёт.
+[dsh.se_stalker.gar_hellcar_group_1.smart_terrains] ;Команда Беса теперь может уходить в любой свободный смарт
 gar_hellcar_group = {-gar_hellcar_dialog_end -gar_hellcar_death}
-gar_smart_graveyard = {+gar_hellcar_dialog_end}, {+gar_hellcar_death}
+any = {+gar_hellcar_dialog_end}, {+gar_hellcar_death}
 ;================================================================
-[dsh.se_stalker.gar_hellcar_group_2.smart_terrains] ;Команда Беса теперь останется на кладбище техники, и никуда оттуда не уйдёт.
+[dsh.se_stalker.gar_hellcar_group_2.smart_terrains] ;Команда Беса теперь может уходить в любой свободный смарт
 gar_hellcar_group = {-gar_hellcar_dialog_end -gar_hellcar_death}
-gar_smart_graveyard = {+gar_hellcar_dialog_end}, {+gar_hellcar_death}
+any = {+gar_hellcar_dialog_end}, {+gar_hellcar_death}
 ;================================================================
 ;
 [dsh.gulag.override.gar_smart_garage] ;Сталкеры в ангаре. На них периодически нападают бандиты.
 capacity = 12; 6
-communities = stalker, dolg
+communities = stalker, dolg, ecolog
+dsh_walking = true
 ;================================================================
-[dsh.se_stalker.gar_seryi.smart_terrains] ;Серый теперь останется в ангаре
+[dsh.se_stalker.gar_seryi.smart_terrains] ;Серый теперь может уходить в любой свободный смарт
 gar_angar = {-garbage_meetstalker_done -garbage_meetstalker_die}
-gar_smart_garage = {+garbage_meetstalker_done}
+any = {+garbage_meetstalker_done}
 ;================================================================
-[dsh.se_stalker.gar_seryi_drug2.smart_terrains] ;Команда Серого теперь останется в ангаре
+[dsh.se_stalker.gar_seryi_drug2.smart_terrains] ;Команда Серого теперь может уходить в любой свободный смарт
 gar_angar = {-garbage_meetstalker_done -garbage_meetstalker_die}
-gar_smart_garage = {+garbage_meetstalker_done}, {+garbage_meetstalker_die}
+any = {+garbage_meetstalker_done}, {+garbage_meetstalker_die}
 ;================================================================
-[dsh.se_stalker.gar_seryi_drug3.smart_terrains] ;Команда Серого теперь останется в ангаре
+[dsh.se_stalker.gar_seryi_drug3.smart_terrains] ;Команда Серого теперь может уходить в любой свободный смарт
 gar_angar = {-garbage_meetstalker_done -garbage_meetstalker_die}
-gar_smart_garage = {+garbage_meetstalker_done}, {+garbage_meetstalker_die}
+any = {+garbage_meetstalker_done}, {+garbage_meetstalker_die}
 ;================================================================
 ;
 [dsh.gulag.override.gar_smart_stalkers_1] ;Лагерь за кладбищем техники
 communities = killer, bandit, stalker
+dsh_walking = true
 ;================================================================
 [dsh.gulag.override.gar_smart_bandit_large_lager] ;бандиты, периодически нападающие на ангар
 capacity = 11; 8
+dsh_walking = true
 ;================================================================
 ; костер на посту Долга
 [dsh.xr_kamp.gar_dolg_blokpost_kamp_point]
@@ -162,6 +172,11 @@ cond = {=gulag_empty(ros_smart_stalker_bandits1) +bar_rescue_research_done}, {=g
 capacity = 10
 communities = stalker, dolg, ecolog
 cond = {+bar_rescue_research_chasing_start}, {+bar_rescue_research_fail}
+dsh_walking = true
+; Их костёр, чтоб сидели именно вокруг костра, и не мешали патрульному.
+[dsh.xr_kamp.ros_smart_stalker_bandits1_kamp_1]
+level_vertex_id = 5900
+preferred_seats = 6447, 6259, 6082, 5724
 
 ; Экологи из команды Круглова
 [dsh.se_stalker.bar_ecolog_crush_1.spawner]
@@ -208,11 +223,12 @@ on_cleanup = ogse_fixes.cleanup_val_rob_restrictors ;При закрытии с�
 ;================================================================
 ; Сталкеры в ТД, на ферме, смарт откроется после того как кидалы стали врагами.
 [dsh.gulag.override.val_smart_bandit_1]
-communities = stalker, dolg
+communities = stalker, dolg, ecolog
 capacity    = 13
 cond        = {+val_rob_disable}
 switch_0    = {!is_day}, {=is_weather_rain}, {=gulag_empty(val_smart_monster_lair_6)}
 switch_1    = {=is_day !is_weather_rain =gulag_population_ge(val_smart_bandit_1:8) !gulag_empty(val_smart_monster_lair_6)}
+dsh_walking = true
 ;================================================================
 ; Мутанты, на которых охотятся сталкеры из лагеря выше.
 [dsh.gulag.override.val_smart_monster_lair_6]
