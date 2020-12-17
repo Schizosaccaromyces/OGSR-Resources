@@ -140,25 +140,6 @@ local tips_icons = {
 function send_tip(actor, news_id, timeout, sender, showtime, sender_id)
 	if news_id == nil then return false end
 
-	if sender_id ~= nil then
-		local sim = alife()
-		if sim ~= nil then
-			local npc = sim:story_object(sender_id)
-			if npc ~= nil then
-				if npc.online then
-					--в онлайне проверяем на раненность
-					if xr_wounded.is_heavy_wounded_by_id(npc.id) then
-						return false
-					end
-				end
-				-- в других случаях только на смерть
-				if npc:alive() == 1 then
-					return false
-				end
-			end
-		end
-	end
-
 	if timeout == nil then timeout = 0 end
 	if showtime == nil then showtime = news_showtime end
 
