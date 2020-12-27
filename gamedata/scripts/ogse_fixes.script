@@ -31,6 +31,8 @@ function on_spawn()
 	end
 	--
 	fix_gar_sniper_in_restrictor()
+	--
+	fix_yan_st_stalker3_kamp_1()
 end
 
 function on_first_update()
@@ -297,4 +299,16 @@ function fix_gar_sniper_in_restrictor()
     log3( "~~[%s]: fix %s.m_space_restrictor_type: [%s] -> [%s]", script_name(), sobj:name(), sr.restrictor_type, global_flags.eRestrictorTypeNone )
     sr.restrictor_type = global_flags.eRestrictorTypeNone
   end
+end
+
+
+-- Создать костер для долговцев на Янтаре
+function fix_yan_st_stalker3_kamp_1()
+  if ogse.var_exists("fix_yan_st_stalker3_kamp_1") then return end
+  local p = patrol( "yan_st_stalker3_kamp_1" )
+  dsh.create_campfire(
+    p:point( 0 ), p:level_vertex_id( 0 ), p:game_vertex_id( 0 ),
+    "objects\\koster_palki_nastil", 0.7
+  )
+  ogse.save_var("fix_yan_st_stalker3_kamp_1", true)
 end
