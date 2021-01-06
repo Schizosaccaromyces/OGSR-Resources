@@ -770,7 +770,7 @@ function spawn_anomaly( section, pos, lv, gv, shape )
     end
 	--level.map_add_object_spot(sobj.id, "green_location", sobj:name())
     pk:set( data )
-	return sobj
+	return alife():object(sobj.id)
 end
 
 --Создаёт набор аномалий на уровне
