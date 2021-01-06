@@ -1,31 +1,20 @@
 -- -*- mode: lua; coding: windows-1251-dos -*-
 
-------------- Р‘РРћР РђР”РђР  -------------
--- DРµС‚РµРєС‚РѕСЂ Р¶РёРІС‹С… С„РѕСЂРј, Р±СѓРґСЊ РѕРЅ РЅРµР»Р°РґРµРЅ.
--- РђРІС‚РѕСЂ Charsi
+------------- БИОРАДАР -------------
+-- Dетектор живых форм, будь он неладен.
+-- Автор Charsi
 -- Data 29.11.2012
--- РїРµСЂРµСЂР°Р±РѕС‚РєР° РґР»СЏ OGSE KamikaZze 2012-2014
--- РћРїС‚РёРјРёР·Р°С†РёСЏ, РёСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє: KRodin (c) 2016
+-- переработка для OGSE KamikaZze 2012-2014
+-- Оптимизация, исправление ошибок: KRodin
 
--- Р’РѕР»РЅР°, Р·Р°С‚СѓС…Р°РЅРёРµ С‚РѕС‡РµРє Рё Р·РІСѓРє РІС‹РєР»СЋС‡РµРЅС‹, РїРѕС‚РѕРјСѓ С‡С‚Рѕ 1.)СЌС‚Рѕ РіР»СЋС‡РЅРѕ 2.)РЅРµРєСЂР°СЃРёРІРѕ
+------------- Настройки ------------
+local max_dist = 90 --Макс. расстояние до цели в игровых метрах
+local biomap_width = 256 -- Krodin: или я что-то не понимаю, но по-моему, это не ширина, а координаты центра текстуры биорадара (~256, ~256)
+local d = biomap_width/2 --KRodin: Пусть так и будет, не трогать!
+local screen_max_dist = 102 --Ширина именно радара (Не текстуры!) в пикселях
+local dot_size = 3 --Размер точки (чем больше - тем точка крупнее)
+-------------------------------------
 
-------------- РќР°СЃС‚СЂРѕР№РєРё ------------
-local max_dist = 90 --РњР°РєСЃ. СЂР°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ С†РµР»Рё РІ РёРіСЂРѕРІС‹С… РјРµС‚СЂР°С…
-local biomap_width = 256 -- Krodin: РёР»Рё СЏ С‡С‚Рѕ-С‚Рѕ РЅРµ РїРѕРЅРёРјР°СЋ, РЅРѕ РїРѕ-РјРѕРµРјСѓ, СЌС‚Рѕ РЅРµ С€РёСЂРёРЅР°, Р° РєРѕРѕСЂРґРёРЅР°С‚С‹ С†РµРЅС‚СЂР° С‚РµРєСЃС‚СѓСЂС‹ Р±РёРѕСЂР°РґР°СЂР° (~256, ~256)
-local d = biomap_width/2 --KRodin: РџСѓСЃС‚СЊ С‚Р°Рє Рё Р±СѓРґРµС‚, РЅРµ С‚СЂРѕРіР°С‚СЊ!
-local screen_max_dist = 102 --РЁРёСЂРёРЅР° РёРјРµРЅРЅРѕ СЂР°РґР°СЂР° (РќРµ С‚РµРєСЃС‚СѓСЂС‹!) РІ РїРёРєСЃРµР»СЏС…
-local dot_size = 3 --Р Р°Р·РјРµСЂ С‚РѕС‡РєРё (С‡РµРј Р±РѕР»СЊС€Рµ - С‚РµРј С‚РѕС‡РєР° РєСЂСѓРїРЅРµРµ)
--------------------------------------
---local biomap_sweep_enabled = false -- KRodin: РІРѕР»РЅР° РѕС‚РєР»СЋС‡РµРЅР° РІРІРёРґСѓ РµС‘ РіР»СЋС‡РЅРѕСЃС‚Рё. Р”Р° Рё Р±РµР· РІРѕР»РЅС‹ Р±РёРѕСЂР°РґР°СЂ РІС‹РіР»СЏРґРёС‚ Р»СѓС‡С€Рµ, РєР°Рє РїРѕ РјРЅРµ.
---local biomap_sweep_width = 180 --С€РёСЂРёРЅР° СЃС‚Р°С‚РёРєР° РІРѕР»РЅС‹.
---local step_angle = 6/180 -- С€Р°Рі Р·Р° Р°РїРґРµР№С‚ (СЃРєРѕСЂРѕСЃС‚СЊ РїРѕРІРѕСЂРѕС‚Р°)
---local sound_enabled = false -- РёРіСЂР°С‚СЊ Р»Рё Р·РІСѓРє
---local snd_contact = xr_sound.get_safe_sound_object("motion_detector\\beep")
---local snd_update = xr_sound.get_safe_sound_object("motion_detector\\pulse")
---local angle = 0
---local lim_angle = 1000*2*math.pi
---local biomap_sweep
--------------------------------------
 local dots = {}
 local function cleanup_dots()
 	for _, dot in pairs(dots) do
@@ -48,7 +37,7 @@ function attach(sm)
 end
 
 local sm = ogse_signals.get_mgr()
-local subscribed
+local subscribed = false
 
 function subscribe()
 	if not subscribed then
@@ -72,23 +61,19 @@ function on_item_to_slot(obj)
 		local biomap_static = get_hud():AddCustomStatic("biomap", true):wnd()
 		biomap_static:SetWndPos(1024 - biomap_width*koef_x,0)
 		biomap_static:SetWidth(biomap_width*koef_x)
-		--if biomap_sweep_enabled then
-		--	biomap_sweep = get_hud():AddCustomStatic("biomap_sweep"):wnd()
-		--	biomap_sweep:Init(1024 - 2 - (biomap_width + biomap_sweep_width)*koef_x/2,-2 + (biomap_width - biomap_sweep_width)/2,biomap_sweep_width*koef_x,biomap_sweep_width)
-		--end
 		--
 		subscribe()
 	end
 end
 
 function on_item_to_ruck(obj)
-	if obj:section() == "bioradar" then --Р±РёРѕСЂР°РґР°СЂ РІ Р—РѕРЅРµ РµСЃС‚СЊ РІ РµРґРёРЅСЃС‚РІРµРЅРЅРѕРј СЌРєР·РµРјРїР»СЏСЂРµ, РїРѕСЌС‚РѕРјСѓ РїСЂРѕРІРµСЂРєСѓ РїРѕ id РЅРµ РґРµР»Р°Р».
+	if obj:section() == "bioradar" then --биорадар в Зоне есть в единственном экземпляре, поэтому проверку по id не делал.
 		unsubscribe()
 	end
 end
 
 
-local firmware_item = { --[РЎРµРєС†РёСЏ РїСЂРѕС€РёРІРєРё] = { [РёРЅС„РѕРїРѕСЂС€РµРЅ] = { [РєР»Р°СЃСЃ СЃСѓС‰РµСЃС‚РІ, РєРѕС‚РѕСЂС‹С… РёРЅС„РѕРїРѕСЂС€РµРЅ СЂР°Р·СЂРµС€Р°РµС‚ РѕС‚РѕР±СЂР°Р¶Р°С‚СЊ РЅР° Р±РёРѕСЂР°РґР°СЂРµ] = {С†РІРµС‚ РІ С„РѕСЂРјР°С‚Рµ С‚Р°Р±Р»РёС†С‹ r,g,b} } }
+local firmware_item = { --[Секция прошивки] = { [инфопоршен] = { [класс существ, которых инфопоршен разрешает отображать на биорадаре] = {цвет в формате таблицы r,g,b} } }
   ['firmware_krovosos'] = {
     ['bioradar_krovosos'] = {
       [clsid.bloodsucker_s] = {255,0,120},
@@ -117,7 +102,7 @@ local firmware_item = { --[РЎРµРєС†РёСЏ РїСЂРѕС€РёРІРєРё] = { [РёРЅС„РѕРїРѕСЂС€Р
   ['firmware_tushkano'] = {
     ['bioradar_tushkano'] = {
       [clsid.tushkano_s] = {64,255,255},
-	  [clsid.spectator] = {164,25,150}, --РљСЂС‹СЃС‹
+	  [clsid.spectator] = {164,25,150}, --Крысы
     },
   },
   ['firmware_flesh'] = {
@@ -162,23 +147,23 @@ local firmware_item = { --[РЎРµРєС†РёСЏ РїСЂРѕС€РёРІРєРё] = { [РёРЅС„РѕРїРѕСЂС€Р
       [clsid.boar_s] = {64,153,79},
     },
   },
-  ['firmware_stalker'] = {
+  ['firmware_stalker'] = { --Такой прошивки для продажи не существует
     ['bioradar_stalker'] = {
        [clsid.script_stalker] = {255,255,255},
-       --[clsid.script_trader] = {255,255,255}, --С‚РѕСЂРіРѕРІС†Р° РЅРµС‚Сѓ РІ db.creature
+       --[clsid.script_trader] = {255,255,255}, --торговца нету в db.creature
 	   [clsid.actor] = {0,255,0},
     },
   },
 }
 
-local need_show_by_sect = {} --Р”Р»СЏ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° РїРѕ РєР»СЋС‡Сѓ
+local need_show_by_sect = {} --Для быстрого доступа по ключу
 
 function on_first_update()
-	local bio_marked = { --РљРѕРіРѕ РїРѕРєР°Р·С‹РІР°С‚СЊ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
-		["bioradar_dog"] = true,
-		["bioradar_flesh"] = true,
-		["bioradar_boar"] = true,
-		["bioradar_zombie"] = true,
+	local bio_marked = { --Кого показывать по умолчанию --KRodin: какой смысл иметь в продаже прошивки для собак, кабанов и тп, если они тут по умолчанию показывались? Мне кажется это неправильно.
+		--["bioradar_dog"] = true,
+		--["bioradar_flesh"] = true,
+		--["bioradar_boar"] = true,
+		--["bioradar_zombie"] = true,
 		["bioradar_stalker"] = true
 	}
 	for k, v in pairs(bio_marked) do
@@ -201,27 +186,33 @@ end
 function on_use_item(obj)
     local firmware_tbl = firmware_item[obj:section()]
     if firmware_tbl then
+		local firmware_already_was_used = true
 		for k, v in pairs(firmware_tbl) do
 			if not has_alife_info(k) then
 				db.actor:give_info_portion(k)
+				firmware_already_was_used = false
 			end
 			for class, color in pairs(v) do
 				need_show_by_sect[class] = color
 			end
+		end
+		if firmware_already_was_used then --Если прошивка уже когда-то ранее была применена, возвращаем её в инвентарь, чтобы её можно было продать, а не юзать 100500 раз одни и те же прошивки.
+			ogse.spawn_item_in_inv(obj:section())
+			db.actor:give_game_news("%c[green]"..game.translate_string(get_string(obj:section(), "inv_name")).." уже загружено в Биорадар!", "ui\\ui_iconsTotal", Frect():set(0,188,83,47), 0, 5000)	
 		end
 		return true
     end
 end
 
 
-class "dot" --РљР»Р°СЃСЃ С‚РѕС‡РєРё РѕР±СЉРµРєС‚Р°
+class "dot" --Класс точки объекта
 function dot:__init(o, clsid, color)
 	self.o_id = o:id()
 	--log3("[%s] Adding dot with id [%s] for [%s]", script_name(), self.o_id, o:name())
 	dots[self.o_id] = self
 	self.alive = o:alive()
 	self.color = self.alive and color or {127,127,127}
-	self.a = --[[biomap_sweep_enabled and (self.o_id == 0 and 255 or 0) or]] 255
+	self.a = 255
 	self.st = CUIStatic()
 	self.st:Init(1024,0,dot_size,dot_size)
 	self.st:InitTexture("biomap\\white_dot")
@@ -230,42 +221,22 @@ function dot:__init(o, clsid, color)
 	self.st:SetAutoDelete(true)
 	self.st:SetWndPos(d * koef_x - 1,d)
 	self.st:SetColor(GetARGB(self.a, unpack(self.color)))
-	--log1("--dot init")
 end
 function dot:__finalize()
 	--log1("~~dot finalize")
 end
 
-function dot:draw(dir, obj_alive) --РќР°СЂРёСЃРѕРІР°С‚СЊ С‚РѕС‡РєСѓ	
+function dot:draw(dir, obj_alive) --Нарисовать точку	
 	if self.alive and not obj_alive then
 		self.alive = false
-		--if biomap_sweep_enabled then
-		--	self.color = {127,127,127}
-		--else
-			self.st:SetColor(GetARGB(self.a,127,127,127))
-		--end
+		self.st:SetColor(GetARGB(self.a,127,127,127))
 	end
 	local vx,vz = dir.x/max_dist * screen_max_dist, -dir.z/max_dist * screen_max_dist
 	local x,y = vx * c - vz * s , vx * s + vz * c
 	self.st:SetWndPos( (x + d)*koef_x - 1, y + d)
-	-------- СѓРіР°СЃР°РЅРёРµ С‚РѕС‡РµРє -------
-	--if biomap_sweep_enabled then
-	--	local u = math.atan2(y, x) * (180 / math.pi) + 180
-	--	if (xa > u and xa-u or u-xa) < 1.5 then
-	--		self.a = 255 
-	--		if sound_enabled and self.alive and not snd_contact:playing() then
-	--			snd_contact.volume = 0.2
-	--			snd_contact:play_at_pos(db.actor, vector():set(0, 0, 0), 0, sound_object.s2d)
-	--		end
-	--	elseif self.a > 2 then
-	--		self.a = self.a - 2
-	--	end
-	--	self.st:SetColor(GetARGB(self.a, unpack(self.color)))
-	--end
-	---------------------------------
 end
 
-function dot:hide() --РЎРєСЂС‹С‚СЊ С‚РѕС‡РєСѓ
+function dot:hide() --Скрыть точку
 	local parent = self.st:GetParent()
 	if parent then
 		parent:DetachChild(self.st)
@@ -275,10 +246,9 @@ function dot:hide() --РЎРєСЂС‹С‚СЊ С‚РѕС‡РєСѓ
 end
 
 
-local old_angle = 0
--- РѕР±РЅРѕРІР»РµРЅРёРµ РїРѕР»РѕР¶РµРЅРёСЏ С‚РѕС‡РµРє Рё/РёР»Рё РІРѕР»РЅС‹
+-- обновление положения точек и/или волны
 function update()
-	-- СЃРєРѕСЂСЂРµРєС‚РёСЂСѓРµРј С€РёСЂРёРЅСѓ РїРѕРґ С€\С„
+	-- скорректируем ширину под ш\ф
 	local dev = device()
 	local hud = get_hud()
 	koef_x = (dev.height/dev.width) / (768/1024)
@@ -286,55 +256,22 @@ function update()
 		koef_x_old = koef_x
 		cleanup_dots()
 		hud:RemoveCustomStatic("biomap")
-		--if biomap_sweep_enabled then
-		--	hud:RemoveCustomStatic("biomap_sweep")
-		--	biomap_sweep = nil
-		--end
 		--
 		local biomap_static = hud:AddCustomStatic("biomap"):wnd()
 		biomap_static:SetWndPos(1024 - biomap_width*koef_x,0)
 		biomap_static:SetWidth(biomap_width*koef_x)
-		--if biomap_sweep_enabled then
-		--	biomap_sweep = hud:AddCustomStatic("biomap_sweep"):wnd()
-		--	biomap_sweep:Init(1024 - 2 - (biomap_width + biomap_sweep_width)*koef_x/2,-2 + (biomap_width - biomap_sweep_width)/2,biomap_sweep_width*koef_x,biomap_sweep_width)
-		--end
 	end
 
 	local sdir = dev.cam_dir
 	a = math.atan2(-sdir.x,sdir.z)
 	s,c = math.sin(a), math.cos(a)
 
-	--if biomap_sweep_enabled then
-	--	angle = angle - step_angle
-	--	if angle < -lim_angle then angle = angle + lim_angle end
-	--end
-
-	--if biomap_sweep_enabled then
-	--	biomap_sweep:SetHeading(angle) -- РїРѕРІРѕСЂР°С‡РёРІР°РµРј СЃС‚Р°С‚РёРє
-	--	if sound_enabled and not snd_update:playing() and ((-1*angle) - (-1*old_angle)) > 6 then
-	--		old_angle = angle
-	--		snd_update.volume = 0.3
-	--		snd_update:play_at_pos(db.actor, vector():set(0, 0, 0), 0, sound_object.s2d)
-	--	end		
-	--	if koef_x < 1 then -- РєРѕСЂСЂРµРєС†РёСЏ РІРѕР»РЅС‹ РЅР° С€/С„
-	--		local delta = math.sin(angle)
-	--		delta = biomap_sweep_width*(koef_x-1)*delta*delta
-	--		local delta_x = biomap_sweep_width*koef_x*(1/koef_x)
-	--		local delta_y = biomap_sweep_width*(1/koef_x)
-	--		biomap_sweep:Init(1024 - 2 - biomap_width*koef_x/2 - delta_x/2,-1 + biomap_width/2 - delta_y/2,delta_x,delta_y)
-	--	end
-	--end
-
-	--if biomap_sweep_enabled then
-	--	xa = - math.fmod(angle*(180 / math.pi),360)
-	--end
-
 	local visible_objects = {}
 	for id, v in pairs(db.creature) do
 		local o = level.object_by_id(id)
 		if o then
 			local clsid = o:clsid()
-			local color = need_show_by_sect[clsid] --Р•СЃР»Рё РІ С‚Р°Р±Р»РёС†Рµ РµСЃС‚СЊ С†РІРµС‚ РґР»СЏ СЌС‚РѕРіРѕ РєР»Р°СЃСЃР° - РјРѕР¶РЅРѕ РїРѕРєР°Р·Р°С‚СЊ РѕР±СЉРµРєС‚ РЅР° Р±РёРѕСЂР°РґР°СЂРµ.
+			local color = need_show_by_sect[clsid] --Если в таблице есть цвет для этого класса - можно показать объект на биорадаре.
 			if dots[id] or color then
 				local dir = o:position():sub(db.actor:position())
 				if ( dir:magnitude() / max_dist ) <= 1 then
@@ -353,14 +290,10 @@ function update()
 	end
 end
 
-function bioradar_hide() --РЈР±РёСЂР°РµС‚ СЂР°РґР°СЂ СЃ СЌРєСЂР°РЅР°
+function bioradar_hide() --Убирает радар с экрана
 	local hud = get_hud()
 	if hud:GetCustomStatic("biomap") then
 		cleanup_dots()
 		hud:RemoveCustomStatic("biomap")
-		--if biomap_sweep_enabled then
-		--	hud:RemoveCustomStatic("biomap_sweep")
-		--	biomap_sweep = nil
-		--end
 	end
 end
