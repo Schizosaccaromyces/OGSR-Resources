@@ -26,17 +26,23 @@ sprint_allowed	= true
 ; RESISTANCE
 fire_wound_protection	=	0.0 ;фейковый параметр, настоящий в bones_koeff_protection
 
+artefact_count = 5
+
 [light_exo_visual_base]
 actor_visual	= actors\hero\light_exo_neytral_actor.ogf
+artefact_count = 13
 
 [light_exo_dolg_visual_base]
 actor_visual	= actors\hero\light_exo_dolg_actor.ogf
+artefact_count = 13
 
 [light_exo_freedom_visual_base]
 actor_visual	= actors\hero\light_exo_freedom_actor.ogf
+artefact_count = 13
 
 [heavy_exo_visual_base]
 actor_visual	= actors\hero\stalker_exoskeleton.ogf
+artefact_count = 13
 
 [without_outfit]:outfit_base
 ;базовый костюм сталкера - костюм новичка. Обычная одежда туриста - штормовка+сапоги
@@ -256,6 +262,8 @@ exo2 = novice_outfit_m1_exo2
 
 arm_set = stalker_kurtka_green
 
+artefact_count = 6
+
 [outfit_novice_m1_repair]:novice_outfit_repair
 
 [novice_outfit_m1_exo1]:outfit_novice_m1,light_exo_visual_base
@@ -369,6 +377,8 @@ exo1 = outfit_bandit_m1_exo1
 exo2 = outfit_bandit_m1_exo2
 
 arm_set = bandit
+
+artefact_count = 6
 
 [outfit_bandit_m1_repair]:novice_outfit_repair
 
@@ -486,6 +496,8 @@ exo2 = stalker_outfit_exo2
 
 arm_set = stalker_outfit
 
+artefact_count = 8
+
 [sect_stalker_outfit_immunities]
 burn_immunity				= 0.09			;коэффициенты иммунитета самого костюма
 strike_immunity				= 0.01
@@ -597,6 +609,8 @@ repair_compatibility     = heavy_outfit
 exo1 = outfit_stalker_m1_exo1
 exo2 = outfit_stalker_m1_exo2
 
+artefact_count = 9
+
 [outfit_stalker_m1_repair]:stalker_outfit_repair
 
 [outfit_stalker_m1_exo1]:outfit_stalker_m1,light_exo_visual_base
@@ -695,6 +709,8 @@ exo1 = stalker_outfit_m2_exo1
 exo2 = stalker_outfit_m2_exo2
 
 arm_set = nebo_sci
+
+artefact_count = 7
 
 [outfit_stalker_m2_repair]:stalker_outfit_repair
 tech_complication          = 800
@@ -812,6 +828,8 @@ repair_compatibility     = scientific_outfit
 
 arm_set = stalker_sci
 
+artefact_count = 9
+
 [sect_scientific_outfit_immunities]
 burn_immunity				= 0.04			;коэффициенты иммунитета самого костюма
 strike_immunity				= 0.01
@@ -875,6 +893,8 @@ exo2 = ;
 
 arm_set = bandit_brown
 
+artefact_count = 6
+
 [sect_bandit_plash_immunities]
 burn_immunity				= 0.1
 strike_immunity				= 0.01
@@ -931,6 +951,8 @@ tech_complication          = 450
 repair_compatibility     = middle_outfit
 
 arm_set = bandit
+
+artefact_count = 7
 
 [sect_bandit_plash_m1_immunities]:sect_bandit_plash_immunities
 strike_immunity				= 0.009
@@ -989,6 +1011,8 @@ exo1 = dolg_outfit_exo1
 exo2 = dolg_outfit_exo2
 
 arm_set = dolg
+
+artefact_count = 8
 
 [sect_dolg_outfit_immunities]:sect_stalker_outfit_immunities
 strike_immunity				= 0.009
@@ -1104,6 +1128,8 @@ repair_compatibility    = heavy_outfit
 ; Параметры для экзоскелетов
 exo1 = outfit_dolg_m1_exo1
 exo2 = outfit_dolg_m1_exo2
+
+artefact_count = 10
 
 [outfit_dolg_m1_repair]:dolg_outfit_repair
 tech_complication       = 1200
@@ -1224,6 +1250,8 @@ exo1 = svoboda_heavy_outfit_exo1
 ;exo2 = svoboda_heavy_outfit_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы
 
 arm_set = svoboda_sci
+
+artefact_count = 11
 
 [sect_svoboda_heavy_outfit_immunities]:sect_stalker_outfit_immunities
 strike_immunity				= 0.009
@@ -1350,6 +1378,8 @@ exo1 = killer_outfit_exo1
 exo2 = killer_outfit_exo2
 
 arm_set = killer_sci
+
+artefact_count = 7
 
 [sect_killer_outfit_immunities]:sect_stalker_outfit_immunities
 explosion_immunity			= 0.01
@@ -1582,6 +1612,8 @@ exo2 = monolit_outfit_exo2
 
 arm_set = monolit_sci
 
+artefact_count = 8
+
 [sect_monolit_outfit_immunities]:sect_stalker_outfit_immunities
 chemical_burn_immunity		= 0.05
 
@@ -1680,6 +1712,8 @@ repair_compatibility     = heavy_outfit
 ; Параметры для экзоскелетов
 exo1 = monolit_outfit_m1_exo1
 exo2 = monolit_outfit_m1_exo2
+
+artefact_count = 9
 
 [monolit_outfit_m1_repair]:monolit_outfit_repair
 tech_complication          = 800
@@ -1850,6 +1884,8 @@ repair_compatibility     = scientific_outfit
 
 arm_set = ecolog_o
 
+artefact_count = 10
+
 [sect_ecolog_outfit_immunities]
 burn_immunity				= 0.007			;коэффициенты иммунитета самого костюма
 strike_immunity				= 0.01
@@ -1907,6 +1943,8 @@ tech_complication          = 1000
 repair_compatibility     = scientific_outfit
 
 arm_set = ecolog
+
+artefact_count = 11
 
 [sect_protection_outfit_immunities]
 burn_immunity				= 0.007			;коэффициенты иммунитета самого костюма
@@ -1970,6 +2008,8 @@ exo1 = soldier_outfit_exo1
 exo2 = soldier_outfit_exo2
 
 arm_set = soldier
+
+artefact_count = 7
 
 [sect_soldier_outfit_immunities]
 burn_immunity				= 0.07			;коэффициенты иммунитета самого костюма
@@ -2100,6 +2140,8 @@ exo1 = specops_outfit_exo1
 ;exo2 = specops_outfit_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы экзоскелета
 
 arm_set = soldier_berill
+
+artefact_count = 9
 
 [sect_specops_outfit_immunities]:sect_stalker_outfit_immunities
 strike_immunity				= 0.007
@@ -2320,6 +2362,8 @@ exo1 = military_outfit_exo1
 ; не раскомментировать, такой костюм есть уникальный, по квесту Лукаша на БТР
 
 arm_set = soldier_skat
+
+artefact_count = 11
 
 [sect_military_stalker_outfit_immunities]:sect_specops_outfit_immunities
 burn_immunity				= 0.03
