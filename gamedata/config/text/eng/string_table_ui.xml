@@ -604,5 +604,12 @@
 	<string id="btr_obstacle_string">
 		<text>- TARGET IS BEHIND OBSTACLE -</text>
 	</string>
-	
+
+	<string id="ui_autosave_day">
+		<text>Day</text>
+	</string>
+	<string id="ui_autosave_trans">
+		<text>Transition</text>
+	</string>
+
 </string_table>

@@ -1453,6 +1453,17 @@
 	<string id="thunderbird_now">
 		<text>Выброс начинается!</text>
 	</string>	
+	<string id="thunderbird_until_next_emission">
+		<text>До следующего выброса: </text>
+	</string>
+	<string id="thunderbird_until_next_emission_hours">
+		<text> ч.</text>
+	</string>
+
+	<string id="bio_firmware_already_was_used">
+		<text> уже загружено в Биорадар!</text>
+	</string>
+
 	<string id="no_archives_1_text">
 		<text>ИГРОВЫЕ АРХИВЫ СТАЛКЕРА ОТСУТСТВУЮТ! ПЕРЕУСТАНОВИТЕ ИГРУ!</text>
 	</string>

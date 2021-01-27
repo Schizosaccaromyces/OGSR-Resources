@@ -282,4 +282,42 @@
 	<string id="st_move_all">
 		<text>перенести все</text>
 	</string>
+
+	<string id="ui_dsh_rukzak_search">
+		<text>Поиск:</text>
+	</string>
+	<string id="ui_dsh_rukzak_label_show">
+		<text>Показывать</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_show1">
+		<text>Всё</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_show11">
+		<text>Остальное</text>
+	</string>
+	<string id="ui_dsh_rukzak_label_sort">
+		<text>Сортировать</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort1">
+		<text>По умолчанию</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort2">
+		<text>По названию +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort3">
+		<text>По названию -</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort4">
+		<text>По состоянию +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort5">
+		<text>По состоянию -</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort6">
+		<text>По количеству +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort7">
+		<text>По количеству -</text>
+	</string>
+
 </string_table>

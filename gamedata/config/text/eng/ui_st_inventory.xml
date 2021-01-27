@@ -282,4 +282,42 @@
 	<string id="st_move_all">
 		<text>Move all</text>
 	</string>
+
+	<string id="ui_dsh_rukzak_search">
+		<text>Search:</text>
+	</string>
+	<string id="ui_dsh_rukzak_label_show">
+		<text>Show</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_show1">
+		<text>All</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_show11">
+		<text>The rest</text>
+	</string>
+	<string id="ui_dsh_rukzak_label_sort">
+		<text>Sort</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort1">
+		<text>By default</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort2">
+		<text>By name +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort3">
+		<text>By name -</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort4">
+		<text>As of +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort5">
+		<text>As of -</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort6">
+		<text>By number +</text>
+	</string>
+	<string id="ui_dsh_rukzak_radio_sort7">
+		<text>By number -</text>
+	</string>
+
 </string_table>

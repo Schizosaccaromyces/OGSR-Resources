@@ -690,7 +690,7 @@ function thunderbird_visual_effect()
 	cs = cs:wnd()
 
 	if next_time > 1 then
-		cs:SetText("До следующего выброса: "..math.floor(next_time).." ч.")
+		cs:SetText(game.translate_string("thunderbird_until_next_emission").." "..math.floor(next_time).." "..game.translate_string("thunderbird_until_next_emission_hours"))
 		sm:reschedule( 60000 / ogse.game_time_factor )
 	elseif next_time >= 0.5 then
 		cs:SetText(game.translate_string("thunderbird_1h"))	

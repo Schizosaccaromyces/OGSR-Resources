@@ -10,7 +10,7 @@
 			<texture>ui_menu_options_dlg</texture>
 		</dialog>
 		<cap_cheat x="45" y="9" width="378" height="33">
-			<text font="graffiti22" r="255" g="210" b="63">Спавн-меню</text>
+			<text font="graffiti22" r="255" g="210" b="63">Spawn Menu</text>
 		</cap_cheat>
 		
 		<frame x="55" y="102" width="470" height="353">
@@ -28,7 +28,7 @@
 			<button x="0" y="28" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Оружие</text>				
+				<text font="graffiti19" align="c">Weapon</text>				
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -36,7 +36,7 @@
 			<button x="116" y="28" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Боеприпасы</text>
+				<text font="graffiti19" align="c">Ammunition</text>
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -44,7 +44,7 @@
 			<button x="232" y="28" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Навесы</text>
+				<text font="graffiti19" align="c">Addons</text>
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -52,7 +52,7 @@
 			<button x="348" y="28" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Костюмы</text>
+				<text font="graffiti19" align="c">Outfits</text>
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -60,7 +60,7 @@
 			<button x="0" y="0" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Артефакты</text>
+				<text font="graffiti19" align="c">Artifacts</text>
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -68,7 +68,7 @@
 			<button x="116" y="0" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Предметы</text>				
+				<text font="graffiti19" align="c">Items</text>				
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -76,7 +76,7 @@
 			<button x="232" y="0" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Квестовые</text>				
+				<text font="graffiti19" align="c">Quest items</text>				
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
@@ -84,28 +84,28 @@
 			<button x="348" y="0" width="116" height="26" stretch="1">
 				<!--<texture_offset x="0" y="-7"/>-->
 				<texture>ui_button_tablist</texture>
-				<text font="graffiti19" align="c">Мир</text>				
+				<text font="graffiti19" align="c">World</text>				
 				<text_color>
 					<e r="106" g="95" b="91"/> <t r="227" g="199" b="178"/> <h r="180" g="153" b="155"/>
 				</text_color>
 			</button>
 		</tab>
 		<btn_spawn x="219" y="460" width="157" height="48">
-			<text font="graffiti19" align="c">Получить</text>
+			<text font="graffiti19" align="c">Receive</text>
 			<texture>ui_button_main02</texture>
 			<text_color>
 				<e r="227" g="199" b="178"/> <t r="180" g="153" b="155"/> <d r="106" g="95" b="91"/> <h r="0" g="0" b="0"/>
 			</text_color>
 		</btn_spawn>
 		<btn_delitem x="60" y="460" width="157" height="48">
-			<text font="graffiti19" align="c">Удалить</text>
+			<text font="graffiti19" align="c">Remove</text>
 			<texture>ui_button_main02</texture>
 			<text_color>
 				<e r="227" g="199" b="178"/> <t r="180" g="153" b="155"/> <d r="106" g="95" b="91"/> <h r="0" g="0" b="0"/>
 			</text_color>
 		</btn_delitem>
 		<btn_cancel x="375" y="460" width="157" height="48">
-			<text font="graffiti19" align="c">Выход</text>
+			<text font="graffiti19" align="c">Exit</text>
 			<texture>ui_button_main03</texture>
 			<text_color>
 				<e r="227" g="199" b="178"/> <t r="180" g="153" b="155"/> <d r="106" g="95" b="91"/> <h r="0" g="0" b="0"/>

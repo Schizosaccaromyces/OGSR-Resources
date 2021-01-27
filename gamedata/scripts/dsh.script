@@ -260,10 +260,11 @@ end
 
 
 function my_name_is_strelok() --Вызывается по инфопоршню esc_find_doctor_done
-  db.actor:get_inventory_owner():SetName( "Стрелок" )
+  local new_name = game.translate_string("actor_name2")
+  db.actor:get_inventory_owner():SetName( new_name )
   local sobj   = alife():object( db.actor:id() )
   local trader = sobj:get_trader()
-  trader.character_name = "Стрелок"
+  trader.character_name = new_name
 end
 
 
@@ -368,7 +369,7 @@ function backup_autosave()
   if not lc_sobj then return end
 
   local prev_lname = lc_sobj.level_name
-  local lc_save_name = safe_file_name( string.format( "День %d. Переход %s - %s.sav", news_manager.game_days(), game.translate_string( prev_lname ), game.translate_string( level.name() ) ) )
+  local lc_save_name = safe_file_name( string.format( "%s %d. %s %s - %s.sav", game.translate_string( "ui_autosave_day" ), news_manager.game_days(), game.translate_string( "ui_autosave_trans" ), game.translate_string( prev_lname ), game.translate_string( level.name() ) ) )
 
   local f = getFS()
   local last_save = f:update_path( "$game_saves$", last_save_name )

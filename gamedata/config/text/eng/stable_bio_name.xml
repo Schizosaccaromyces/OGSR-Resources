@@ -1213,6 +1213,9 @@
 	<string id="actor_name">
 		<text>Marked One</text>
 	</string>
+	<string id="actor_name2">
+		<text>Strelok</text>
+	</string>
 	<string id="sim_bandit_master_fraer_name">
 		<text>Friar</text>
 	</string>

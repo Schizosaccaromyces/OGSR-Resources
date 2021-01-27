@@ -1453,7 +1453,18 @@
 </string>	
 <string id="thunderbird_now">
   <text>The emission begins!</text>
-</string>	
+</string>
+<string id="thunderbird_until_next_emission">
+  <text>Until the next emission.: </text>
+</string>
+<string id="thunderbird_until_next_emission_hours">
+  <text> hrs.</text>
+</string>
+
+<string id="bio_firmware_already_was_used">
+	<text> is already loaded into the Bioradar!</text>
+</string>
+
 <string id="no_archives_1_text">
   <text>GAME FILES MISSING! REINSTALL THE GAME!</text>
 </string>

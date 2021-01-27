@@ -604,5 +604,12 @@
 	<string id="btr_obstacle_string">
 		<text>- жекэ мюундхряъ гю опеоърярбхел -</text>
 	</string>
-	
+
+	<string id="ui_autosave_day">
+		<text>дЕМЭ</text>
+	</string>
+	<string id="ui_autosave_trans">
+		<text>оЕПЕУНД</text>
+	</string>
+
 </string_table>

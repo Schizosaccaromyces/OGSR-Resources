@@ -1,18 +1,18 @@
 -- -*- mode: lua; coding: windows-1251-dos -*-
 
-------------- БИОРАДАР -------------
--- Dетектор живых форм, будь он неладен.
--- Автор Charsi
+------------- Р‘РРћР РђР”РђР  -------------
+-- DРµС‚РµРєС‚РѕСЂ Р¶РёРІС‹С… С„РѕСЂРј, Р±СѓРґСЊ РѕРЅ РЅРµР»Р°РґРµРЅ.
+-- РђРІС‚РѕСЂ Charsi
 -- Data 29.11.2012
--- переработка для OGSE KamikaZze 2012-2014
--- Оптимизация, исправление ошибок: KRodin
+-- РїРµСЂРµСЂР°Р±РѕС‚РєР° РґР»СЏ OGSE KamikaZze 2012-2014
+-- РћРїС‚РёРјРёР·Р°С†РёСЏ, РёСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє: KRodin
 
-------------- Настройки ------------
-local max_dist = 90 --Макс. расстояние до цели в игровых метрах
-local biomap_width = 256 -- Krodin: или я что-то не понимаю, но по-моему, это не ширина, а координаты центра текстуры биорадара (~256, ~256)
-local d = biomap_width/2 --KRodin: Пусть так и будет, не трогать!
-local screen_max_dist = 102 --Ширина именно радара (Не текстуры!) в пикселях
-local dot_size = 3 --Размер точки (чем больше - тем точка крупнее)
+------------- РќР°СЃС‚СЂРѕР№РєРё ------------
+local max_dist = 90 --РњР°РєСЃ. СЂР°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ С†РµР»Рё РІ РёРіСЂРѕРІС‹С… РјРµС‚СЂР°С…
+local biomap_width = 256 -- Krodin: РёР»Рё СЏ С‡С‚Рѕ-С‚Рѕ РЅРµ РїРѕРЅРёРјР°СЋ, РЅРѕ РїРѕ-РјРѕРµРјСѓ, СЌС‚Рѕ РЅРµ С€РёСЂРёРЅР°, Р° РєРѕРѕСЂРґРёРЅР°С‚С‹ С†РµРЅС‚СЂР° С‚РµРєСЃС‚СѓСЂС‹ Р±РёРѕСЂР°РґР°СЂР° (~256, ~256)
+local d = biomap_width/2 --KRodin: РџСѓСЃС‚СЊ С‚Р°Рє Рё Р±СѓРґРµС‚, РЅРµ С‚СЂРѕРіР°С‚СЊ!
+local screen_max_dist = 102 --РЁРёСЂРёРЅР° РёРјРµРЅРЅРѕ СЂР°РґР°СЂР° (РќРµ С‚РµРєСЃС‚СѓСЂС‹!) РІ РїРёРєСЃРµР»СЏС…
+local dot_size = 3 --Р Р°Р·РјРµСЂ С‚РѕС‡РєРё (С‡РµРј Р±РѕР»СЊС€Рµ - С‚РµРј С‚РѕС‡РєР° РєСЂСѓРїРЅРµРµ)
 -------------------------------------
 
 local dots = {}
@@ -67,13 +67,13 @@ function on_item_to_slot(obj)
 end
 
 function on_item_to_ruck(obj)
-	if obj:section() == "bioradar" then --биорадар в Зоне есть в единственном экземпляре, поэтому проверку по id не делал.
+	if obj:section() == "bioradar" then --Р±РёРѕСЂР°РґР°СЂ РІ Р—РѕРЅРµ РµСЃС‚СЊ РІ РµРґРёРЅСЃС‚РІРµРЅРЅРѕРј СЌРєР·РµРјРїР»СЏСЂРµ, РїРѕСЌС‚РѕРјСѓ РїСЂРѕРІРµСЂРєСѓ РїРѕ id РЅРµ РґРµР»Р°Р».
 		unsubscribe()
 	end
 end
 
 
-local firmware_item = { --[Секция прошивки] = { [инфопоршен] = { [класс существ, которых инфопоршен разрешает отображать на биорадаре] = {цвет в формате таблицы r,g,b} } }
+local firmware_item = { --[РЎРµРєС†РёСЏ РїСЂРѕС€РёРІРєРё] = { [РёРЅС„РѕРїРѕСЂС€РµРЅ] = { [РєР»Р°СЃСЃ СЃСѓС‰РµСЃС‚РІ, РєРѕС‚РѕСЂС‹С… РёРЅС„РѕРїРѕСЂС€РµРЅ СЂР°Р·СЂРµС€Р°РµС‚ РѕС‚РѕР±СЂР°Р¶Р°С‚СЊ РЅР° Р±РёРѕСЂР°РґР°СЂРµ] = {С†РІРµС‚ РІ С„РѕСЂРјР°С‚Рµ С‚Р°Р±Р»РёС†С‹ r,g,b} } }
   ['firmware_krovosos'] = {
     ['bioradar_krovosos'] = {
       [clsid.bloodsucker_s] = {255,0,120},
@@ -102,7 +102,7 @@ local firmware_item = { --[Секция прошивки] = { [инфопоршен] = { [класс существ,
   ['firmware_tushkano'] = {
     ['bioradar_tushkano'] = {
       [clsid.tushkano_s] = {64,255,255},
-	  [clsid.spectator] = {164,25,150}, --Крысы
+	  [clsid.spectator] = {164,25,150}, --РљСЂС‹СЃС‹
     },
   },
   ['firmware_flesh'] = {
@@ -147,19 +147,19 @@ local firmware_item = { --[Секция прошивки] = { [инфопоршен] = { [класс существ,
       [clsid.boar_s] = {64,153,79},
     },
   },
-  ['firmware_stalker'] = { --Такой прошивки для продажи не существует
+  ['firmware_stalker'] = { --РўР°РєРѕР№ РїСЂРѕС€РёРІРєРё РґР»СЏ РїСЂРѕРґР°Р¶Рё РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
     ['bioradar_stalker'] = {
        [clsid.script_stalker] = {255,255,255},
-       --[clsid.script_trader] = {255,255,255}, --торговца нету в db.creature
+       --[clsid.script_trader] = {255,255,255}, --С‚РѕСЂРіРѕРІС†Р° РЅРµС‚Сѓ РІ db.creature
 	   [clsid.actor] = {0,255,0},
     },
   },
 }
 
-local need_show_by_sect = {} --Для быстрого доступа по ключу
+local need_show_by_sect = {} --Р”Р»СЏ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° РїРѕ РєР»СЋС‡Сѓ
 
 function on_first_update()
-	local bio_marked = { --Кого показывать по умолчанию --KRodin: какой смысл иметь в продаже прошивки для собак, кабанов и тп, если они тут по умолчанию показывались? Мне кажется это неправильно.
+	local bio_marked = { --РљРѕРіРѕ РїРѕРєР°Р·С‹РІР°С‚СЊ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ --KRodin: РєР°РєРѕР№ СЃРјС‹СЃР» РёРјРµС‚СЊ РІ РїСЂРѕРґР°Р¶Рµ РїСЂРѕС€РёРІРєРё РґР»СЏ СЃРѕР±Р°Рє, РєР°Р±Р°РЅРѕРІ Рё С‚Рї, РµСЃР»Рё РѕРЅРё С‚СѓС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РїРѕРєР°Р·С‹РІР°Р»РёСЃСЊ? РњРЅРµ РєР°Р¶РµС‚СЃСЏ СЌС‚Рѕ РЅРµРїСЂР°РІРёР»СЊРЅРѕ.
 		--["bioradar_dog"] = true,
 		--["bioradar_flesh"] = true,
 		--["bioradar_boar"] = true,
@@ -196,16 +196,16 @@ function on_use_item(obj)
 				need_show_by_sect[class] = color
 			end
 		end
-		if firmware_already_was_used then --Если прошивка уже когда-то ранее была применена, возвращаем её в инвентарь, чтобы её можно было продать, а не юзать 100500 раз одни и те же прошивки.
+		if firmware_already_was_used then --Р•СЃР»Рё РїСЂРѕС€РёРІРєР° СѓР¶Рµ РєРѕРіРґР°-С‚Рѕ СЂР°РЅРµРµ Р±С‹Р»Р° РїСЂРёРјРµРЅРµРЅР°, РІРѕР·РІСЂР°С‰Р°РµРј РµС‘ РІ РёРЅРІРµРЅС‚Р°СЂСЊ, С‡С‚РѕР±С‹ РµС‘ РјРѕР¶РЅРѕ Р±С‹Р»Рѕ РїСЂРѕРґР°С‚СЊ, Р° РЅРµ СЋР·Р°С‚СЊ 100500 СЂР°Р· РѕРґРЅРё Рё С‚Рµ Р¶Рµ РїСЂРѕС€РёРІРєРё.
 			ogse.spawn_item_in_inv(obj:section())
-			db.actor:give_game_news("%c[green]"..game.translate_string(get_string(obj:section(), "inv_name")).." уже загружено в Биорадар!", "ui\\ui_iconsTotal", Frect():set(0,188,83,47), 0, 5000)	
+			db.actor:give_game_news("%c[green]"..game.translate_string(get_string(obj:section(), "inv_name")).." "..game.translate_string("bio_firmware_already_was_used"), "ui\\ui_iconsTotal", Frect():set(0,188,83,47), 0, 5000)	
 		end
 		return true
     end
 end
 
 
-class "dot" --Класс точки объекта
+class "dot" --РљР»Р°СЃСЃ С‚РѕС‡РєРё РѕР±СЉРµРєС‚Р°
 function dot:__init(o, clsid, color)
 	self.o_id = o:id()
 	--log3("[%s] Adding dot with id [%s] for [%s]", script_name(), self.o_id, o:name())
@@ -226,7 +226,7 @@ function dot:__finalize()
 	--log1("~~dot finalize")
 end
 
-function dot:draw(dir, obj_alive) --Нарисовать точку	
+function dot:draw(dir, obj_alive) --РќР°СЂРёСЃРѕРІР°С‚СЊ С‚РѕС‡РєСѓ	
 	if self.alive and not obj_alive then
 		self.alive = false
 		self.st:SetColor(GetARGB(self.a,127,127,127))
@@ -236,7 +236,7 @@ function dot:draw(dir, obj_alive) --Нарисовать точку
 	self.st:SetWndPos( (x + d)*koef_x - 1, y + d)
 end
 
-function dot:hide() --Скрыть точку
+function dot:hide() --РЎРєСЂС‹С‚СЊ С‚РѕС‡РєСѓ
 	local parent = self.st:GetParent()
 	if parent then
 		parent:DetachChild(self.st)
@@ -246,9 +246,9 @@ function dot:hide() --Скрыть точку
 end
 
 
--- обновление положения точек и/или волны
+-- РѕР±РЅРѕРІР»РµРЅРёРµ РїРѕР»РѕР¶РµРЅРёСЏ С‚РѕС‡РµРє Рё/РёР»Рё РІРѕР»РЅС‹
 function update()
-	-- скорректируем ширину под ш\ф
+	-- СЃРєРѕСЂСЂРµРєС‚РёСЂСѓРµРј С€РёСЂРёРЅСѓ РїРѕРґ С€\С„
 	local dev = device()
 	local hud = get_hud()
 	koef_x = (dev.height/dev.width) / (768/1024)
@@ -271,7 +271,7 @@ function update()
 		local o = level.object_by_id(id)
 		if o then
 			local clsid = o:clsid()
-			local color = need_show_by_sect[clsid] --Если в таблице есть цвет для этого класса - можно показать объект на биорадаре.
+			local color = need_show_by_sect[clsid] --Р•СЃР»Рё РІ С‚Р°Р±Р»РёС†Рµ РµСЃС‚СЊ С†РІРµС‚ РґР»СЏ СЌС‚РѕРіРѕ РєР»Р°СЃСЃР° - РјРѕР¶РЅРѕ РїРѕРєР°Р·Р°С‚СЊ РѕР±СЉРµРєС‚ РЅР° Р±РёРѕСЂР°РґР°СЂРµ.
 			if dots[id] or color then
 				local dir = o:position():sub(db.actor:position())
 				if ( dir:magnitude() / max_dist ) <= 1 then
@@ -290,7 +290,7 @@ function update()
 	end
 end
 
-function bioradar_hide() --Убирает радар с экрана
+function bioradar_hide() --РЈР±РёСЂР°РµС‚ СЂР°РґР°СЂ СЃ СЌРєСЂР°РЅР°
 	local hud = get_hud()
 	if hud:GetCustomStatic("biomap") then
 		cleanup_dots()

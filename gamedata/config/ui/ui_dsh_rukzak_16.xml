@@ -30,7 +30,7 @@
       <button x="126" y="0" width="116" height="26">
         <texture_offset x="0" y="-7"/>
         <texture>ui_button_tablist</texture>
-        <text font="graffiti19" align="c">Инвентарь</text>
+        <text font="graffiti19" align="c">kb_inventory</text>
         <text_color>
           <e r="238" g="153" b="26"/>
           <t r="238" g="153" b="26"/>
@@ -41,7 +41,7 @@
     </tab>
 
     <label_filter x="257" y="176" width="30" height="23">
-      <text font="letterica18" r="240" g="217" b="182">Поиск:</text>
+      <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_search</text>
     </label_filter>
 
     <edit_filter x="288" y="170" width="203" height="23">
@@ -58,7 +58,7 @@
       <texture_e>ui_button_ordinary_e</texture_e>
       <texture_t>ui_button_ordinary_t</texture_t>
       <texture_h>ui_button_ordinary_h</texture_h>
-      <text>Перенести</text>
+      <text>st_move</text>
     </btn_4>
 
     <label_weight x="169" y="716" width="55" height="23" complex_mode="0">
@@ -69,7 +69,7 @@
       <texture_e>ui_button_ordinary_e</texture_e>
       <texture_t>ui_button_ordinary_t</texture_t>
       <texture_h>ui_button_ordinary_h</texture_h>
-      <text>Перенести всё (z)</text>
+      <text>st_move_all</text>
     </btn_move_all>
 
     <btn_quit x="363" y="710" width="117" height="29">
@@ -80,70 +80,70 @@
     </btn_quit>
 
     <label_show x="495" y="176" width="30" height="23">
-      <text font="letterica18" r="240" g="217" b="182">Показывать</text>
+      <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_label_show</text>
     </label_show>
 
     <radio_show x="495" y="200" width="115" height="275" radio="1">
       <button x="0" y="0" width="230">
-        <text font="letterica18" r="240" g="217" b="182">Всё</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_show1</text>
       </button>
       <button x="0" y="25" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Оружие</text>
+        <text font="letterica18" r="240" g="217" b="182">kb_grp_weapons</text>
       </button>
       <button x="0" y="50" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Патроны</text>
+        <text font="letterica18" r="240" g="217" b="182">treasure_ammo_name</text>
       </button>
       <button x="0" y="75" width="115">
         <text font="letterica18" r="240" g="217" b="182">ui_inv_granades</text>
       </button>
       <button x="0" y="100" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Обвесы</text>
+        <text font="letterica18" r="240" g="217" b="182">treasure_addon_name</text>
       </button>
       <button x="0" y="125" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Броня</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_inv_outfits</text>
       </button>
       <button x="0" y="150" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Артефакты</text>
+        <text font="letterica18" r="240" g="217" b="182">Artifacts</text>
       </button>
       <button x="0" y="175" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Еда</text>
+        <text font="letterica18" r="240" g="217" b="182">treasure_eat_name</text>
       </button>
       <button x="0" y="200" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Медицина</text>
+        <text font="letterica18" r="240" g="217" b="182">treasure_medecine_name</text>
       </button>
       <button x="0" y="225" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Части мутантов</text>
+        <text font="letterica18" r="240" g="217" b="182">yan_rand_quest_mut_string</text>
       </button>
       <button x="0" y="250" width="115">
-        <text font="letterica18" r="240" g="217" b="182">Остальное</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_show11</text>
       </button>
     </radio_show>
 
     <label_sort x="495" y="485" width="30" height="23">
-      <text font="letterica18" r="240" g="217" b="182">Сортировать</text>
+      <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_label_sort</text>
     </label_sort>
 
     <radio_sort x="495" y="509" width="115" height="175" radio="1">
       <button x="0" y="0" width="230">
-        <text font="letterica18" r="240" g="217" b="182">По умолчанию</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort1</text>
       </button>
       <button x="0" y="25" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По названию +</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort2</text>
       </button>
       <button x="0" y="50" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По названию -</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort3</text>
       </button>
       <button x="0" y="75" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По состоянию +</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort4</text>
       </button>
       <button x="0" y="100" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По состоянию -</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort5</text>
       </button>
       <button x="0" y="125" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По количеству +</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort6</text>
       </button>
       <button x="0" y="150" width="115">
-        <text font="letterica18" r="240" g="217" b="182">По количеству -</text>
+        <text font="letterica18" r="240" g="217" b="182">ui_dsh_rukzak_radio_sort7</text>
       </button>
     </radio_sort>
 

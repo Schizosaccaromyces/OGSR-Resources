@@ -219,7 +219,7 @@ end
 
 local autosave_t
 function autosave( text )
-	cmd( "save " .. dsh.safe_file_name( string.format( "Δενό %d. %s", game_days(), text ) ) )
+	cmd( "save " .. dsh.safe_file_name( string.format( "%s %d. %s", game.translate_string( "ui_autosave_day" ), game_days(), text ) ) )
 end
 --------------------------------------------------------------------------
 
