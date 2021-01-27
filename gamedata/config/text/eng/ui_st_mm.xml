@@ -275,6 +275,9 @@
 	<string id="ui_mm_anisotropic">
 		<text>Anisotropic filtering</text>
 	</string>
+	<string id="st_opt_smaa">
+		<text>SMAA</text>
+	</string>	
 	<string id="ui_mm_r2_aa_mode">
 		<text>Antialiasing mode (R2)</text>
 	</string>	
@@ -428,6 +431,9 @@
 		<string id="ui_mm_r2_sun_lumscale">
 		<text>Sunlight luminosity</text>
 	</string>
+	<string id="ui_mm_r_aa_mode">
+		<text>Smoothing</text>
+	</string>	
 	<string id="ui_mm_r2_aa">
 		<text>Antialiasing (R2)</text>
 	</string>	
@@ -499,6 +505,10 @@
 
 	<string id="ui_mm_r__smap_size">
 		<text>Shadow Map Resolution</text>
+	</string>
+
+	<string id="r_sslr_enable">
+		<text>Reflections in puddles</text>
 	</string>
 
 	<string id="ui_mm_rs_mt_texload">
