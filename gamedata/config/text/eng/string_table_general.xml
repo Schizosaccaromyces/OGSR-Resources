@@ -181,6 +181,12 @@
 	<string id="trader">
 		<text>Trader</text>
 	</string>
+	<string id="gunsmith">
+		<text>Gunsmith</text>
+	</string>
+	<string id="guider">
+		<text>Explorer</text>
+	</string>
 	<string id="ui_st_community">
 		<text>group</text>
 	</string>
@@ -268,6 +274,15 @@
 	<string id="ui_inv_bleeding">
 		<text>Bleeding</text>
 	</string>
+	<string id="ui_inv_psy_health">
+		<text>Psy-health</text>
+    </string>
+    <string id="ui_inv_additional_weight">
+		<text>Max weight</text>
+    </string>
+    <string id="ui_inv_additional_weight2">
+		<text>Weight</text>
+    </string>
 	<string id="st_mp_say_to_all">
 		<text>To all</text>
 	</string>

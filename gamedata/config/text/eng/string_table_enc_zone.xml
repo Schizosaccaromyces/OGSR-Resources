@@ -449,4 +449,11 @@
 	<string id="anomaly_ochyag_info">
 		<text>Aggregation of anomalys of various kind in a small area. This phenomenon is very dangerous and very attractive because it is considered that there can born unique artifacts.</text>
 	</string>
+	<string id="af_mobkiller_name">
+		<text>"Poacher's paw"</text>
+	</string>
+	<string id="af_mobkiller_desc">
+		<text>A unique atefact that has a protective property against cuts and bumps.%c[100,50,250,50]When worn on a belt, mutant damage is applied to all mutants within a 20m radius.%c[default]</text>
+	</string>
+	
 </string_table>

@@ -3610,6 +3610,9 @@ At about that time, I had studied a very curious and extremely rare plant: Ranun
 	<string id="ds_get_btr_for_freedom_get_accum_quest_2_text">
 		<text>Find a battery at the Garbage</text>
 	</string>
+	<string id="ds_get_btr_for_freedom_get_accum_quest_2_1_text">
+		<text>Find three "Battery" artifacts to charge the battery</text>
+	</string>
 	<string id="ds_get_btr_for_freedom_get_accum_quest_3_text">
 		<text>Bring the battery to Screw for charging</text>
 	</string>

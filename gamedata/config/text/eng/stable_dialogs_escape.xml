@@ -34,7 +34,7 @@ Instantly, the bloodsucker also drops to his knees and lifts up hands to heavens
         "No, but we have a woodpecker. It knows the Morse code."</text>
 	</string>
 	<string id="joke_stalker_5">
-		<text>"Two stalkers are sitting by a camp fire. One says: - "I think that the laziest people in the Zone are the soldiers - they just hold up a rookie by the village, take his stuff, and go sell it to Sidorovich." The other cocks his head and replies: - "No, buddy, you're wrong. The laziest people in the Zone are the traders - I knew one who would always get up extra early, just so he could do nothing for a bit longer!"</text>
+		<text>"Two stalkers are sitting by a camp fire. One says: "I think that the laziest people in the Zone are the soldiers - they just hold up a rookie by the village, take his stuff, and go sell it to Sidorovich." The other cocks his head and replies: - "No, buddy, you're wrong. The laziest people in the Zone are the traders - I knew one who would always get up extra early, just so he could do nothing for a bit longer!"</text>
 	</string>
 	<string id="joke_stalker_6">
 		<text>So, this one day, Freedom catches a Dutier by the Military Warehouses, and begin interrogating him. - "Alright, spill it, how many people are there in your assault group!" - "I'm not telling you bastards anything! Do what you want!" - "Just think about it, we're all honest here, we'll give you a pack of weed for every man you name in your team!" - "Ha ha! Did you people really think I would sell out my entire squad for just twelve packs of weed?!"</text>
@@ -463,7 +463,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Here, I got you a drink. Take it.</text>
 	</string>
 	<string id="otblagodaru">
-		<text>Thank you. You rescued me with a medkit and now you've helped me out again. I have a stash in the Wild Territory. I was there one day after an emission, seeing what had changed in the area when I spotted this path. You have to go behind a bush, and then along the track to the gate to a workshop. There, near a hole in the gate I stashed a gorgeous silent weapon - a crossbow with a stock of bolts. If you go there - you can have it. Only, be careful when you come back, it would be very unfortunate if you lost it.</text>
+		<text>Thank you. You rescued me with a medkit and now you've helped me out again. I have a stash in the Wild Territory. I was there one day after an emission, seeing what had changed in the area when I spotted this path. You have to go behind a bush, and then along the track to the gate to a workshop. There, near a hole in the gate I stashed a gorgeous silent weapon - a crossbow with a stock of bolts. If you go there, you can have it. Only, be careful when you come back, it would be very unfortunate if you lost it.</text>
 	</string>
 	<string id="chto_mneshcja">
 		<text>Why are you so upset? Tell me, what's the matter?</text>
@@ -475,7 +475,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What do you need?</text>
 	</string>
 	<string id="search_vodka">
-		<text>I want to move away after this experience. Get me a bottle of vodka. I'll tell you a secret. Don't laugh - I know the whereabouts of a crossbow with bolts in return. If you help me out, I'll tell you where it is. Well, what do you say?</text>
+		<text>I want to move away after this experience. Get me a bottle of vodka. I'll tell you a secret. Don't laugh, I know the whereabouts of a crossbow with bolts in return. If you help me out, I'll tell you where it is. Well, what do you say?</text>
 	</string>
 	<string id="well_i_agree">
 		<text>Why not? I'll do it.</text>
@@ -550,7 +550,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Could you tell me more about this place?</text>
 	</string>
 	<string id="esc_stalker_talk_level_1">
-		<text>This is the road to the Zone. If I were you, I wouldn't get too close to the army outpost or let those soldiers see you - they've got orders to shoot on sight. Further up North there's a broken bridge, but they've set up an outpost there too. Open areas are crawling with wild dogs, so it's not a safe place for rookies. Oh, and a pack of mutants shows up every now and then.</text>
+		<text>This is the road to the Zone. If I were you, I wouldn't get too close to the army outpost or let those soldiers see you; they've got orders to shoot on sight. Further up North there's a broken bridge, but they've set up an outpost there too. Open areas are crawling with wild dogs, so it's not a safe place for rookies. Oh, and a pack of mutants shows up every now and then.</text>
 	</string>
 	<string id="esc_stalker_talk_level_10">
 		<text>What about the soldiers at the bridge? I've got to get past them somehow.</text>
@@ -571,7 +571,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Yes. How many bandits are there in the camp?</text>
 	</string>
 	<string id="escape_factory_assault_start_3111">
-		<text>Seven or eight of them. Two by the gate, two more in the building to the right near the fire, and another two in the one to the left - that's where they're keeping Nimble. Someone usually hangs around the yard as well. That's  about it. Shall we say a prayer and go?</text>
+		<text>Seven or eight of them. Two by the gate, two more in the building to the right near the fire, and another two in the one to the left - that's where they're keeping Nimble. Someone usually hangs around the yard as well. That's about it. Shall we say a prayer and go?</text>
 	</string>
 	<string id="escape_factory_assault_start_31111">
 		<text>Let's go. Round up your men.</text>
@@ -589,10 +589,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Well, we thought at first we'd trick them... Then we changed our mind.</text>
 	</string>
 	<string id="escape_factory_assault_start_31115">
-		<text>Spit out.</text>
+		<text>What do you mean?</text>
 	</string>
 	<string id="escape_factory_assault_start_31116">
-		<text>The idea was to disguise one of us as one of their flock. For example, as a messenger from some gangster "boss".</text>
+		<text>The idea was to disguise one of us as one of their flock. For example, as a messenger from their boss.</text>
 	</string>
 	<string id="escape_factory_assault_start_31117">
 		<text>Why not? I'll try it.</text>
@@ -604,16 +604,16 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>It's risky one way or another. So, what's the next move?</text>
 	</string>
 	<string id="escape_factory_assault_start_31110">
-		<text>It's necessary to wear a Bandit hoodie cloak and forge a "transfer order" to hand out to their leader. Then convince him to release the prisoner and both of you leave. It's that simple.</text>
+		<text>First we have to dress you up like one of them, and then we forge a "transfer order" to give to the guy calling the shots here. This should convince him to release the prisoner into your custody and then both of you leave. It's that simple.</text>
 	</string>
 	<string id="escape_factory_assault_start_311111">
-		<text>Do you have a cloak?</text>
+		<text>Do you have appropriate clothes?</text>
 	</string>
 	<string id="escape_factory_assault_start_311112">
-		<text>We have one, but the note... It's more important. Well, none of my friends spent any time in prison, so we don't have the expertise to forge it, they'd spot it for a fake straight away. We need an expert to do it.</text>
+		<text>We have one of their coats, but the note... that's the tricky part. Well, none of my friends spent any time in prison, so we don't have the expertise to forge it.</text>
 	</string>
 	<string id="escape_factory_assault_start_311113">
-		<text>Do you know anyone?</text>
+		<text>So you don't know anyone like that?</text>
 	</string>
 	<string id="escape_factory_assault_start_311114">
 		<text>Nope, none at the Cordon. And there's no time to look for someone. We'll have to compose it ourselves.</text>
@@ -622,13 +622,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Let's do it.</text>
 	</string>
 	<string id="escape_factory_assault_start_311116">
-		<text>So, here I have a piece of paper, slightly torn, but still better than nothing... Where's my pencil?.. So... In short, these thugs need to believe that this "transfer order" is from someone in authority! Here we go: Hello, you wankers! Hey you! Yes, you! If you don't.."</text>
+		<text>So, here I have a piece of paper, slightly torn, but still better than nothing... Where's my pencil? So... In short, these thugs need to believe that this "transfer order" is from someone in authority! Here we go: "Hello, you wankers! Hey you! Yes, you! If you don't.."</text>
 	</string>
 	<string id="escape_factory_assault_start_311117">
-		<text>Isn't that a bit way over?</text>
+		<text>Isn't that way over the top?</text>
 	</string>
 	<string id="escape_factory_assault_start_311118">
-		<text>No, they're bandits, they always try to seem tough. So, then we write: "... release the captive to this guy without delay, or I will personally tear out your eyes and throat, you reptiles. With greetings, Borov". What do you think?</text>
+		<text>No, they're bandits, they always try to seem tough. So, then we write: "... release the captive to this guy without delay, or I will personally tear out your eyes and throat, you reptiles. - Borov." What do you think?</text>
 	</string>
 	<string id="escape_factory_assault_start_311119">
 		<text>Might work, I guess...</text>
@@ -721,7 +721,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What can I do to make people trust me?</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_21221">
-		<text>Pass the Trader's test while we watch. If you're alright - if you're not trigger-happy and you use your head - then we'll definitely find some common ground. Don't you worry.</text>
+		<text>Pass the Trader's test while we watch. If you're alright - if you're not trigger-happy and you use your head, then we'll definitely find some common ground. Don't you worry.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_22">
 		<text>Alright, so be it.</text>
@@ -748,7 +748,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I will.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111111">
-		<text>Let's spend the rest of the time preparing for the fight. Here's the plan: I'll put the most hopeless rookies in houses and basements and tell them not to make a move - otherwise they might just slaughter our own troops. You and me and a couple of other decent shots will take the best positions to have an eye on the area around the fire. As soon as they come close to the fire, we let the bullets fly from everywhere! They'll be coming from the bridge... and I don't think we'll have to wait long. So, find yourself a hiding place with a view, then wait for my command. Take a look around, but remember that your odds aren't as good in the open. It's your call.</text>
+		<text>Let's spend the rest of the time preparing for the fight. Here's the plan: I'll put the most hopeless rookies in houses and basements and tell them not to make a move, otherwise they might just slaughter our own troops. You and me and a couple of other decent shots will take the best positions to have an eye on the area around the fire. As soon as they come close to the fire, we let the bullets fly from everywhere! They'll be coming from the bridge... and I don't think we'll have to wait long. So, find yourself a hiding place with a view, then wait for my command. Take a look around, but remember that your odds aren't as good in the open. It's your call.</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111111">
 		<text>Well, let's begin...</text>
@@ -781,7 +781,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>By the way, where did Wolf go?</text>
 	</string>
 	<string id="escape_lager_leader_hello_4121">
-		<text>Oh, he got a message from a stalker who was passing by. He packed his things, grabbed a box of dynamite and went deep in the Zone. I'm still getting back in shape after the wounds I got, so I'm staying at the Cordon anyway - so Wolf asked me to look after the kids.</text>
+		<text>Oh, he got a message from a stalker who was passing by. He packed his things, grabbed a box of dynamite and went deep in the Zone. I'm still getting back in shape after the wounds I got, so I'm staying at the Cordon anyway so Wolf asked me to look after the kids.</text>
 	</string>
 	<!-- kamikaze add to wolf start -->
 	<string id="military_volk_info_0">
@@ -913,6 +913,12 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 	</string>
 	<string id="escape_lager_volk_talk_2111">
 		<text>That's awesome, man! Here, take this. That's my personal reward for you.</text>
+	</string>
+	<string id="escape_lager_volk_talk_21111">
+		<text>Jellyfish.</text>
+	</string>
+	<string id="escape_lager_volk_talk_21112">
+		<text>Slime.</text>
 	</string>
 	<string id="escape_lager_volk_talk_212">
 		<text>We went over the car park with a fine-toothed comb. It's all clear now.</text>
@@ -1780,25 +1786,25 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What about him? Do we know who he is, or where he came from.</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_4">
-		<text>They found him two days ago near the farm, in the morning. A lot of shooting and screams was heard coming from that direction during the night before. So in the morning, they dispatched a group from camp to check out what happened. They found him, wounded. The poor chap had a few deep wounds, apparently - from a knife. And a couple of bullet wounds, though not life threatening - at the moment.</text>
+		<text>They found him two days ago near the farm, in the morning. A lot of shooting and screams was heard coming from that direction during the night before. So in the morning, they dispatched a group from camp to check out what happened. They found him, wounded. The poor chap had a few deep wounds, apparently from a knife. And a couple of bullet wounds, though not life threatening at the moment.</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_5">
 		<text>Can you get the bullets out?</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_6">
-		<text>Hardly... he needs a good field surgeon, you must understand... I did - what I could, but alas, that wasn't enough.</text>
+		<text>Hardly... he needs a good field surgeon, you must understand... I did what I could, but alas, that wasn't enough.</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_7">
 		<text>Can I help you?</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_8">
-		<text>If anything here can somehow alleviate his suffering, it's the very Zone itself... The only option - is to resort to its anomalous energy. I would try to use an artifact that enhances health, but I don't have one. If you find such an artifact - bring it to me, maybe it will help.</text>
+		<text>If anything here can somehow alleviate his suffering, it's the very Zone itself... The only option - is to resort to its anomalous energy. I would try to use an artifact that enhances health, but I don't have one. If you find such an artifact bring it to me, maybe it will help.</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_9">
 		<text>Where can I find one in the Cordon?</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_10">
-		<text>In the Cordon, such artifacts - are a rarity. But sometimes you can come across one. Just yesterday, a rookie at the campfire swore that he saw a "Meat Chunk" not far from the grain elevator. He said, if it wasn't for a big pack of rats, - he would have picked it up. Was he telling the truth, who knows...</text>
+		<text>In the Cordon, such artifacts are a rarity. But sometimes you can come across one. Just yesterday, a rookie at the campfire swore that he saw a "Meat Chunk" not far from the grain elevator. He said, if it wasn't for a big pack of rats, he would have picked it up. Was he telling the truth, who knows...</text>
 	</string>
 	<string id="lekar_start_dialog_phrase_11">
 		<text>I ought to check.</text>
@@ -1819,7 +1825,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What kind of a Loner?</text>
 	</string>
 	<string id="volk_about_first_phrase_4">
-		<text>In appearance - he's a simple stalker, but definitely not a local. If you want - you can see for yourself. I haven't spoken to him yet, here's only been here one day.</text>
+		<text>In appearance he's a simple stalker, but definitely not a local. If you want, you can see for yourself. I haven't spoken to him yet, here's only been here one day.</text>
 	</string>
 	<string id="first_neutral_first_dialog_phrase_1">
 		<text>Why is it so dark?</text>
@@ -1915,22 +1921,22 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>These items are not yours.</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_14">
-		<text>They are not yours either! This is the Zone pal. First come - first served. And in this case, it's me. So, it's my loot!</text>
+		<text>They are not yours either! This is the Zone pal. First come, first served. And in this case, it's me. So, it's my loot!</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_15">
 		<text>Really, well then... You're right in saying that this is dangerous and anything can happen. There's bandits out there... You could catch a stray bullet...</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_16">
-		<text>That would be bad luck! Anyway, you won't hurt me, otherwise you won't get what was in the cache! Let's behave like civilised people.</text>
+		<text>That would be bad luck! Anyway, you won't hurt me, otherwise you won't get what was in the cache! Let's behave like civilized people.</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_17">
-		<text>%c[255,255,118,118]You, you scoundrel, lack "civility"! Give me the loot, or you'll be sorry!%c[default]</text>
+		<text>%c[255,255,118,118]You, you scoundrel, you lack "civility"! Give me the loot, or you'll be sorry!%c[default]</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_18">
 		<text>Well, what do you want?</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_19">
-		<text>Quid pro quo. You give me - an artifact, and I'll give you - the loot.</text>
+		<text>Quid pro quo. You give me an artifact, and I'll give you the loot.</text>
 	</string>
 	<string id="bridge_lekar_start_dialog_phrase_20">
 		<text>Is that something worthwhile?</text>
@@ -1957,10 +1963,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Okay, don't grumble, you rogue. Just keep in mind, how to extract a loot without risk.</text>
 	</string>
 	<string id="bridge_lekar_second_dialog_phrase_3">
-		<text>One more lesson like that - and no loot will help you.</text>
+		<text>One more lesson like that and no loot will help you.</text>
 	</string>
 	<string id="bridge_lekar_second_dialog_phrase_4">
-		<text>Okay, okay. The cache had a tablet with some documents. More precisely, it was a kind of book, something like a diary, with notes. I briefly read through it - it was mostly just crap. If you're so interested, look for the tablet on the roof of the barn. I threw it up there when you suddenly appeared.</text>
+		<text>Okay, okay. The cache had a tablet with some documents. More precisely, it was a kind of book, something like a diary, with notes. I briefly read through it, it was mostly just crap. If you're so interested, look for the tablet on the roof of the barn. I threw it up there when you suddenly appeared.</text>
 	</string>
 	<string id="bridge_lekar_second_dialog_phrase_5">
 		<text>Clear. You did tell anyone about what you know?</text>
@@ -2041,7 +2047,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Old man, give me some advice. Where you can I get hold of a good loot?</text>
 	</string>
 	<string id="hunter_secrets_dialog1_phrase_2">
-		<text>Oh, you're a businessman! Have you done enough good deeds in the Zone to merit a loot? I know you young people: always rushing and scurrying about, wanting everything in a hurry for little effort... They are unaccustomed to hard work. That's okay - they just don't want to use their heads!..</text>
+		<text>Oh, you're a businessman! Have you done enough good deeds in the Zone to merit a loot? I know you young people: always rushing and scurrying about, wanting everything in a hurry for little effort... They are unaccustomed to hard work. That's okay, they just don't want to use their heads!..</text>
 	</string>
 	<string id="hunter_secrets_dialog1_phrase_3">
 		<text>Don't grumble old man. I'm not squeamish about a bit of work.</text>
@@ -2065,7 +2071,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Barkeep decided one morning that it would be necessary to mow the grass in the fields near the Bar so that any approaching mutants could be spotted. He then hired some stalkers, and they began to mow. One field was twice the size of the other. For half a day, the stalker team mowed the larger field. After that, they split into two: The first group remained at the large field and kept mowing it until they finished at the end of the evening; the second group of stalkers mowed the smaller field, and by the evening, there was a plot left that could be mown the next day by one stalker on his own. How many stalkers did he hire to mow the grass?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_10">
-		<text>It takes 10 days for one stalker to go from the Cordon to Pripyat and another, 15 days using the same route. If both they both set off in opposite directions at the same time, one from Pripyat, and the other - from the Cordon, after how many days they will meet?</text>
+		<text>It takes 10 days for one stalker to go from the Cordon to Pripyat and another, 15 days using the same route. If both they both set off in opposite directions at the same time, one from Pripyat, and the other from the Cordon, after how many days they will meet?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_11">
 		<text>Once a stalker helped another to peel potatoes and together, they managed to peel 400 pieces. The first stalker peeled three per minute, while the second, peeled two per minute. The second stalker worked for 25 minutes longer than the first, because the first one left to look for artifacts. How long did the first stalker help the second one to peel potatoes?</text>
@@ -2101,7 +2107,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>A Duty squad got into a bit of bother: while crossing a river, two out of the three soldiers got their cartridges wet, so that some of them turned out to be unfit for use. The three warriors divided equally between themselves what was left of their ammunition. After everyone made four shots, their combined total of cartridges, was the amount each had received at the time of sharing. How many suitable cartridges did the Duty member share?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_22">
-		<text>Sidorovich makes a deal with a Stalker-hunter and promises him 0.5 roubles for every pseudo dog skin he brings him and 3 roubles for every wild boar skin. He pays 10 roubles for a chimera skin. "Well, - said the stalker - I'll get you all the skins for 100 roubles. You will receive exactly 100 pieces. Can you tell me, how may pseudo dog, wild boar and chimera hides should I bring you?"</text>
+		<text>Sidorovich makes a deal with a Stalker-hunter and promises him 0.5 roubles for every pseudo dog skin he brings him and 3 roubles for every wild boar skin. He pays 10 roubles for a chimera skin. "Well," said the stalker, "I'll get you all the skins for 100 roubles. You will receive exactly 100 pieces. Can you tell me, how may pseudo dog, wild boar and chimera hides should I bring you?"</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_23">
 		<text>30 bloodsuckers live inside the X-18 laboratory, which are gradually eating each other to death. A bloodsucker is considered well fed, if he has eaten three of his relatives. What is the greatest number of bloodsuckers can be satisfied?</text>
@@ -2383,7 +2389,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Let's guess the riddle.</text>
 	</string>
 	<string id="hunter_wait_dialog_1">
-		<text>Think before you answer, the last time you guessed! Just think - and then come. I still have caches in stock.</text>
+		<text>Think before you answer, the last time you guessed! Just think and then come. I still have caches in stock.</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_129">
 		<text>Well young greenhorn. Go and think it through.</text>
@@ -2461,7 +2467,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Who are you and what are you doing here?</text>
 	</string>
 	<string id="prof_start_dialog_phrase_3_2">
-		<text>We - are cut-throats and brigands, blah! Have you heard of Kulgavy? We are from his gang.</text>
+		<text>We are cut-throats and brigands, blah! Have you heard of Kulgavy? We are from his gang.</text>
 	</string>
 	<string id="prof_start_dialog_phrase_3_3">
 		<text>I see.</text>
@@ -2470,13 +2476,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>%c[255,255,118,118]I want carve up your ass so it looks like the British flag, you faggot!%c[default]</text>
 	</string>
 	<string id="prof_start_dialog_phrase_5">
-		<text>I'm not your mate, I - am a bandit. And you - are a simpleton... Why have you come here, you tosser?</text>
+		<text>I'm not your mate, I am a bandit. And you are a simpleton... Why have you come here, you tosser?</text>
 	</string>
 	<string id="prof_start_dialog_phrase_6">
-		<text>May I suggest: you leave those stalkers alone, and they will return the captive - I can arrange it.</text>
+		<text>May I suggest: you leave those stalkers alone, and they will return the captive. I can arrange it.</text>
 	</string>
 	<string id="prof_start_dialog_phrase_7">
-		<text>Leave them alone, you say? Well, why not? Only on one condition: that they lay down their arms and don't try anything. We'll sit here - until Flea arrives, and then we'll leave. We won't lay a finger on them - trust me!</text>
+		<text>Leave them alone, you say? Well, why not? Only on one condition: that they lay down their arms and don't try anything. We'll sit here until Flea arrives, and then we'll leave. We won't lay a finger on them, trust me!</text>
 	</string>
 	<string id="prof_start_dialog_phrase_8">
 		<text>Well then, I'll persuade them not to shoot.</text>
@@ -2535,6 +2541,9 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 	<string id="yuriy_all_band_killed_dialog1_phrase_4">
 		<text>I don't think they send help. This place is a backwater and Kulgavy doesn't have a lot of people.</text>
 	</string>
+	<string id="yuriy_all_band_killed_dialog1_phrase_4_1">
+		<text>I don't think they'll send backup. The place is deaf and the Kulgava gang is not too numerous. This is for your help:</text>
+	</string>
 	<string id="yuriy_bandits_surrend_dialog_phrase_1">
 		<text>All's well Yuri. The bandits have left.</text>
 	</string>
@@ -2557,7 +2566,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Look, I spoke with their chief, he promised to let you go peacefully, if you release the prisoner.</text>
 	</string>
 	<string id="yuriy_surrend_dialog_phrase_2">
-		<text>Intelligent people say: never trust thieves... Although on the other hand - I have no choice! We can't sit here forever, right? In short, tell him that we agree and will release the prisoner. Just remember this: if the bandits don't keep their word, it will be on your conscience!</text>
+		<text>Intelligent people say: never trust thieves... Although on the other hand, I have no choice! We can't sit here forever, right? In short, tell him that we agree and will release the prisoner. Just remember this: if the bandits don't keep their word, it will be on your conscience!</text>
 	</string>
 	<string id="yuriy_surrend_dialog_phrase_3">
 		<text>Trust me, everything will be fine.</text>
@@ -2590,7 +2599,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Why did you lie to me? You promised you would not attack the Searchers, if they released the prisoner!</text>
 	</string>
 	<string id="prof_obman_iskateli_dialog_phrase_2">
-		<text>Remember simpleton: there's no honour - among thieves! We don't fuck around, understand??</text>
+		<text>Remember simpleton: there's no honour among thieves! We don't fuck around, understand??</text>
 	</string>
 	<string id="prof_obman_iskateli_dialog_phrase_3">
 		<text>I will remember this lesson...</text>
@@ -2611,13 +2620,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Maybe, we can come to an agreement?</text>
 	</string>
 	<string id="plenniy_after_obman_dialog_phrase_5">
-		<text>Get me a kosher artifact set - then I'll tell you!</text>
+		<text>Get me a kosher artifact set then I'll tell you!</text>
 	</string>
 	<string id="plenniy_after_obman_dialog_phrase_6">
 		<text>What do you mean by a 'kosher artifact' set?</text>
 	</string>
 	<string id="plenniy_after_obman_dialog_phrase_7">
-		<text>Blah, well you're stupid! In short, bring me a "Soul", a "Flash" and a "Mica", understood? I won't wait long - that's the deal baby!</text>
+		<text>Blah, well you're stupid! In short, bring me a "Soul", a "Flash" and a "Mica", understood? I won't wait long, that's the deal baby!</text>
 	</string>
 	<string id="plenniy_after_obman_dialog_phrase_8">
 		<text>Okay, I get them.</text>
@@ -2626,7 +2635,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Here are the artifacts you asked for.</text>
 	</string>
 	<string id="plenniy_after_obman_dialog2_phrase_2">
-		<text>You've done well, simpleton! In short, you go along the fence near the Sawmill and near the gate will find a backpack under a bush with a flash drive inside. What's on it - I don't know and don't really care.</text>
+		<text>You've done well, simpleton! In short, you go along the fence near the Sawmill and near the gate will find a backpack under a bush with a flash drive inside. What's in it, you ask? I don't know and don't really care.</text>
 	</string>
 	<string id="iskateli_meet_dialog_1_phrase_1">
 		<text>Hello man. Who are you?</text>
@@ -2650,7 +2659,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>How you doing, soldier?</text>
 	</string>
 	<string id="iskateli_meet_dialog_2_phrase_2">
-		<text>Listen, you - are a real peacemaker, you rescued us! If it wasn't for you - these thieves would have tore us apart!</text>
+		<text>Listen, you are a real peacemaker, you rescued us! If it wasn't for you, these thieves would have tore us apart!</text>
 	</string>
 	<string id="iskateli_meet_dialog_2_phrase_3">
 		<text>Good thing I came along. I'm glad I could help.</text>
@@ -2659,7 +2668,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What's up, man?</text>
 	</string>
 	<string id="band_meet_dialog_1_phrase_2">
-		<text>We're bandits you peasant - open your eyes! We sit here on guard, you simpleton...</text>
+		<text>We're bandits you peasant! Open your eyes! We sit here on guard, you simpleton...</text>
 	</string>
 	<string id="band_meet_dialog_1_phrase_3">
 		<text>Why?</text>
@@ -2683,13 +2692,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'm the local celebrity.</text>
 	</string>
 	<string id="muzikant_start_dialog_phrase_4">
-		<text>And for what you're famous?</text>
+		<text>What are you famous for?</text>
 	</string>
 	<string id="muzikant_start_dialog_phrase_5">
 		<text>I play guitar and sing songs about the Zone. I can sing you a song if you offer me some vodka.</text>
 	</string>
 	<string id="muzikant_start_dialog_phrase_6">
-		<text>Of course I will, here:</text>
+		<text>Of course I will, here.</text>
 	</string>
 	<string id="muzikant_start_dialog_phrase_7">
 		<text>I don't have any vodka.</text>
@@ -2776,22 +2785,22 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Ah, so that's it... I see you know a lot about the rare artifact! I would be pleased to take you to the grave of the unfortunate who had it before his death.</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_7">
-		<text>Eh, and ask for nothing in return?</text>
+		<text>And you ask for nothing in return?</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_8">
-		<text>Imagine that! However, I'm standing in the presence of someone who - is worthy of praise. By the way, do you see my dog?</text>
+		<text>Imagine that! However, I'm standing in the presence of someone who is worthy of praise. By the way, do you see my dog?</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_9">
 		<text>Is his name Chestnut?</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_10">
-		<text>Oh, I see that the rumours of my adventures with him are already quite widespread, that's good! But remember, my friend: in the long journey ahead, you must protect this precious animal at all costs. As you have already noticed, I am totally blind, but at the same time, I can see you. How? - you ask. Well, because I share a common sight with Chestnut, I see what he sees. Accordingly, if something happens to my dear dog, the consequences for you personally will be very bad. What do you think?</text>
+		<text>Oh, I see that the rumours of my adventures with him are already quite widespread, that's good! But remember, my friend: in the long journey ahead, you must protect this precious animal at all costs. As you have already noticed, I am totally blind, but at the same time, I can see you. How, you ask? Well, because I share a common sight with Chestnut; I see what he sees. Accordingly, if something happens to my dear dog, the consequences for you personally will be very bad. What do you think?</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_11">
 		<text>Fair enough. It's a deal.</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_12">
-		<text>Great. Follow my dog and look after us both! Oh, and one more thing: if the worst were to happen, then you better kill me, or you will die yourself - you have been warned! Then you will seek me in this very place.</text>
+		<text>Great. Follow my dog and look after us both! Oh, and one more thing: if the worst were to happen, then you better kill me, or you will die yourself! You have been warned! Then you will seek me in this very place.</text>
 	</string>
 	<string id="dik_goto_pos1_phrase_13">
 		<text>Okay.</text>
@@ -2800,7 +2809,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Why didn't you tell me, that you would turn into a monster?</text>
 	</string>
 	<string id="dik_deaddog_dialog_phrase_2">
-		<text>You should have guessed - you knew who you were dealing with.</text>
+		<text>You should have guessed. You knew who you were dealing with.</text>
 	</string>
 	<string id="dik_deaddog_dialog_phrase_3">
 		<text>Can we try again?</text>
@@ -2860,7 +2869,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Well, can I have it?</text>
 	</string>
 	<string id="give_af_light_dialog2_phrase_2">
-		<text>Yes, meanwhile I will stay here, Zakharych knows me, the truth is, he's a little afraid. Take the artifact, it seems to have cooled down. Now you can safely enter the "Death Zone," but I advise you not to stay there too long.</text>
+		<text>Yes, meanwhile I will stay here, Zakharych knows me. The truth is, he's a little afraid. Take the artifact, it seems to have cooled down. Now you can safely enter the "Death Zone," but I advise you not to stay there too long.</text>
 	</string>
 	<string id="give_af_light_dialog2_phrase_3">
 		<text>Thank you, Black Stalker!</text>
@@ -2875,7 +2884,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>It concerns the purpose of your quest... Have you thought about what happens if you find the Klondike?</text>
 	</string>
 	<string id="give_af_light_dialog2_phrase_7">
-		<text>I'm not yet sure whether it really exists, maybe it's just a legend. Tell me, is the Klondike - a reality?</text>
+		<text>I'm not yet sure whether it really exists, maybe it's just a legend. Tell me, is the Klondike a reality?</text>
 	</string>
 	<string id="give_af_light_dialog2_phrase_8">
 		<text>Follow your intuition stalker, because you can trust it. All I can tell you about the Klondike, it's just that at the end of your journey you'll have to wage a deadly battle with one of the creatures of the Zone.</text>
@@ -2902,7 +2911,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What is wrong then?</text>
 	</string>
 	<string id="muzikant_quest_dialog_1_phrase_6">
-		<text>Something invisible comes through here at night. The first night I slept here - I heard it: loud stomping and moans, and sometimes I could even make out some words. They stomp through the house, moaning and then they begin to quietly sneak up on me - they are barely audible except for the creaking floorboards. If you lay down and don't move, you can feel that breathing is becoming harder... It starts to choke you!</text>
+		<text>Something invisible comes through here at night. The first night I slept here I heard it: loud stomping and moans, and sometimes I could even make out some words. They stomp through the house, moaning and then they begin to quietly sneak up on me; they are barely audible except for the creaking floorboards. If you lay down and don't move, you can hear the breathing become harder... It starts to choke you!</text>
 	</string>
 	<string id="muzikant_quest_dialog_1_phrase_7">
 		<text>Wow! What is it? A Controller perhaps, or what?</text>
@@ -2911,10 +2920,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>No this is not exactly a Controller. This is something much worse! I'm afraid that I can't stay here any longer, and must get the hell out of here...</text>
 	</string>
 	<string id="muzikant_quest_dialog_1_phrase_9">
-		<text>Please yourself... But you didn't answer my question: What are you looking for?</text>
+		<text>But you didn't answer my question: What are you looking for?</text>
 	</string>
 	<string id="muzikant_quest_dialog_1_phrase_10">
-		<text>Ah, yes! I forgot.\nOverall, I began asking the lads around here. Well, one told me a story. True or not - I don't know, but it seems that before the Chernobyl accident, the owner of this house was brutally murdered. They say, blood was found everywhere, even in the yard, but the body was never found. Or rather, they found part of it - the murderer dismembered the corpse and hid the pieces in different places: in the house, in the yard and even the immediate vicinity. It seems that the spirit of the dead man cannot rest. Of course, I didn't believe it at first, but when this mess started in the night, I thought: "Perhaps it's the truth?". So I searched the house... Imagine this! I found a strange bone under one of the floor boards. I showed it to the doctor, and he said, it was human. I don't know what to think right now!</text>
+		<text>Ah, yes! I forgot. I began asking the lads around here. Well, one told me a story. True or not, I don't know, but it seems that before the Chernobyl accident, the owner of this house was brutally murdered. They say blood was found everywhere, even in the yard, but the body was never found. Or rather, they found part of it; the murderer dismembered the corpse and hid the pieces in different places: in the house, in the yard and even the immediate vicinity. It seems that the spirit of the dead man cannot rest. Of course, I didn't believe it at first, but when this mess started in the night, I thought: "Perhaps it's the truth?". So I searched the house... Imagine this! I found a strange bone under one of the floor boards. I showed it to the doctor, and he said it was human. I don't know what to think right now!</text>
 	</string>
 	<string id="muzikant_quest_dialog_1_phrase_11">
 		<text>Let me look, maybe I can find something else.</text>
@@ -2941,13 +2950,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What was it?</text>
 	</string>
 	<string id="sinyak_reward_dialog_phrase_2">
-		<text>How do I know? A spirit? No, most likely - a poltergeist. Although... No, it was just a poltergeist, right?</text>
+		<text>How do I know? A spirit? No, most likely a poltergeist. Although... No, it was just a poltergeist, right?</text>
 	</string>
 	<string id="sinyak_reward_dialog_phrase_3">
 		<text>You're asking me? After all, it's your house.</text>
 	</string>
 	<string id="sinyak_reward_dialog_phrase_4">
-		<text>Look, I don't think it matters now. I'll bury the remains you found; here at the edge of the village is a small cemetery. It seems that I'll sleep much calmer now. Here, take some money as a thank you.</text>
+		<text>Look, I don't think it matters now. I'll bury the remains you found; here at the edge of the village is a small cemetery. It seems that I'll sleep much calmer now. Here, take this as a thank you.</text>
 	</string>
 	<string id="sinyak_reward_dialog_phrase_5">
 		<text>Well, so be it.</text>
@@ -2998,7 +3007,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What should I do?</text>
 	</string>
 	<string id="dar_merk_lider_start_dialog_phrase_16">
-		<text>Well, then, let me explain the situation: we're not sitting here on our bum for the fun of it. We have a contract to capture an army officer, who's serving here in the Zone. According to the agreement, he must be taken alive and very quickly - he is very urgently needed by some people. We know that he will be driving past soon in a van, with three military bodyguards. It's necessary to stop the van, eliminate the guards and grab the officer alive and unharmed if possible. All clear?</text>
+		<text>Well, then, let me explain the situation: we're not sitting here on our bum for the fun of it. We have a contract to capture an army officer, who's serving here in the Zone. According to the agreement, he must be taken alive and very quickly as he is very urgently needed by some people. We know that he will be driving past soon in a van, with three military bodyguards. It's necessary to stop the van, eliminate the guards and grab the officer alive and unharmed if possible. All clear?</text>
 	</string>
 	<string id="dar_merk_lider_start_dialog_phrase_17">
 		<text>How do you plan to stop him?</text>
@@ -3025,25 +3034,25 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Who wants me so urgently?</text>
 	</string>
 	<string id="dar_officer_second_dialog_phrase_2">
-		<text>Close friends from abroad, who else. And you, you degenerate, will soon end up there. And when you get there, it will be long, painful and terrible, believe me - I will take care of it! Your friends got off easy.</text>
+		<text>Close friends from abroad, who else. And you, you degenerate, will soon end up there. And when you get there, it will be long, painful and terrible, believe me. I will make sure of it! Your friends got off easy.</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_1">
 		<text>"Here, sign for it!" Now I want to know where the doctor is located.</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_2">
-		<text>Well done, stalker! I would gladly take you into our "guerrilla" group, ha-ha! Now I will send a message to the men guarding the scientist, they will return him to the place from which he was kidnapped - in one piece hopefully.</text>
+		<text>Well done, stalker! I would gladly take you into our "guerrilla" group, ha-ha! Now I will send a message to the men guarding the scientist, they will return him to the place from which he was kidnapped, in one piece hopefully.</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_3">
 		<text>You suggest I take your word for it?</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_4">
-		<text>Did you think I would give you the location of this unit? Don't worry, those who knows me, also know: Denard's word - is law! So quietly go back to the Bar and pick up this doctor. Pray that nothing eats him while he waits for you beside the road, ha-ha-ha!</text>
+		<text>Did you think I would give you the location of this unit? Don't worry, those who knows me, also know: Denard's word is law! So quietly go back to the Bar and pick up this doctor. Pray that nothing eats him while he waits for you beside the road, ha-ha-ha!</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_5">
 		<text>You're a comedian, Denard.</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_6">
-		<text>I know... Yeah, one more thing: here's a bonus as a reward from me - artifacts, or whatever you call them there. My boys, God bless them, collected a few while we waited for the Colonel:</text>
+		<text>I know... Yeah, one more thing: here's a bonus as a reward from me: artifacts, or whatever you call them there. My boys, God bless them, collected a few while we waited for the Colonel:</text>
 	</string>
 	<string id="dar_merk_lider_second_dialog_phrase_7">
 		<text>Thank you, I have to go.</text>
@@ -3088,7 +3097,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Sidorovich, I have something to discuss... (talk about the deserter)</text>
 	</string>
 	<string id="talk_about_dezerter_1">
-		<text>So he is a soldier? It would have been better if you brought me some cans, I swear! He-he! However, I don't stick my nose in the affairs of others, you know.\nLet him stay in the camp. If he is a responsible guy, the lads will accept him and he will accustom quickly. I'll talk with locals about him, we will look after the guy. Don't worry - no one will ridicule him. We will find a use for him, you've done all you can for him. Well, we'll see how he turns out.\nSo tell him.</text>
+		<text>So he is a soldier? It would have been better if you brought me some cans, I swear! He-he! However, I don't stick my nose in the affairs of others, you know.\nLet him stay in the camp. If he is a responsible guy, the lads will accept him and he will accustom quickly. I'll talk with locals about him, we will look after the guy. Don't worry, no one will ridicule him. We will find a use for him, you've done all you can for him. Well, we'll see how he turns out.\nSo tell him.</text>
 	</string>
 	<string id="kulg_band_zasada_boets_dialog_phrase_1">
 		<text>Who are you? Say goodbye to your life!</text>
@@ -3130,7 +3139,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Where are your brothers?</text>
 	</string>
 	<string id="bratstvo_agent_1_dialog_phrase_7">
-		<text>They are here at the Darkscape, in a secret bunker... As you go North from the forester's hut, you'll see a boulder, and there, behind the bushes, is the entrance to the tunnel... The door code - is 1983... I've had it, I can't go on any more.</text>
+		<text>They are here at the Darkscape, in a secret bunker... As you go North from the forester's hut, you'll see a boulder, and there, behind the bushes, is the entrance to the tunnel... The door code is 1983... I've had it, I can't go on any more.</text>
 	</string>
 	<string id="bratstvo_agent_1_dialog_phrase_8">
 		<text>Wait! How do I remove the anomaly?</text>
@@ -3145,7 +3154,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Who are you and how did you get here?</text>
 	</string>
 	<string id="bratstvo_lider_start_dialog_phrase_2">
-		<text>I'm called - Marked One. I went by the refuelling station and found one of your guys there, he needs to be rescued urgently.</text>
+		<text>I'm called Marked One. I went by the refuelling station and found one of your guys there, he needs to be rescued urgently.</text>
 	</string>
 	<string id="bratstvo_lider_start_dialog_phrase_3">
 		<text>Who did you find, what happened to him?</text>
@@ -3238,7 +3247,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Listen, this Duty guy says that you and your friends in the bunker are stealing artifacts. What the hell's going on here? I demand an explanation.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_4">
-		<text>So be it, circumstances require me to tell you the truth. Look, we and the rest who you saw in the bunker - are members of a secret brotherhood called "Cleaners". What we are engaged in, is not theft at all, we clear the Zone of artifacts and, respectively, we save the outside world.</text>
+		<text>So be it, circumstances require me to tell you the truth. Look, we and the rest who you saw in the bunker are members of a secret brotherhood called "Cleaners". What we are engaged in, is not theft at all, we clear the Zone of artifacts and, respectively, we save the outside world.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_5">
 		<text>In my opinion, this is why Duty got involved.</text>
@@ -3247,7 +3256,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>They destroy the consequences, and we are fighting the causes. It is because of those people who came here for these creations that there is so much evil in the Zone. All members of our brotherhood have a personal account to settle with the Zone. For example, I lost my wife to the Zone, Tokarev - a brother, and our leader Arkady - a son... We don't steal artifacts, you must understand. We collect them by all suitable means and destroy them.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_7">
-		<text>I'm sorry, Did I hear you correctly? You said - "destroy"?</text>
+		<text>I'm sorry, Did I hear you correctly? You said "destroy"?</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_8">
 		<text>Quite so. This is our revenge on the Zone and our method of controlling the cause of the anger generated by greed for artifacts and money.</text>
@@ -3307,7 +3316,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>You, Jeka and Tokarev teleport to the bunker, and somehow I will find a way out of here.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_27">
-		<text>It's necessary to leave the injured here - he is goner anyway.</text>
+		<text>It's necessary to leave the injured here, he's a goner anyway.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_28">
 		<text>To hell with Tokarev, we need to save our skins.</text>
@@ -3340,7 +3349,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Should we try to fight back?</text>
 	</string>
 	<string id="orujeinik_zapravka_dialog_phrase_4">
-		<text>I'd love to, but the forces are not equal... All I took with me was a flame thrower - It will frighten boars away, but against machine guns, it's a weak argument. Listen, speak with Korneev, he may come up with something.</text>
+		<text>I'd love to, but the forces are not equal... All I took with me was a flamethrower. It will frighten boars away, but against machine guns, it's a weak argument. Listen, speak with Korneev, he may come up with something.</text>
 	</string>
 	<string id="orujeinik_zapravka_dialog_phrase_5">
 		<text>Okay.</text>
@@ -3469,7 +3478,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Hmm, interesting. Well, search it and I'll cover you.</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_1">
-		<text>Ha-ha, that's an outstanding feature! That cracked me up - bless him!</text>
+		<text>Ha-ha, that's an outstanding feature! That cracked me up! Bless him!</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_2">
 		<text>Was that your doing?</text>
@@ -3478,7 +3487,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Ha-ha. Yesterday I was behind these suckers watching them trying to open the cache, but they couldn't. Then I decided to play trick and put a grenade in the fridge. So, well, you know, it's there, and it blew the guys face off! Ha-ha-ha!</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_4">
-		<text>Do you even know what you've done? you've killed a newcomer.</text>
+		<text>Do you even know what you've done? You've killed a newcomer.</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_5">
 		<text>Well, to hell with him. Do you want to cry over him? Or maybe you're gay? Or something like that...</text>
@@ -3487,7 +3496,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>You're bothering me!</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_7">
-		<text>Well-well, he won't make that mistake again. I advise you not to mess with me. Do you know why? If you denounce me - you will have to deal with Kulgavy, he will send his gladiators and they will massacre all in the village, together with Wolf and Stalin, it's like duck soup for them because all of them are masters.</text>
+		<text>Well-well, he won't make that mistake again. I advise you not to mess with me. Do you know why? If you denounce me, you will have to deal with Kulgavy. He will send his gladiators and they will massacre all in the village, together with Wolf and Stalin, it's like duck soup for them because all of them are masters.</text>
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_8">
 		<text>Who is Kulgavy?</text>
@@ -3500,6 +3509,54 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 	</string>
 	<string id="freezer_bandos_start_dialog_phrase_11">
 		<text>Get lost buster!</text>
+	</string>
+	<string id="freezer_bandos_start_dialog_phrase_12">
+		<text>That's funny! He was a louse, and now he's dead!</text>
+	</string>
+	<string id="freezer_bandos_start_dialog_phrase_13">
+		<text>Uh-huh... Hey, why don't you finish off the other one? Just for fun. There won't be any witnesses.</text>
+	</string>
+	<string id="freezer_bandos_start_dialog_phrase_14">
+		<text>Hmm...</text>
+	</string>
+	<string id="freezer_bandos_start_dialog_phrase_15">
+		<text>Don't be a pussy. Finish him off, and I'll tell you something interesting.</text>
+	</string>
+	<string id="freezer_bandos_start_dialog_phrase_16">
+		<text>Alright, hold on.</text>
+	</string>
+	
+	<string id="freezer_bandos_dialog3_phrase_1">
+		<text>Okay, he's dealt with.</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_2">
+		<text>Funny, dude, funny, funny! You did a great job with him. You'd have to put the carcasses in the fridge, nobody will find them there for a long time... Hey, would you like to work for my boss? He needs people now.</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_3">
+		<text>Who is he?</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_4">
+		<text>Kulgavy. He recently had a falling out with the other leaders, so he took his most loyal guys, formed his own band, and is now laying low. He sits quietly, but he keeps his ears open! I was sent here to get info for him and what not.</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_5">
+		<text>How can I find him?</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_6">
+		<text>He's in Darkscape, at the small village close to the road to Dark Valley. Show respect, and you won't be harmed.</text>
+	</string>
+	<string id="freezer_bandos_dialog3_phrase_7">
+		<text>Got it, thanks for the info.</text>
+	</string>
+	
+	
+	<string id="freezer_bandos_dialog4_phrase_1">
+		<text>Okay, fuck him.</text>
+	</string>
+	<string id="freezer_bandos_dialog4_phrase_2">
+		<text>I fucking told you to keep it quiet and use a knife! If stalkers find their corpses, they'll ask me a lot of questions and I'm going to have to fuck off. Okay, I'll shove these suckers into the fridge so that nobody will find them. But you should come see the godfather in Darkscape.</text>
+	</string>
+	<string id="freezer_bandos_dialog4_phrase_3">
+		<text>I'll check it out.</text>
 	</string>
 	<string id="zona_brother2_freezer_dialog_phrase_1">
 		<text>Are you okay?</text>
@@ -3571,7 +3628,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>The swelling will pass, you'll live. I see you really can't stand up for yourself. You've got a weapon!</text>
 	</string>
 	<string id="zona_brother2_dialog2_phrase_6">
-		<text>I could not kill this monster - his friends would have killed me... Now they will take revenge.</text>
+		<text>I could not kill this monster... his friends would have killed me... Now they will take revenge.</text>
 	</string>
 	<string id="zona_brother2_dialog2_phrase_7">
 		<text>I think he lied through his "teeth".</text>
@@ -3640,7 +3697,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Look, you're right... Let's do it, I value my boys, they are all I've got. Especially, as you have more guys. Now I'll give the order to release the prisoner, and you go and talk to him.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_20">
-		<text>Well, I knew - that you were a cool guy!</text>
+		<text>Well, I knew that you were a cool guy!</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_21">
 		<text>A cool guy? Hmm... Look, I almost forgot. What's this piece of bullshit sticking out of your pocket?</text>
@@ -3667,7 +3724,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I managed to trick the bandits and rescue Nimble.</text>
 	</string>
 	<string id="preasoner_free_dialog_phrase_2">
-		<text>Great! I feel like screaming "Now Hunchback! I said - Hunchback!"</text>
+		<text>Great! I feel like screaming "Now Hunchback! I said Hunchback!"</text>
 	</string>
 	<string id="preasoner_free_dialog_phrase_3">
 		<text>It's better to learn how to write a bandit's note properly.</text>
@@ -3730,7 +3787,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>This is how! They appeared to be nervous. By the way, your transfer note didn't fool them.</text>
 	</string>
 	<string id="preasoner_dead_dialog_phrase_6">
-		<text>I'll take that into account in the future. I'm sorry about Nimble, of course, but what can we do! The bandits - are bitches.</text>
+		<text>I'll take that into account in the future. I'm sorry about Nimble, of course, but what can we do! The bandits are bitches.</text>
 	</string>
 	<string id="preasoner_dead_dialog_phrase_7">
 		<text>Yeah...</text>
@@ -3739,7 +3796,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Nimble was killed. I did everything I could.</text>
 	</string>
 	<string id="preasoner_dead_dialog_phrase_9">
-		<text>I'm sorry about Nimble, of course, but what can we do! The bandits - are bitches.</text>
+		<text>I'm sorry about Nimble, of course, but what can we do! The bandits are bitches.</text>
 	</string>
 	<string id="digger_weapon_dialog1_phrase_1">
 		<text>How's life in general?</text>
@@ -3751,13 +3808,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>A necessary item to have.</text>
 	</string>
 	<string id="digger_weapon_dialog1_phrase_4">
-		<text>And then some! Especially for someone like me. Here, look: this is an upgraded Kalashnikov PKMS machine gun.</text>
+		<text>And then some! Especially for someone like me. Here, look: this is a customized Kalashnikov PKM machine gun.</text>
 	</string>
 	<string id="digger_weapon_dialog1_phrase_5">
-		<text>Damn... Cool, of course, but why do you need such an instrument, you're just a digger?</text>
+		<text>Impressive, but why do you need such a thing if you're just a digger?</text>
 	</string>
 	<string id="digger_weapon_dialog1_phrase_6">
-		<text>Instrument... What do you know about guns? See: here's a new 6T5 Stepanov machine gun tripod, special straps for securing magazines with ammunition belts, brackets on the legs of the machine gun for attaching magazines for use in combat situations, it has the ability to be used for anti-aircraft fire, in addition, it's also three kilos lighter than the previous models!</text>
+		<text>Instrument... What do you know about guns? See: here's a new 6T5 Stepanov machine gun tripod, special straps for securing magazines with ammunition belts, brackets on the legs of the machine gun for attaching magazines for use in combat situations, it has the ability to be used for anti-aircraft fire, in addition, it's also considerably lighter than the previous models!</text>
 	</string>
 	<string id="digger_weapon_dialog1_phrase_7">
 		<text>Yes, I see that you really love guns. But why are you hiding it and not keeping it at the ready?</text>
@@ -3790,13 +3847,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Understood.</text>
 	</string>
 	<string id="sinyak_weapon_dialog1_phrase_1">
-		<text>Greetings, mate. I here from Yura the Digger, on account of his machine gun.</text>
+		<text>Greetings, mate. I here from Yuri the Digger, on account of his custom shooter.</text>
 	</string>
 	<string id="sinyak_weapon_dialog1_phrase_2">
 		<text>Mm-m... What-oh?</text>
 	</string>
 	<string id="sinyak_weapon_dialog1_phrase_3">
-		<text>I'm from the Digger. He brought you his gun, which you repaired. It's necessary to rectify the work, because now it doesn't shoot.</text>
+		<text>I'm from the Digger. He brought you his gun for repairs but you fucked it up. It won't even shoot anymore, so fix it.</text>
 	</string>
 	<string id="sinyak_weapon_dialog1_phrase_4">
 		<text>Who...what Digger? What gun? Where in general am I? What day is it?</text>
@@ -3844,7 +3901,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What's the matter?</text>
 	</string>
 	<string id="digger_weapon_dialog2_phrase_6">
-		<text>Shoddy work, that's what. What did that butt-head fix? The breach - it looks like he took to it with a sledgehammer. The paint on the magazine is scratched and the trigger is shattered. No, it's not a good job, it's garbage. I once saw how Freedom at the Military Warehouses repair weapons - I'll tell you what, it was a feast for your eyes - that person had imagination! This... won't do. But, anyway.</text>
+		<text>Shoddy work, that's what. What did that butt-head fix? The breach - it looks like he took to it with a sledgehammer. The paint on the magazine is scratched and the trigger mechanism seems shattered. No, it's not a good job, it's garbage. I once saw how Freedom at the Military Warehouses repair weapons. I'll tell you what, it was a feast for your eyes. That person had imagination! This... won't do.</text>
 	</string>
 	<string id="digger_weapon_dialog2_phrase_7">
 		<text>What now?</text>
@@ -3862,7 +3919,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Comrade Sergeant, I'm not guilty, I didn't do it!.. Oh, it's you again.</text>
 	</string>
 	<string id="sinyak_weapon_dialog3_phrase_3">
-		<text>Yuri has ordered that you finish the work. Here is his machine gun, make it shoot properly.</text>
+		<text>Yuri has ordered that you finish the work. It's still fucked, even more than before perhaps. Here, fix it.</text>
 	</string>
 	<string id="sinyak_weapon_dialog3_phrase_4">
 		<text>I've had enough of you and Yuri. Okay, hand the gun here.</text>
@@ -3880,7 +3937,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Well, great then.</text>
 	</string>
 	<string id="digger_weapon_dialog3_phrase_1">
-		<text>Bruise corrected his work, take your machine gun:</text>
+		<text>Bruise corrected his work, take your damn gun:</text>
 	</string>
 	<string id="digger_weapon_dialog3_phrase_2">
 		<text>Wait, wait! Let me take a look. Yeah ... Yeah ... Hmm. And what's this? How is it possible to make such gross blunders? This angers me!</text>
@@ -3889,7 +3946,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>It's not right, again?</text>
 	</string>
 	<string id="digger_weapon_dialog3_phrase_4">
-		<text>Of course not! Look at the coating over the barrel: It's hopelessly scratched and starting to rust. And the nozzle on the gas tube is loose, and when I start shooting, I guess it will just fly off. Verdict - this weapon is unusable!</text>
+		<text>Of course not! Look at the coating over the barrel: It's hopelessly scratched and starting to rust. And the nozzle on the gas tube is loose, and when I start shooting, I guess it will just fly off. Verdict: this weapon is unusable!</text>
 	</string>
 	<string id="digger_weapon_dialog3_phrase_5">
 		<text>What can I advise you. Look for another repairman.</text>
@@ -3907,7 +3964,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I have the day off.</text>
 	</string>
 	<string id="sinyak_weapon_dialog5_phrase_3">
-		<text>Then consider that you're fired. Yuri will be happy to write you off.</text>
+		<text>No, you have to finish what you started.</text>
 	</string>
 	<string id="sinyak_weapon_dialog5_phrase_4">
 		<text>What, the gun broke down again?</text>
@@ -3925,13 +3982,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Everything fixed?</text>
 	</string>
 	<string id="sinyak_weapon_dialog6_phrase_2">
-		<text>Yes. I went through everything, I checked and tightened all the screws and lubricated it. The receiver works like a charm, the trigger - the same. You must understand, I would have checked it out before, but you cannot shoot here.</text>
+		<text>Yes. I went through everything, I checked and tightened all the screws and lubricated it. The receiver works like a charm, the trigger is the same. You must understand, I would have checked it out before, but you cannot shoot here.</text>
 	</string>
 	<string id="sinyak_weapon_dialog6_phrase_3">
 		<text>Any spare parts accidentally left over?</text>
 	</string>
 	<string id="sinyak_weapon_dialog6_phrase_4">
-		<text>That, offends me!</text>
+		<text>That offends me!</text>
 	</string>
 	<string id="sinyak_weapon_dialog6_phrase_5">
 		<text>Then it's time to drag this "masterpiece" back to its owner.</text>
@@ -3958,7 +4015,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Don't say that...</text>
 	</string>
 	<string id="digger_weapon_dialog4_phrase_8">
-		<text>Well, this thing's not working! Or rather, not "again", "as always" - would be more correct.</text>
+		<text>Well, this thing's not working! What else is new?</text>
 	</string>
 	<string id="digger_weapon_dialog4_phrase_9">
 		<text>I cannot stand another trip to the Bar humping this instrument of contention.</text>
@@ -3988,13 +4045,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Is that it? I don't even want to hear about what you forgot to do last time.</text>
 	</string>
 	<string id="sinyak_weapon_dialog8_phrase_2">
-		<text>Okay - I won't. Take the damn gun, I'm tired of looking at it...</text>
+		<text>Okay... I won't. Take the damn gun, I'm tired of looking at it...</text>
 	</string>
 	<string id="sinyak_weapon_dialog8_phrase_3">
 		<text>Listen... Maybe we should take it to Barkeep or to Sidorovich. We could both chip in a little for repairs.</text>
 	</string>
 	<string id="sinyak_weapon_dialog8_phrase_4">
-		<text>It's not that simple: They both hesitated for a long time to do it, so I was the only one who agreed to repair it. You know, this model gun - is trash, it was never issued - all the parts come from different models, some of which should have been bulldozed into the ground, plus a bunch of unnecessary bells and whistles. I'm not sure if it even ever worked.</text>
+		<text>It's not that simple: They both hesitated for a long time to do it, so I was the only one who agreed to repair it. You know, this model is trash, it was never issued. All the parts come from different models, some of which should have been bulldozed into the ground, plus a bunch of unnecessary bells and whistles. I'm not sure if it even ever worked.</text>
 	</string>
 	<string id="sinyak_weapon_dialog8_phrase_5">
 		<text>There is no escape, you have to drag it back.</text>
@@ -4009,19 +4066,19 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Don't you believe me?</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_4">
-		<text>You, I believe, but Bruise, no. Let me see, so ... where is the ejected cartridge's bag?</text>
+		<text>You, I believe, but Bruise, no. Let me see, so... nope! What the fuck is that rattling around in there? I wouldn't dare shoot this thing.</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_5">
-		<text>What ejected cartridge's bag?</text>
+		<text>You've got to be kidding me.</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_6">
-		<text>I originally had the bag attached to the receiver. It's not here now! What happened to it?</text>
+		<text>I'm starting to wonder, is this his blunder or yours? Or perhaps both?</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_7">
-		<text>I don't know. Perhaps Bruise forgot to reattach it. What's the difference?</text>
+		<text>Fuck off, I'm doing all the legwork here so save your bitching for someone else.</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_8">
-		<text>How is it - that you don't care? When I got this thing it barely worked. As far as I could tell, this gun was never combat ready: I'm telling you this for the last time, the receiver was hanging and the recoil spring was missing. Yes, apparently, I'm talking to deaf ears. Marked One, it's time to get your feet moving again!</text>
+		<text>How is it that you don't care? When I got this thing it barely worked. As far as I could tell, this gun was never combat ready: I'm telling you this for the last time, the receiver was hanging and the recoil spring was missing. Yes, apparently, I'm talking to deaf ears. Marked One, it's time to get your feet moving again!</text>
 	</string>
 	<string id="digger_weapon_dialog5_phrase_9">
 		<text>Why are you telling me this?</text>
@@ -4090,10 +4147,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Everything is okay. The nerd won't be able to tell the new gun from the old one, even under a microscope.</text>
 	</string>
 	<string id="sinyak_weapon_dialog10_phrase_3">
-		<text>I hope so, otherwise my reputation as an artifact hunter, will be tarnished.</text>
+		<text>I hope so, otherwise my reputation as an artifact hunter will be tarnished.</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_1">
-		<text>Hello, Strelok. I see you managed to cheat to Zone.</text>
+		<text>Hello, Strelok. I see you managed to cheat the Zone.</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_2">
 		<text>It was you and I who were cheated, Doctor. How are you?</text>
@@ -4111,7 +4168,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I won't disagree. So, are you leaving the Zone?</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_7">
-		<text>No. Now my calling - is to help those who are in need.</text>
+		<text>No. Now my calling is to help those who are in need.</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_8">
 		<text>Who will you help?</text>
@@ -4120,7 +4177,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I will treat people and mutants.</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_10">
-		<text>Mutants - why?</text>
+		<text>Mutants? Why?</text>
 	</string>
 	<string id="swamp_doc_start_dialog_phrase_11">
 		<text>Well, they are living beings as well... Strelok, I'll explain everything later, alright?</text>
@@ -4144,7 +4201,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>With bullets, I hope?</text>
 	</string>
 	<string id="unik_krovosos_quest_dialog1_phrase_6">
-		<text>Think before you say, Strelok! Listen to what I have to say. There's this unique bloodsucker, I've been watching him from the roof of this house. So, he is unwell for some reason. It is necessary to examine the beast, but you understand - it won't hurt to take safety precautions.</text>
+		<text>Think before you say, Strelok! Listen to what I have to say. There's this unique bloodsucker, I've been watching him from the roof of this house. So, he is unwell for some reason. It is necessary to examine the beast, but you understand it won't hurt to take safety precautions.</text>
 	</string>
 	<string id="unik_krovosos_quest_dialog1_phrase_7">
 		<text>Do you want to catch him alive?</text>
@@ -4159,7 +4216,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'll pass.</text>
 	</string>
 	<string id="unik_krovosos_quest_dialog1_phrase_11">
-		<text>Well then, remember: you're not allowed to approach the mutant closer than 15 metres, otherwise it will smell you, even through the reeds. Be careful, use the optical sight and choose a comfortable position. If you scare away the mutant - you will then have to chase it around the Marsh, and I don't have any more special arrows. And don't try to shoot the bloodsucker with firearms! I won't forgive you if you do.</text>
+		<text>Well then, remember: you're not allowed to approach the mutant closer than 15 metres, otherwise it will smell you, even through the reeds. Be careful, use the optical sight and choose a comfortable position. If you scare away the mutant, you will then have to chase it around the Marsh, and I don't have any more special arrows. And don't try to shoot the bloodsucker with firearms! I won't forgive you if you do.</text>
 	</string>
 	<string id="unik_krovosos_quest_dialog1_phrase_12">
 		<text>Thank you for the warning.</text>
@@ -4321,7 +4378,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Hallucinations are rampant in the Zone.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_16">
-		<text>Of course. But I believed him, even though he didn't understand it. What is interesting is this: his acquaintance asked him to give me a message, 'that soon something bad will happen to me'. What exactly - he did not say.</text>
+		<text>Of course. But I believed him, even though he didn't understand it. What is interesting is this: his acquaintance asked him to give me a message, 'that soon something bad will happen to me'. What exactly, he did not say.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_17">
 		<text>He told you that?</text>
@@ -4333,7 +4390,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Who is the stalker, who told you this?</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_20">
-		<text>A Loner, who had been in the Zone for two years. I treated him a few times for swamp fever, and of course examined him thoroughly. His mind was sharp and he wasn't a drug addict. You see, Strelok, I'm not a superstitious person, but all around us in the Zone - new miracles happen every day, so you never know... Of course, I don't believe in messengers from the underworld, do you understand?</text>
+		<text>A Loner, who had been in the Zone for two years. I treated him a few times for swamp fever, and of course examined him thoroughly. His mind was sharp and he wasn't a drug addict. You see, Strelok, I'm not a superstitious person, but all around us in the Zone new miracles happen every day, so you never know... Of course, I don't believe in messengers from the underworld, do you understand?</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_21">
 		<text>Do you take this message seriously?</text>
@@ -4351,7 +4408,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Wow, Doctor! It's dangerous to possess such goods, especially when your alone.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_26">
-		<text>Well, I already have some protection - thanks to your efforts. The pseudo-dog and the bloodsucker will help, if need be. But after all, I'm not at home all the time, sometimes I go hiking on different affairs, often I call in at the Bar... Don't think I'm afraid, things are just different. I still have a lot to do in the Zone and I'm afraid that I don't have much time, so I can't stop. I beg you, deal with this case. Find out who this Stalker was, how he died, and why he appeared to my friend?</text>
+		<text>Well, I already have some protection thanks to your efforts. The pseudo-dog and the bloodsucker will help, if need be. But after all, I'm not at home all the time, sometimes I go hiking on different affairs, often I call in at the Bar... Don't think I'm afraid, things are just different. I still have a lot to do in the Zone and I'm afraid that I don't have much time, so I can't stop. I beg you, deal with this case. Find out who this Stalker was, how he died, and why he appeared to my friend?</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_27">
 		<text>I'll try. but first, I have a couple of questions for you.</text>
@@ -4366,7 +4423,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>To begin with: did you know that the deceased, who warned you?</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_31">
-		<text>Yes, I once helped him. It was no big deal: he was bitten by blind dogs and infected with rabies, his friends gave him aspirin at the start of the illness, but I took advantage of the opportunity to treat him, - I happened to be at the Bar at the time. I saved his life, he was pleased and thanked me afterwards. He offered me money - but I didn't take it. A year later I was told that someone at the Garbage had shot him. Whether it was bandits, or someone else, I don't know.</text>
+		<text>Yes, I once helped him. It was no big deal: he was bitten by blind dogs and infected with rabies, his friends gave him aspirin at the start of the illness, but I took advantage of the opportunity to treat him, I happened to be at the Bar at the time. I saved his life, he was pleased and thanked me afterwards. He offered me money but I didn't take it. A year later I was told that someone at the Garbage had shot him. Whether it was bandits, or someone else, I don't know.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_32">
 		<text>And the stalker, who allegedly saw him?</text>
@@ -4396,19 +4453,19 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Why the secrecy?</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_41">
-		<text>If this Smoke or someone else, has started something bad against me, they will say nothing to my envoy, that's you, and even worse - they will lie nineteen to the dozen. Tell him this: you were at the Doctor's, he was unwell and asked you to assist him in finding the ingredients for the medicine he needs to cook. Ask him where you can get the different chemicals, I'll draw up a list, - for the sake of appearances. Then try to find out something about the case.</text>
+		<text>If this Smoke or someone else, has started something bad against me, they will say nothing to my envoy, that's you, and even worse, they will lie nineteen to the dozen. Tell him this: you were at the Doctor's, he was unwell and asked you to assist him in finding the ingredients for the medicine he needs to cook. Ask him where you can get the different chemicals, I'll draw up a list for the sake of appearances. Then try to find out something about the case.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_42">
 		<text>Okay.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_43">
-		<text>I'll watch the farm from the tower - through binoculars. As soon as I notice someone there, I will send you the message at once. And you, please stay in the Marsh for a while. If you get bored waiting, you can perform a simple task for me.</text>
+		<text>I'll watch the farm from the tower through binoculars. As soon as I notice someone there, I will send you the message at once. And you, please stay in the Marsh for a while. If you get bored waiting, you can perform a simple task for me.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_44">
 		<text>I never refuse a task.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_45">
-		<text>Good. I found myself an inflatable catamaran, but it's broken - it has no propeller. I don't want to order such an exotic thing from behind the perimeter - there are more important things. But you can try to get something similar to the propeller here. To the east of my house is a downed helicopter. If you tried to separate part of the screw from it, maybe, I could somehow adapt it for my needs.</text>
+		<text>Good. I found myself an inflatable catamaran, but it's broken; it has no propeller. I don't want to order such an exotic thing from behind the perimeter, there are more important things. But you can try to get something similar to the propeller here. To the east of my house is a downed helicopter. If you tried to separate part of the screw from it, maybe, I could somehow adapt it for my needs.</text>
 	</string>
 	<string id="karlito_quest_dialog_phrase_46">
 		<text>I'll have a go.</text>
@@ -4483,7 +4540,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I understand that there are still some details to work out?</text>
 	</string>
 	<string id="atp_lider_work1_dialog_phrase_19">
-		<text>Yes. First, the "mule" will be guarded. Who and how many - hell knows, but not a lot, because Barkeep will want to keep this campaign as low key as he can. Secondly, the "mule" will be equipped with a personal GPS beacon so Barkeep can keep track of his location. When the load reaches its destination, the "mule" is to send a signal to him that everything went well. If he doesn't - the Barkeep will enlist help from the Duty law enforcers and they will begin to scour the Cordon. We don't want this, so the work will need to be discreet: Once you have the loot, drag it here immediately.</text>
+		<text>Yes. First, the "mule" will be guarded. Who and how many, fuck knows, but not a lot, because Barkeep will want to keep this campaign as low key as he can. Secondly, the "mule" will be equipped with a personal GPS beacon so Barkeep can keep track of his location. When the load reaches its destination, the "mule" is to send a signal to him that everything went well. If he doesn't then the Barkeep will enlist help from the Duty law enforcers and they will begin to scour the Cordon. We don't want this, so the work will need to be discreet: Once you have the loot, drag it here immediately.</text>
 	</string>
 	<string id="atp_lider_work1_dialog_phrase_20">
 		<text>I got it.</text>
@@ -4510,7 +4567,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I don't remember, ever serving in the military...</text>
 	</string>
 	<string id="stalin_start_dialog_phrase_8">
-		<text>So, you're a greenhorn! I'm - a veteran, so far, I've spent a year in this shit hole, I know everyone, and everyone knows me. You'll pay me 300 roubles for each visit to Sidorovich, otherwise I won't let you into the bunker. Clear?</text>
+		<text>So, you're a greenhorn! I'm a veteran, so far, I've spent a year in this shit hole, I know everyone, and everyone knows me. You'll pay me 300 roubles for each visit to Sidorovich, otherwise I won't let you into the bunker. Clear?</text>
 	</string>
 	<string id="stalin_start_dialog_phrase_9">
 		<text>This is a shakedown.</text>
@@ -4522,8 +4579,19 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Is this how you treat veterans? Attention!</text>
 	</string>
 	<string id="stalin_start_dialog_phrase_12">
-		<text>I'll go. I have more important things to do: to survive in this shit hole.</text>
+		<text>I'll go. I have more important things to do like figuring out how to survive in this shit hole.</text>
 	</string>
+	<!-- охранник Сидора Сталин - презентация оружейных аддонов (увеличенный магазин и МТК-83 на  АКМСе) -->
+	<string id="stalin_start_dialog_phrase_addons">
+		<text>By the way, what's up with your gun?</text>
+	</string>
+	<string id="stalin_start_dialog_phrase_training">
+		<text>This is my service rifle, greenhorn! Customized with modern technology to better serve me in The Zone. Prove yourself worthy and maybe one day I'll teach you about weapon upgrading.</text>
+	</string>
+	<string id="stalin_start_dialog_phrase_goodbye">
+		<text>Okay. Well, I gotta go. Goodbye.</text>
+	</string>
+<!-- // -->
 	<string id="stalin_propusk_dialog_phrase_1">
 		<text>Open the door, I need to see Sidorovich.</text>
 	</string>
@@ -4540,7 +4608,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'll come back late.</text>
 	</string>
 	<string id="stalin_propusk_dialog_phrase_6">
-		<text>This is not my first day of the Zone. If you don't want problems - just get out of the way.</text>
+		<text>This is not my first day of the Zone. If you don't want problems, just get out of the way.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_1">
 		<text>Zakharych, look at this thing:</text>
@@ -4603,7 +4671,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'll give you a hint. Search the basements and the attics of buildings. Moonshining was illegal so the stills were hidden in out-of-the-way places.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_21">
-		<text>If I find one - I'll bring it.</text>
+		<text>If I find one, I'll bring it.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_22">
 		<text>Later.</text>
@@ -4618,7 +4686,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>How did you know that I would find this device?</text>
 	</string>
 	<string id="hunter_about_ufo_dialog2_phrase_4">
-		<text>A good stalker such as you, will find what he's looking for! I'll brew some up - you can have the first taste.</text>
+		<text>A good stalker such as you, will find what he's looking for! I'll brew some up, you can have the first taste.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog2_phrase_5">
 		<text>Good luck making it. Listen, when will you finish telling me about these meteorite fragments? How they ended up in your caches, and why you collected them?</text>
@@ -4628,6 +4696,36 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 	</string>
 	<string id="hunter_about_ufo_dialog2_phrase_7">
 		<text>Good.</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_1">
+		<text>What happened to me?</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_2">
+		<text>Well, what's up? You just punched my glove and nailed me on the couch for an hour. Why did you get so excited about it, maybe you were in a hurry and slept through it?</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_3">
+		<text>Whatever it is, it's got me covered. Some glitches went off.</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_4">
+		<text>Oh, my God, is that... So, the trick is exposed. Heh-heh.</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_5">
+		<text>I don't get it, I just... Come on, what did you put in my booze?!</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_6">
+		<text>Don't be mad, Marked One. Enjoy yourself. After all, we opened a new kind of moonshine with you. Its name is "Chernobyl Box". And I added a pinch of the same "stuff" that you were bringing me to my brother's drink. And not in vain, as you can see!</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_7">
+		<text>You deceiver!</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_8">
+		<text>Just calm down, I knew what I was doing. I'll give you one thing to comfort you... here, read it over. At the same time, you will reveal the mystery of the Zone again, hehe.</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_9">
+		<text>What's this? (Laughs) Not Carlos Castaneda, I hope?</text>
+	</string>
+	<string id="hunter_about_ufo_dialog3_phrase_10">
+		<text>No, a journalist wrote about me. Read it, remember it.</text>
 	</string>
 	<string id="kuznetsov_about_job_0">
 		<text>So, why do you charge for passage?</text>
@@ -4927,7 +5025,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'll be damned! That is certainly something to think about. Perhaps I may clear that up...</text>
 	</string>
 	<string id="hello_me4enuy_7">
-		<text>Well, you're a storyteller, do you think I believe you? Fucking liar! Piss off you coward - and never set foot in the Cordon again!</text>
+		<text>Well, you're a storyteller, do you think I believe you? Fucking liar! Piss off you coward, and never set foot in the Cordon again!</text>
 	</string>
 	<string id="hello_me4enuy_8">
 		<text>Well, you may get lucky. Goodbye and good luck!</text>
@@ -4951,7 +5049,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Well, you know... Everything is blurry... And I have double vision... I'm all muddled up...</text>
 	</string>
 	<string id="horror_time_13">
-		<text>Aha! And different creature jump from under every bush? And you can't tell - if they're real or not?</text>
+		<text>Aha! And different creature jump from under every bush? And you can't tell if they're real or not?</text>
 	</string>
 	<string id="horror_time_14">
 		<text>Exactly!</text>
@@ -4975,13 +5073,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Well... with mutants. I shoot them and they just disappear. They don't fall... they don't die, they simply just disappear... they dissolve into the background...</text>
 	</string>
 	<string id="horror_time_21">
-		<text>Sometimes this happens. Either after an emission, or near a psi-zone. It's nothing, you'll get used to it - this is not the worst thing here.</text>
+		<text>Sometimes this happens. Either after an emission, or near a psi-zone. It's nothing, you'll get used to it. This is not the worst thing here.</text>
 	</string>
 	<string id="horror_time_22">
 		<text>Yes phantoms appear, they even pass through walls sometimes. Where do they come from?</text>
 	</string>
 	<string id="horror_time_23">
-		<text>No harm will come to you. You have a headache now brother. At such times, I try to think less - and stop paying attention to what's happening around you.</text>
+		<text>No harm will come to you. You have a headache now brother. At such times, I try to think less and stop paying attention to what's happening around you.</text>
 	</string>
 	<string id="horror_time_24">
 		<text>And why "think less"?</text>
@@ -5002,10 +5100,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Why not, take it buddy, help yourself. Perhaps you will help me out sometime.</text>
 	</string>
 	<string id="horror_time_30">
-		<text>Sorry, mate - I don't have any vodka.</text>
+		<text>Sorry, mate. I don't have any vodka.</text>
 	</string>
 	<string id="horror_time_31">
-		<text>Well, thanks - I'll reciprocate. Take this canned food.</text>
+		<text>Well, thanks. I'll reciprocate. Take this canned food.</text>
 	</string>
 	<string id="horror_time_32">
 		<text>You're a good man. Take this gift from me.</text>
@@ -5098,7 +5196,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Thanks for that.</text>
 	</string>
 	<string id="esc_last_request_kuznetsov_4">
-		<text>We have a problem - our driver was killed, and no one here is able to drive. Take the guys and freight to the post, I warned them you're coming, they won't shoot, on the contrary, they will only thank you.</text>
+		<text>We have a problem. Our driver was killed, and no one here is able to drive. Take the guys and freight to the post, I warned them you're coming, they won't shoot, on the contrary, they will only thank you.</text>
 	</string>
 	<string id="esc_last_request_kuznetsov_5">
 		<text>Well load up, and let's go.</text>
@@ -5120,13 +5218,13 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Kesha Sparrow</text>
 	</string>
 	<string id="ask_about_guitar_general_0">
-		<text>I want to ask you about guitar.</text>
+		<text>I want to ask you about the guitar.</text>
 	</string>
 	<string id="ask_about_guitar_general_1">
 		<text>Which guitar?</text>
 	</string>
 	<string id="ask_about_guitar_general_2">
-		<text>The guitar that you took from Sidor and never returned. Do you know where it is?</text>
+		<text>The guitar that you guys took from Sidorovich and never returned. Do you know where it is?</text>
 	</string>
 	<string id="ask_about_guitar_general_3">
 		<text>Oh, that guitar. I have no idea.</text>
@@ -5135,10 +5233,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>And who might know about it?</text>
 	</string>
 	<string id="ask_about_guitar_general_5">
-		<text>Well, I see Kesha Sparrow with that guitar. Ask him.</text>
+		<text>Well, I saw Kesha Sparrow with that guitar. Ask him.</text>
 	</string>
 	<string id="ask_about_guitar_general_6">
-		<text>Where he is?</text>
+		<text>Where is he?</text>
 	</string>
 	<string id="ask_about_guitar_general_7">
 		<text>Look in the houses. He must be sleeping somewhere, drunk.</text>
@@ -5156,25 +5254,25 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Uh?! Wha?! Wh.. Who are you? Hic...</text>
 	</string>
 	<string id="escape_buharik_start_3">
-		<text>I'm Marked One, just wanna ask you about guitar.</text>
+		<text>I'm Marked One. I just wanna ask you about the guitar.</text>
 	</string>
 	<string id="escape_buharik_start_4">
 		<text>Wh-which guit-tar?</text>
 	</string>
 	<string id="escape_buharik_start_5">
-		<text>Guitar that you took from Sidorovich and never returned. Where it is?</text>
+		<text>The guitar that you took from Sidorovich and never returned. Where is it?</text>
 	</string>
 	<string id="escape_buharik_start_6">
 		<text>G-guitar... Yeah... guitar nice...</text>
 	</string>
 	<string id="escape_buharik_start_7">
-		<text>Hey, listen here! Where are you?</text>
+		<text>Well?</text>
 	</string>
 	<string id="escape_buharik_start_8">
-		<text>i'm here, i'm there, i'm always</text>
+		<text>Uhh...</text>
 	</string>
 	<string id="escape_buharik_start_9">
-		<text>Where's a guitar, you drunk?</text>
+		<text>Where's the guitar, you drunk?</text>
 	</string>
 	<string id="escape_buharik_start_say_behind_table">
 		<text>Uh...there was good behind the table yesterday... </text>
@@ -5210,7 +5308,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>M-m-m.... Milk.. neeed. From a... hic.. milk tank</text>
 	</string>
 	<string id="escape_buharik_start_11">
-		<text>What a bullshit! You're drunk!</text>
+		<text>What bullshit! You're a worthless drunk!</text>
 	</string>
 	
 	<string id="esc_remontnik_upgrade_weapon_0">
@@ -5257,7 +5355,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>What do you want for it?</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12_6">
-		<text>From you - nothing. Hehe. But ... you know, here's a dangerous place - boars and fleshes everywhere. So some stuff for wound healing will come in handy. Get me "Mincer Meat" artifact. And a bottle of vodka, perhaps.</text>
+		<text>From you? Nothing. Hehe. But ... you know, here's a dangerous place - boars and fleshes everywhere. So some stuff for wound healing will come in handy. Get me "Mincer Meat" artifact. And a bottle of vodka, perhaps.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12_7">
 		<text>Okay... I'll get you vodka and the artifact.</text>
@@ -5278,10 +5376,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Hey, major... About that job...</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12_22">
-		<text>What's up? Got it? Yeah, I see the artifact. And where's vodka? No vodka - no gun.</text>
+		<text>What's up? Got it? Yeah, I see the artifact. And where's vodka? No vodka, no gun.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12_23">
-		<text>What's up? Got it? Yeah, I see a bottle of vodka. And where's the artifact? No artifact - no gun.</text>
+		<text>What's up? Got it? Yeah, I see a bottle of vodka. And where's the artifact? No artifact, no gun.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12_24">
 		<text>What's up? Got it? No? So what do you want then?</text>
@@ -5302,7 +5400,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Yeah, how much?</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_33">
-		<text>Well, I'm in the mood today - thanks to the artifact that you brought for me, all my wounds were healed. So this time it's free for you to pass under the bridge. Next time it will be 500 rubles, as usual.</text>
+		<text>Well, I'm in the mood today, thanks to the artifact that you brought for me, all my wounds were healed. So this time it's free for you to pass under the bridge. Next time it will be 500 rubles, as usual.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_34">
 		<text>Wow, thanks a lot!</text>
@@ -5320,7 +5418,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Um... I don't have so much money for now.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_39">
-		<text>So don't waste my time! No money - no honey! And if you'll decide to take your chances, we'll shoot your ass up.</text>
+		<text>So don't waste my time! No money, no honey! And if you'll decide to take your chances, we'll shoot your ass up.</text>
 	</string>
 	<!-- Peaceful obtain Fort-15 in major Kuznetsov on Sidorovich order -->
 </string_table>

@@ -60,6 +60,12 @@
 	<string id="st_move_to_slot">
 		<text>move to slot</text>
 	</string>
+	<string id="st_move_to_slot_1">
+		<text>move to secondary weapon slot</text>
+	</string>
+	<string id="st_move_to_slot_2">
+		<text>move to primary weapon slot</text>
+	</string>
 	<string id="st_sell_item">
 		<text>sell item</text>
 	</string>
@@ -269,5 +275,11 @@
 	</string>
 	<string id="ui_st_err_sb_master_server_conn_fail">
 		<text>Unable to connect to master server</text>
+	</string>
+	<string id="st_move">
+		<text>Move</text>
+	</string>
+	<string id="st_move_all">
+		<text>Move all</text>
 	</string>
 </string_table>

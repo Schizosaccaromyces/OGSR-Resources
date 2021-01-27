@@ -1800,6 +1800,58 @@
 	<string id="bar_friend_propusk_3">
 		<text>Well, that's how it goes. Thanks for getting it, it's an excellent piece! Come on in - don't just stand there.</text>
 	</string>
+	<!--arenda material_rifle-->
+	<string id="arenda_material_rifle_start_1">
+		<text>I found out from the conversations that you have a special gun.</text>
+	</string>
+	<string id="arenda_material_rifle_start_2">
+		<text>Yes, there is. Sniper B-94, 12.7 mm caliber</text>
+	</string>
+	<string id="arenda_material_rifle_start_3">
+		<text>Wow! Where did this come from?</text>
+	</string>
+	<string id="arenda_material_rifle_start_4">
+		<text>Yes, there was one "hunter" here, so only the rifle remained of him! Simple stalkers do not need it, I sold it, and now I rent it out.</text>
+	</string>
+	<string id="arenda_material_rifle_start_5">
+		<text>I wonder who "helped" that hunter to lose his gun. Okay, how much do you want for it?</text>
+	</string>
+	<string id="arenda_material_rifle_start_6">
+		<text>Fifty grand for the barrel and a handful of bullets to fill the load.</text>
+	</string>
+	<string id="arenda_material_rifle_start_7">
+		<text>Are you crazy? Why is it so expensive?</text>
+	</string>
+	<string id="arenda_material_rifle_start_8">
+		<text>It's rare, plus accident insurance. Ha-ha-ha. Well, do you take it?</text>
+	</string>
+	<string id="arenda_material_rifle_start_9">
+		<text>No, it's very expensive, and I don't want to carry such a heavy load.</text>
+	</string>
+	<string id="arenda_material_rifle_start_10">
+		<text>Yes, you are greedy, however. Well, today I have money, I'll take it!</text>
+	</string>
+	<string id="arenda_material_rifle_finish_1">
+		<text>Look, I've decided to return the gun.</text>
+	</string>
+	<string id="arenda_material_rifle_finish_2">
+		<text>What, you can't afford it or you're too tired to carry it? Ha-ha-ha.</text>
+	</string>
+	<string id="arenda_material_rifle_finish_3">
+		<text>Both. In short, here is the barrel, return the money.</text>
+	</string>
+	<string id="arenda_material_rifle_finish_4">
+		<text>Okay, let's do the math... yeah... Well, get 20,000 rubles.</text>
+	</string>
+	<string id="arenda_material_rifle_finish_5">
+		<text>Have you lost your fear, you greedy bastard?</text>
+	</string>
+	<string id="arenda_material_rifle_finish_6">
+		<text>Okay, don't get all worked up. Here's another ten grand and a beer on the house. The rest is for rent. And you will be buzy - the guys will quickly help you find a way out.</text>
+	</string>
+	<string id="arenda_material_rifle_finish_7">
+		<text>Never mind. Ah, to my health!</text>
+	</string>
 	<!--secret teleport v bar-->
 	<string id="veryuseful_0">
 		<text>You know a lot of things, but is there anything useful you can tell me about the Zone?</text>

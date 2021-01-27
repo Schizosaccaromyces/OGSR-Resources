@@ -42,6 +42,9 @@
 	<string id="kb_drop">
 		<text>Drop</text>
 	</string>
+	<string id="kb_use_radio">
+		<text>Walkie-talkie</text>
+	</string>
 	<string id="kb_fire">
 		<text>Fire</text>
 	</string>
@@ -142,10 +145,7 @@
 		<text>Team Menu</text>
 	</string>
 	<string id="kb_torch">
-		<text>Flashlight / Car lamps</text>
-	</string>
-	<string id="kb_turn_engine">
-		<text>Start engine / Open trunk</text>
+	<text>Turn on the flashlight/headlights</text>
 	</string>
 	<string id="kb_up">
 		<text>Up</text>
@@ -189,6 +189,9 @@
 	<string id="kb_weapon6">
 		<text>Bolts</text>
 	</string>
+	<string id="kb_weapon8">
+		<text>Detector</text>
+	</string>
 	<string id="kb_wpn_next">
 		<text>Change ammo type</text>
 	</string>
@@ -204,19 +207,25 @@
 	<string id="speech_menu_personal">
 		<text>Voice messages (2)</text>
 	</string>
-	<string id="kb_cam_1">
-		<text>Quick use of antirad</text>
+	<string id="kb_turn_engine">
+		<text>Start the engine</text>
 	</string>
-	<string id="kb_cam_2">
-		<text>Quick use of energy drink</text>
+	<string id="kb_use_antirad">
+		<text>Quick use. Of antirad</text>
 	</string>
-	<string id="kb_cam_3">
-		<text>Quick use of B-190</text>
+	<string id="kb_use_energy_drink">
+		<text>Quick use. energy drink</text>
 	</string>
-	<string id="kb_cam_4">
-		<text>Quick use of Bipsizon</text>
+	<string id="kb_use_b190">
+		<text>Quick use. B-190</text>
+	</string>
+	<string id="kb_use_bipsizon">
+		<text>Quick use. Bipsizone</text>
 	</string>
 	<string id="kb_tank_up">
 		<text>Fill up with fuel</text>
+	</string>
+	<string id="kb_switch_scope">
+		<text>Switch the aiming mode, scope</text>
 	</string>
 </string_table>

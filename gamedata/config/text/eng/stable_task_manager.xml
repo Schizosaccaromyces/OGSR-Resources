@@ -389,8 +389,8 @@
 	</string>
 	<string id="dolg_kill_stalker_1_text">
 		<text>Subject's nickname - Poker. One of the most cruel bandits' leader, swine and rapist...Evidently his head is not okay: they say he caught a rare disease in the Zone. Now he suffers quite frequent lapses of memory, and when he gains consciousness, he can't remember who and where he is. Nevertheless, he's always armed and very aggressive. Presumable location: Dark Valley. Ready for the task?</text>
-	</string>
-   <string id="dolg_monster_part_1">
+    </string>
+    <string id="dolg_monster_part_1">
         <text>Evidence for the rumours</text>
     </string>
     <string id="dolg_monster_part_1_descr">
@@ -399,7 +399,7 @@
     <string id="dolg_monster_part_1_text">
          <text>The rumour is you can hold out alone against any monster in the Zone. But somehow I don't believe it. Show me how brave you are - bring me a chimera's claw.</text>
     </string>
-	<string id="drunk_dolg_find_item">
+    <string id="drunk_dolg_find_item">
 		<text>Find the weapon of the Dutyer.</text>
 	</string>
 	<string id="drunk_dolg_find_item_descr">

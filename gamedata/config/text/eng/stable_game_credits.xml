@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+
+<string id="ogsr_development">
+	<text>The developers OGSR Engine</text>
+</string>
+
+<string id="ogsr_engine_developers">
+	<text>The team of developers of the engine</text>
+</string>
+<string id="ogsr_engine_developers_names">
+	<text>KRodin \n Dsh \n K.D. \n Lordmuzer</text>
+</string>
+
+<string id="ogsr_engine_developers_url">
+	<text>Official website</text>
+</string>
+<string id="ogsr_engine_developers_url_text">
+	<text>https://github.com/OGSR</text>
+</string>
+
+<string id="ogsr_engine_developers_other">
+	<text>Thanks to the people and projects whose achievements we have used</text>
+</string>
+<string id="ogsr_engine_developers_other_names">
+	<text>Im-dex \n abramcumner \n Shoker \n Xottab-DUTY \n ForserX \n qweasdd136963 \n Charsi82 \n \n xrOxygen \n OpenXRay \n X-Ray Engine by Alpet and KD \n CoC-Xray</text>
+</string>
+
+<string id="ogsr_resources_developers">
+	<text>Разработчики OGSR мода</text>
+</string>
+<string id="ogsr_resources_developers_names">
+	<text>krodin-idea, translation of OGSE to a new engine, optimization and refactoring of scripts, bugfix and much more \n k01jan-new weapons, inventory \n W. A. S. P.-textures, testing \n Alan Waters-testing \n \n Dsh - interesting ideas for scripts and not only \n Haarhus - transfer of monsters from the PO \n ed_rez - fixed textures of the earth \n doberbull - textures of inventory highlights</text>
+</string>
 <string id="ogse_development">
 <text>OGSE 0.6.9.3 project team</text>
 </string>
