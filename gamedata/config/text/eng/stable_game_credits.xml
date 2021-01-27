@@ -23,14 +23,14 @@
 	<text>Thanks to the people and projects whose achievements we have used</text>
 </string>
 <string id="ogsr_engine_developers_other_names">
-	<text>Im-dex \n abramcumner \n Shoker \n Xottab-DUTY \n ForserX \n qweasdd136963 \n Charsi82 \n \n xrOxygen \n OpenXRay \n X-Ray Engine by Alpet and KD \n CoC-Xray</text>
+	<text>Im-dex \n abramcumner \n Shoker \n Xottab-DUTY \n ForserX \n qweasdd136963 \n SkyLoader \n morrey \n Charsi82 \n \n xrOxygen \n OpenXRay \n X-Ray Engine by Alpet and KD \n CoC-Xray</text>
 </string>
 
 <string id="ogsr_resources_developers">
-	<text>–азработчики OGSR мода</text>
+	<text>The developers OGSR Mod</text>
 </string>
 <string id="ogsr_resources_developers_names">
-	<text>krodin-idea, translation of OGSE to a new engine, optimization and refactoring of scripts, bugfix and much more \n k01jan-new weapons, inventory \n W. A. S. P.-textures, testing \n Alan Waters-testing \n \n Dsh - interesting ideas for scripts and not only \n Haarhus - transfer of monsters from the PO \n ed_rez - fixed textures of the earth \n doberbull - textures of inventory highlights</text>
+	<text>KRodin Ч idea, migration of OGSE to a new engine, optimization and refactoring of scripts, bugfix and much more \n k01jan Ч new weapons, inventory \n W. A. S. P. Ч textures, testing \n Alan Waters Ч testing \n \n Dsh Ч interesting ideas for scripts and not only \n Haarhus Ч transfer of monsters from the CoP \n ed_rez Ч fixed textures of the earth \n doberbull Ч textures of inventory highlights \n CarlKuwait Ч english translation</text>
 </string>
 <string id="ogse_development">
 <text>OGSE 0.6.9.3 project team</text>
