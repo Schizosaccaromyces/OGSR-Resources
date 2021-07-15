@@ -20,20 +20,20 @@
 		<text>Find the entrance to the sarcophagus</text>
 	</string>
 	<string id="klondaik_ending_task_title">
-		<text>Compass artifact: last spurt</text>
+		<text>Klondike artifacts: last spurt</text>
 	</string>
 	<string id="klondaik_ending_task_text_2">
 		<text>Find key for Klondike activation</text>
 	</string>
 	<string id="klondaik_ending_task_text_3">
-		<text>Activate Compass artifact</text>
+		<text>Activate Klondike artifacts</text>
 	</string>
 	<string id="go_to_klondaik_task_desc">
-		<text>Found flashes helped to establish Compass artifact location. But it requires special key for activation which can be found in URR.</text>
+		<text>Found flashes helped to establish Klondike artifacts location. But it requires special key for activation which can be found in URR.</text>
 	</string>
 	<string id="find_klondaik_key_task">
 		<text>Stash with key to Klondike</text>
 	</string>
 	<string id="find_klondaik_task">
-		<text>Compass artifact</text>
+		<text>Klondike artifacts</text>
 	</string>
