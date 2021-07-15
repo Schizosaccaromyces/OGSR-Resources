@@ -216,31 +216,31 @@
 		<text>Flash drive ¹1</text>
 	</string>
 	<string id="klondaik_flash_1_desc">
-		<text>Flash drive ¹1. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹1. Contains information on the whereabouts of the Compass artifact.</text>
 	</string>	
 	<string id="klondaik_flash_2_name">
 		<text>Flash drive ¹2</text>
 	</string>
 	<string id="klondaik_flash_2_desc">
-		<text>Flash drive ¹2. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹2. Contains information on the whereabouts of the Compass artifact.</text>
 	</string>
 	<string id="klondaik_flash_3_name">
 		<text>Flash drive ¹3</text>
 	</string>
 	<string id="klondaik_flash_3_desc">
-		<text>Flash drive ¹3. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹3. Contains information on the whereabouts of the Compass artifact.</text>
 	</string>
 	<string id="klondaik_flash_4_name">
 		<text>Flash drive ¹4</text>
 	</string>
 	<string id="klondaik_flash_4_desc">
-		<text>Flash drive ¹4. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹4. Contains information on the whereabouts of the Compass artifact.</text>
 	</string>
 	<string id="klondaik_flash_5_name">
 		<text>Flash drive ¹5</text>
 	</string>
 	<string id="klondaik_flash_5_desc">
-		<text>Flash drive ¹5. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹5. Contains information on the whereabouts of the Compass artifact.</text>
 	</string>	
 	<string id="af_kolya_name">
 		<text>Unknown artifact</text>
@@ -966,7 +966,7 @@
 		<text>Artifact-key</text>
 	</string>
 	<string id="klondaik_key_desc">
-		<text>An unknown type of artifact. Does not seem to have any effect. According to information from the flash drives, the artifact can activate Klondike of Artifacts.</text>
+		<text>An unknown type of artifact. Does not seem to have any effect. According to information from the flash drives, the artifact can activate Compass artifact.</text>
 	</string>
 	
 	<string id="mil_transponder_name">

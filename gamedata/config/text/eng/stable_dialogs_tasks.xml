@@ -678,7 +678,7 @@
 		<text>Wisher said that the missing part of the code can be found in the house where I originally found Minor.</text>
 	</string>
 	<string id="rad_kvest_dobrozhelatel_get_pda_monolit">
-		<text>Monolith's PDA.</text>
+		<text>"Monolith"'s PDA.</text>
 	</string>
 	<string id="rad_kvest_dobrozhelatel_password">
 		<text>Password for the Radar.</text>
@@ -702,7 +702,7 @@
 		<text>Well, I'll see what I have so I could give you a weapon.</text>
 	</string>
 	<string id="x10_kvest_dobrozhelatel_talk_with_svyaznoy_0">
-		<text>Uh, thank you for saving me. I thought I'd be stuck here forever. We need to get out of here before the Monolith spot us. Are you coming?</text>
+		<text>Uh, thank you for saving me. I thought I'd be stuck here forever. We need to get out of here before "Monolith" spot us. Are you coming?</text>
 	</string>
 	<string id="rad_kvest_dobrozhelatel_talk_with_svyaznoy_dialog_12_1_2_1_1">
 		<text>Damn, look again, maybe you have something more decent?</text>
@@ -741,7 +741,7 @@
 		<text>Oh, Hey! You shouldn't have come here, buddy. You won't get out of here now. Now there're two of us, I'm not so afraid to die.</text>
 	</string>
 	<string id="search_code2_meet_with_svyaznoi_text">
-		<text>Plans have changed, the agent wasn't there, he didn't arrive at the appointed time. His last communique came from the Dead City. This is a dangerous place, I have a suspicion that something is wrong here. It is in our best interest to rescue the agent. Beware of the Monolith, their spies operate throughout the City.</text>
+		<text>Plans have changed, the agent wasn't there, he didn't arrive at the appointed time. His last communique came from the Dead City. This is a dangerous place, I have a suspicion that something is wrong here. It is in our best interest to rescue the agent. Beware of "Monolith", their spies operate throughout the City.</text>
 	</string>
 	<string id="rad_kvest_dobrozhelatel_spawn_letter_in_treasure_text">
 		<text>Perfect! Well, just great! You didn't save Minor, damn it, it's necessary to improvise. Well, what happened, happened. If you need the missing portion of the code - look in the house where Minor was supposed to be.</text>
@@ -873,7 +873,7 @@
 		<text>Where's my gear? Who put me here? What's going on?</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_2">
-		<text>Don't panic. I'll tell you everything. So, in case you haven't noticed, there are a lot of strange things happening in the district. There is a reason for this - the military are planning a special major operation. Frankly, I don't know what they intend to bring into the Zone, but it has the Monolith running scared. In general, they see this as a direct threat to the Zone and to their own very existence. Therefore the Monolith are planning a counter operation whose main objective – is not to allow the device to pass into the Zone. The mercenaries pursue a somewhat different cause - they don't care about the Zone, they just want to steal the device - apparently to fill somebody's order. Thus, the interests of two powerful groups are met, and, most importantly, they don't contradict, but complement each other.</text>
+		<text>Don't panic. I'll tell you everything. So, in case you haven't noticed, there are a lot of strange things happening in the district. There is a reason for this - the military are planning a special major operation. Frankly, I don't know what they intend to bring into the Zone, but it has "Monolith" running scared. In general, they see this as a direct threat to the Zone and to their own very existence. Therefore "Monolith" are planning a counter operation whose main objective – is not to allow the device to pass into the Zone. The mercenaries pursue a somewhat different cause - they don't care about the Zone, they just want to steal the device - apparently to fill somebody's order. Thus, the interests of two powerful groups are met, and, most importantly, they don't contradict, but complement each other.</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_3">
 		<text>Now I know, however. Let's deal with this. We'll have to think - what to do about it. Come on. How do you know all this? How did you get involved, and why did you go to military under the bridge?</text>
@@ -891,7 +891,7 @@
 		<text>Where you a cop?</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_8">
-		<text>Sort of. I have not worked in my profession for many years, I turned a blind eye to all that was happening around me. But now - it's over. I don't do this anymore. There's too much turmoil now to ignore. After all, if the Monolith are frightened of that damn thing the military has dragged in the Zone,  it's possible to assume that it's some sort of weapon. And a powerful weapon at that. If this military weapon fell into the hands of the mercenaries or anyone else, it could cause a lot of problems. This cannot be allowed to happen.</text>
+		<text>Sort of. I have not worked in my profession for many years, I turned a blind eye to all that was happening around me. But now - it's over. I don't do this anymore. There's too much turmoil now to ignore. After all, if "Monolith" are frightened of that damn thing the military has dragged in the Zone,  it's possible to assume that it's some sort of weapon. And a powerful weapon at that. If this military weapon fell into the hands of the mercenaries or anyone else, it could cause a lot of problems. This cannot be allowed to happen.</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_9">
 		<text>Listen, do you really believe that ... How many of them? Twenty, thirty?</text>
@@ -903,7 +903,7 @@
 		<text>Well... Do you believe, that thirty people can cause enough damage to the entire military expedition? Surely the soldiers will have helicopter gun-ships and BTRs to protect them... And their number of personnel ... is not small.</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_12">
-		<text>If only it were so simple. The Monoliths are cunning pricks, they've dug up some psi-unit from an unknown underground laboratory. I don't know in what condition it was, or whether they had to fix it, but it works. And it works only on mutants. The Monolith say that all they need. Mutants have always been abundant in the Dark Valley and the Garbage. Install the unit in the right place, they can provoke a so-called "rutting season". Have you ever seen it?</text>
+		<text>If only it were so simple. The "Monolith"s are cunning pricks, they've dug up some psi-unit from an unknown underground laboratory. I don't know in what condition it was, or whether they had to fix it, but it works. And it works only on mutants. The "Monolith" say that all they need. Mutants have always been abundant in the Dark Valley and the Garbage. Install the unit in the right place, they can provoke a so-called "rutting season". Have you ever seen it?</text>
 	</string>
 	<string id="val_kvest_help_to_scoryi_talk_with_orlov_13">
 		<text>I heard of it, but never seen it.</text>

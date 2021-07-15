@@ -226,7 +226,7 @@
 		<text>Keep on trucking ahead - you'll see everything yourself! Don't you want to see for yourself what's going on there? Well then you're totally...blessed. There must be so many goods there! For example, you heard about the Granter of Wishes, right?</text>
 	</string>
 	<string id="dm_action_info_76">
-		<text>Just like children, for goodness sake! "Wish Granter", "Klondike of Artifacts"... Can't believe my ears!</text>
+		<text>Just like children, for goodness sake! "Wish Granter", "Compass artifact"... Can't believe my ears!</text>
 	</string>
 	<string id="dm_action_info_77">
 		<text>I want to find out myself what's beyond the horizon, man! What if we'll be able to find out, in one blow, all the explanations for why, what and how the Zone is?</text>
@@ -268,7 +268,7 @@
 		<text>Wait! Don't linger, but don't hurry too much either. There are monolithians all around, they know the city through and through, and have put up lots of traps. One ought to be careful.</text>
 	</string>
 	<string id="dm_action_info_95">
-		<text>I'm warning you: for now a large portion of the city is controlled by the Monolith faction. Lots of traps - they know the city like the back of their hand. Keep a sharp eye out and check your weapons.</text>
+		<text>I'm warning you: for now a large portion of the city is controlled by "Monolith". Lots of traps - they know the city like the back of their hand. Keep a sharp eye out and check your weapons.</text>
 	</string>
 	<string id="dm_action_info_96">
 		<text>Oh, what I would gladly do is carpet bombing the entire city. Swine... The only places they're not hiding in seem to be the sand boxes and flower pots. Too many people have already died because of these creeps!</text>
@@ -562,7 +562,7 @@
 		<text>Be careful with the dickheads! They're like cockroaches here, tons of them!</text>
 	</string>
 	<string id="dm_intro_25">
-		<text>Destroy the so-called monolithians as soon as you spot them. They're very dangerous - real fanatics!</text>
+		<text>Destroy the so-called Monolithians as soon as you spot them. They're very dangerous - real fanatics!</text>
 	</string>
 	<string id="dm_intro_26">
 		<text>There are some retards here, they call themselves Monolithians... Or someone else started calling them that - well, no matter. Basically, they're not afraid of pain. If they run out of cartridges they jump on you themselves and literally try to gnaw through your throat. So, if you spot one, don't think twice shoot right away.</text>

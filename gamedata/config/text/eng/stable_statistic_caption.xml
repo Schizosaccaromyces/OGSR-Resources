@@ -121,16 +121,16 @@
 		<text>Soldier, lieutenant</text>
 	</string>
 	<string id="monolith_experienced">
-		<text>Monolithian, experienced</text>
+		<text>"Monolith"ian, experienced</text>
 	</string>
 	<string id="monolith_master">
-		<text>Monolithian, expert</text>
+		<text>"Monolith"ian, expert</text>
 	</string>
 	<string id="monolith_novice">
-		<text>Monolithian, rookie</text>
+		<text>"Monolith"ian, rookie</text>
 	</string>
 	<string id="monolith_veteran">
-		<text>Monolithian, veteran</text>
+		<text>"Monolith"ian, veteran</text>
 	</string>
 	<string id="neutral_experienced">
 		<text>Stalker, trained</text>

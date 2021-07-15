@@ -23,7 +23,7 @@ The right skull answers...
 "Absolutely none, Kolya, nobody has ever seen 'em here..."</text>
 	</string>
 	<string id="joke_stalker_3">
-		<text>A Monolith militant is walking through a wood and sees a bloodsucker. He drops to his knees and preys: 
+		<text>A "Monolith" militant is walking through a wood and sees a bloodsucker. He drops to his knees and preys: 
 "Oh, Great and Allmighty Monolith! Please, fill the soul of this creature of yours with intelligence and religiousness!"
 Instantly, the bloodsucker also drops to his knees and lifts up hands to heavens: 
 "Oh, Great and Wise Monolith! Please, bless the food I'm going to partake of now!"</text>
@@ -161,7 +161,7 @@ The veteran sighs and says:
 "Mmm..."
 "Milk? Want some milk?"
 "Mmmmm...."
-"Monolithians? Monolith fanatics have wounded you?!"
+"Monolithians? "Monolith" fanatics have wounded you?!"
 "Mmmmmmm..... MMMMURDER YOU!!!!!!!!!!!"</text>
 	</string>
 	<string id="joke4_stalker_6">
@@ -266,7 +266,7 @@ Doctor examines the guy.
 		<text>An old woman stands in the market with a "Chernobyl mushrooms for sale" sign. A man goes up to her and asks, "Hey, what are you doing? Who's going to buy Chernobyl mushrooms?" And she tells him, "Why, lots of people. Some for their boss, others for their mother-in-law..."</text>
 	</string>
 	<string id="joke3_stalker_13">
-		<text>>"Hello, stalkers! You are probably going to the Monolith for fulfilment of your wishes?"
+		<text>>"Hello, stalkers! You are probably going to "Monolith" for fulfilment of your wishes?"
 "That's right! You are reading our thoughts!"
 "Nice! "Our thoughts"... Are you sure they are actually YOURS?" - the controller asked venomously...</text>
 	</string>
@@ -2713,7 +2713,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>No, I'll come another another time.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_2">
-		<text>What would you like to hear? I can sing:\n About the Chernobyl Disaster;\n about the Chernobyl Guerrillas;\n about the Monolith Stone; \n Stories I have heard; \n Farewell to the Zone; \n about the Sarcophagus; \n about the City of Chernobyl; \n the Evacuation of the Zone. \n You decide!</text>
+		<text>What would you like to hear? I can sing:\n About the Chernobyl Disaster;\n about the Chernobyl Guerrillas;\n about the Monolith; \n Stories I have heard; \n Farewell to the Zone; \n about the Sarcophagus; \n about the City of Chernobyl; \n the Evacuation of the Zone. \n You decide!</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_3">
 		<text>About the Chernobyl Disaster.</text>
@@ -2722,7 +2722,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>About the Chernobyl Guerrillas.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_5">
-		<text>About the Monolith Stone.</text>
+		<text>About the Monolith.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_6">
 		<text>Stories you have heard.</text>
@@ -2845,7 +2845,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Is this the place?</text>
 	</string>
 	<string id="dik_goto_ochyag_dialog_phrase_2">
-		<text>Behold: before us is the grave where I had buried one of his friends. I know why you needed a "light" artifact - you want to get into the Death-zone to get a part of map that shows the location of the Klondike of artifacts.</text>
+		<text>Behold: before us is the grave where I had buried one of his friends. I know why you needed a "light" artifact - you want to get into the Death-zone to get a part of map that shows the location of the Compass artifact.</text>
 	</string>
 	<string id="dik_goto_ochyag_dialog_phrase_3">
 		<text>How do you know?</text>
@@ -3265,7 +3265,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>At this pace, can you achieve significant results? You appear to be a small group.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_10">
-		<text>Yes, we have a total of nine, but we have agents in almost all parts of the Zone and among all the factions, even in the "Monolith". They try to intercept large consignments of artifacts and to redirect them to the Darkscape, also reconnoitre places of group caches and warehouses, also block deliveries from dealers.</text>
+		<text>Yes, we have a total of nine, but we have agents in almost all parts of the Zone and among all the factions, even in "Monolith". They try to intercept large consignments of artifacts and to redirect them to the Darkscape, also reconnoitre places of group caches and warehouses, also block deliveries from dealers.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_11">
 		<text>So that's why "Duty" is so mad at you. They don't want you to touch the artifacts so they can pass them on to the scientists.</text>

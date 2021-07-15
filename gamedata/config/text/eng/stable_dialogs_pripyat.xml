@@ -7,7 +7,7 @@
 		<text>Okay.</text>
 	</string>
 	<string id="pri_followers_start_dlg_31">
-		<text>Thanks for the help, Marked One. That was a hard fight. We can rest here. If you want to keep going, I'll tell you more about the area. If you go back and turn right you'll reach the bus station. That area is open and not very safe. If you go forward you'll end up in front of the hotel. To the right of it is the Monolith base. Those guys have no limits. Behind the base is the stadium. We were planning to get to the station through it. That's all.</text>
+		<text>Thanks for the help, Marked One. That was a hard fight. We can rest here. If you want to keep going, I'll tell you more about the area. If you go back and turn right you'll reach the bus station. That area is open and not very safe. If you go forward you'll end up in front of the hotel. To the right of it is "Monolith" base. Those guys have no limits. Behind the base is the stadium. We were planning to get to the station through it. That's all.</text>
 	</string>
 	<string id="pri_followers_start_dlg_311">
 		<text>Thank you.</text>
@@ -25,7 +25,7 @@
 		<text>More than enough. While the helicopters attack, I can slip inside unnoticed</text>
 	</string>
 	<string id="final_battle_military_dialog_7">
-		<text>...Of course, the Monolith elite will probably be there in full force. So, let me think. I won't be able to provide any soldiers, our losses in the CNPP operation were too great, almost all we sent were killed. But I have a subordinate operational element of attack helicopters. Will that be enough for you?</text>
+		<text>...Of course, "Monolith" elite will probably be there in full force. So, let me think. I won't be able to provide any soldiers, our losses in the CNPP operation were too great, almost all we sent were killed. But I have a subordinate operational element of attack helicopters. Will that be enough for you?</text>
 	</string>
 	<string id="final_battle_military_dialog_6">
 		<text>Alive and they continue to experiment. They must be stopped at all costs. I'm going to get into the complex and destroy them...</text>
@@ -172,7 +172,7 @@
 		<text>Yes, you're right. I can't make the same mistake twice by going alone, I won't tolerate it.</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_28">
-		<text>Listen, don't be in such a hurry. If their main base is there, then it's most likely their security will be much tighter than what it was at Chernobyl, and most probably be the elite of the Monolith - those who were not completely brainwashed. This is what I advise. If you're going to attack them, you will need serious help. You can try to involve Duty, they are always happy to clear the Zone. And maybe even sweet talk Freedom into helping you. In general, it would be nice to use both of them at once, but then they'd have to reconcile somehow, so as they didn't battle each other in the assault. Well, it could be worth a try to convey the news to the military on the mainland, if you still have a connection with them. They screwed up big time at the CNPP and they're not happy, so it's probable they'll help. If you transfer the coordinates of this base to them, they won't miss opportunity to strike with all their remaining forces. So think it over, which of your allies to ask. And then, let the battle begin.</text>
+		<text>Listen, don't be in such a hurry. If their main base is there, then it's most likely their security will be much tighter than what it was at Chernobyl, and most probably be the elite of "Monolith" - those who were not completely brainwashed. This is what I advise. If you're going to attack them, you will need serious help. You can try to involve Duty, they are always happy to clear the Zone. And maybe even sweet talk Freedom into helping you. In general, it would be nice to use both of them at once, but then they'd have to reconcile somehow, so as they didn't battle each other in the assault. Well, it could be worth a try to convey the news to the military on the mainland, if you still have a connection with them. They screwed up big time at the CNPP and they're not happy, so it's probable they'll help. If you transfer the coordinates of this base to them, they won't miss opportunity to strike with all their remaining forces. So think it over, which of your allies to ask. And then, let the battle begin.</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_27">
 		<text>What is there to do. I plan to kill them. Everyone. For all that they did to me. I remembered that I found a way how to get to their base.</text>
@@ -205,7 +205,7 @@
 		<text>What do you mean? Why are they there?</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_17">
-		<text>I almost got away with it, but I was caught in the end and put back into circulation. But before that, I found out that yes, the CNPP and the Monolith are one huge smoke screen. There is nothing there. It's a trap for fools.</text>
+		<text>I almost got away with it, but I was caught in the end and put back into circulation. But before that, I found out that yes, the CNPP and "Monolith" are one huge smoke screen. There is nothing there. It's a trap for fools.</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_16">
 		<text>You shouldn't have taken the risk.</text>
@@ -223,7 +223,7 @@
 		<text>Well, did you find out?</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_11">
-		<text>No, it had nothing to do with the Brain Scorcher. I've been trying to figure out what the Monolith were doing at the Chernobyl NPP.</text>
+		<text>No, it had nothing to do with the Brain Scorcher. I've been trying to figure out what "Monolith" were doing at the Chernobyl NPP.</text>
 	</string>
 	<string id="pri_trader_dialog_4_9_10">
 		<text>What does that mean, the Radar got you?</text>
@@ -265,7 +265,7 @@
 		<text>Oh, shit, my head...</text>
 	</string>
 	<string id="pri_trader_dialog_4_6">
-		<text>Hmm. In general, they're not at the Chernobyl NPP, it's not their main base. More precisely, if it was, you wouldn't have been able to get that far alone. You figured it out, then told me before you disappeared, saying that Chernobyl is one big smokescreen to lure anyone who tries to get to the truth about what is happening in the Zone into a trap. Supposedly, the legend of the Wish Granter is not real, it was intentionally made up so that stalkers who would try to get into the CNPP, would  fall into the clutches of the Monolith. You threatened to tell everyone what actually happens there and how to get to the bottom of who is behind this. Well, we went there, and you disappeared.</text>
+		<text>Hmm. In general, they're not at the Chernobyl NPP, it's not their main base. More precisely, if it was, you wouldn't have been able to get that far alone. You figured it out, then told me before you disappeared, saying that Chernobyl is one big smokescreen to lure anyone who tries to get to the truth about what is happening in the Zone into a trap. Supposedly, the legend of the Wish Granter is not real, it was intentionally made up so that stalkers who would try to get into the CNPP, would  fall into the clutches of "Monolith". You threatened to tell everyone what actually happens there and how to get to the bottom of who is behind this. Well, we went there, and you disappeared.</text>
 	</string>
 	<string id="pri_trader_dialog_4_5">
 		<text>Yeah, but I don't remember anything about it.</text>

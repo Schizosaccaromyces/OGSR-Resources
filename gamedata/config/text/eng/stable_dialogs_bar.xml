@@ -861,13 +861,13 @@
 		<text>Go on... Tell me more...</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_81111111">
-		<text>When the Zone just appeared many people got trapped inside and became cut off from the outside world. Most of them died pretty quickly but there were a few lucky survivors who tried to do something about it. One of these survivors found himself by the station and noticed some strange light inside. With no way back he decided to try to get closer. He saw the broken roof of the sarcophagus and the light coming out through it. He climbed up the wall and looked inside. Among the debris of metal and molten concrete there lay a massive black rock. It was the Monolith. The stalker managed to shake off the "spell" and realised that he had climbed very close to the sarcophagus, which was highly radioactive. He was scared to death but through the fear he could sense the Monolith calling him. The Monolith called him and he came to see strange, unbelievable things about the Monolith inside his head...</text>
+		<text>When the Zone just appeared many people got trapped inside and became cut off from the outside world. Most of them died pretty quickly but there were a few lucky survivors who tried to do something about it. One of these survivors found himself by the station and noticed some strange light inside. With no way back he decided to try to get closer. He saw the broken roof of the sarcophagus and the light coming out through it. He climbed up the wall and looked inside. Among the debris of metal and molten concrete there lay a massive black rock. It was the Monolith. The stalker managed to shake off the "spell" and realised that he had climbed very close to the sarcophagus, which was highly radioactive. He was scared to death but through the fear he could sense the Monolith calling him. It called him and he came to see strange, unbelievable things inside his head...</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_811111111">
 		<text>Cool...</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_811111112">
-		<text>I don't know what's true in this story and what's not, but the point is the guy made a wish which came true, while the Zone grew by 5 kilometres. It seems the Zone gobbles up more land for every wish that is granted... But that isn't going to stop hotshots like you. They keep trying to break through with their precious little wishes in their hearts...</text>
+		<text>I don't know what's true in this story and what's not, but the point is, the guy made a wish which came true, and the Zone grew by 5 kilometres. It seems the Zone gobbles up more land for every wish that is granted... But that isn't going to stop hotshots like you. They keep trying to break through with their precious little wishes in their hearts...</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_812">
 		<text>I'm more interested in other things at the moment.</text>
@@ -936,7 +936,7 @@
 		<text>Thank you.</text>
 	</string>
 	<string id="bar_bar_osvedomitel_reward_3">
-		<text>Here's what I got to say. You've helped Freedom and made the right choice. Your fate is now tied with that of Freedom, and Duty has you in its sights. I'd say you ought to go to the abandoned military base and join the ranks of Freedom - they need good fighters. There will be shoot outs between the groups soon and whoever chooses the right side won't regret it.</text>
+		<text>Here's what I got to say. You've helped Freedom and made the right choice. Your fate is now tied with that of Freedom, and Duty has you in its sights. I'd say you ought to go to the abandoned military base and join the ranks of Freedom - they need good fighters. There will be shootouts between the groups soon and whoever chooses the right side won't regret it.</text>
 	</string>
 	<string id="bar_bar_osvedomitel_start_11">
 		<text>I work as a dealer of information. I sell important info and buy charts, documents and lab records. My information is valuable and very useful to the one who possesses it!</text>
@@ -1765,7 +1765,7 @@
 		<text>No, never... Who is he?</text>
 	</string>
 	<string id="bar_barman_pivo_5">
-		<text>Oh, Marked One! This is the only stalker in the Zone, who cared for others. He gave money to those that were robbed of their loot by bandits, and even bought them drinks. One day he came to me and said that he was leaving to join the Monolith, and asked me to pray for his happiness. He left me all his money and artifacts. He said that if he didn't return the following week for his property, then I was to use it to treat stalkers to beer. Now, I treat you to one. </text>
+		<text>Oh, Marked One! This is the only stalker in the Zone, who cared for others. He gave money to those that were robbed of their loot by bandits, and even bought them drinks. One day he came to me and said that he was leaving to join "Monolith", and asked me to pray for his happiness. He left me all his money and artifacts. He said that if he didn't return the following week for his property, then I was to use it to treat stalkers to beer. Now, I treat you to one. </text>
 	</string>
 	<string id="bar_barman_pivo_6">
 		<text>I've heard of him now... Let's have a beer!</text>
@@ -2172,7 +2172,7 @@
 		<text>What kind of flash drive?</text>
 	</string>
 	<string id="dolg_sergant_dialog_1_phrase_44">
-		<text>A flash drive with a piece of a map... Whith directions to a Klondike of artifacts...</text>
+		<text>A flash drive with a piece of a map... Whith directions to a Compass artifact...</text>
 	</string>
 	<string id="dolg_sergant_dialog_1_phrase_45">
 		<text>Where did you get it from? Speak up, or I'll shoot you down! There are no witnesses around, I'll feed your remains to the mutants and no one will be any the wiser! Talk!</text>
@@ -2298,7 +2298,7 @@
 		<text>Why didn't you seek help from Duty, for example?</text>
 	</string>
 	<string id="izgioy_lider_start_dialog_phrase_10">
-		<text>Because I wasn't allowed through the Duty outpost! They were afraid that I had been infected by my patients. If not for me, these poor creatures would have been shot long ago! These poor men are in a terrible state, they rave about a Klondike of artifacts...</text>
+		<text>Because I wasn't allowed through the Duty outpost! They were afraid that I had been infected by my patients. If not for me, these poor creatures would have been shot long ago! These poor men are in a terrible state, they rave about a Compass artifact...</text>
 	</string>
 	<string id="izgioy_lider_start_dialog_phrase_11">
 		<text>I think that I should deal with these mercenaries.</text>
