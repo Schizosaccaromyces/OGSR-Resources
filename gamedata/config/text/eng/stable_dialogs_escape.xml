@@ -2068,7 +2068,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Old man, ask the riddle.</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_9">
-		<text>Barkeep decided one morning that it would be necessary to mow the grass in the fields near the Bar so that any approaching mutants could be spotted. He then hired some stalkers, and they began to mow. One field was twice the size of the other. For half a day, the stalker team mowed the larger field. After that, they split into two: The first group remained at the large field and kept mowing it until they finished at the end of the evening; the second group of stalkers mowed the smaller field, and by the evening, there was a plot left that could be mown the next day by one stalker on his own. How many stalkers did he hire to mow the grass?</text>
+		<text>Barkeep decided one morning that it would be necessary to mow the grass in the fields near the Bar so that any approaching mutants could be spotted. He then hired some stalkers, and they began to mow. One field was twice the size of the other. For half a day, the stalker team mowed the larger field. After that, they split into two: The first group remained at the large field and kept mowing it until they finished at the end of the evening; the second group of stalkers mowed the smaller field, and by the evening, there was a plot left in the second field that could be fully mown the next day by one stalker, on his own. How many stalkers did he hire to mow the grass?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_10">
 		<text>It takes 10 days for one stalker to go from the Cordon to Pripyat and another, 15 days using the same route. If both they both set off in opposite directions at the same time, one from Pripyat, and the other from the Cordon, after how many days they will meet?</text>
@@ -2095,22 +2095,22 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I have two pockets with money in them; when I shift one rouble from one pocket to another, the amount in each pocket will be equal, and when I shift the rouble back to the second pocket, what's in the first will be more than half what's in the second. How many roubles are in each pocket?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_18">
-		<text>Professor Kruglov gave four irradiated stalkers 2006 antirad tablets. Duty received one more than Freedom, the mercenary, one more than Duty, and the Loner - one more than the mercenary. How many tablets did the Loner receive?</text>
+		<text>Professor Kruglov gave four irradiated stalkers 2006 antirad tablets. The Duty soldier received one more than the Freedom member; the mercenary, one more than the Duty soldier, and the Loner - one more than the mercenary. How many tablets did the Loner receive?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_19">
 		<text>If three Chernobyl cats can eat three Chernobyl rats in three minutes, then how long will it take thirty cats to eat thirty rats?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_20">
-		<text>In the Dark Valley was a herd of pseudo-giants, a pack of blind dogs and a bunch of Chernobyl cats. There were more dogs than pseudo-giants. Between the dogs and the giants there was a total of 100 head and legs together. Also the total of dogs and giants together was three times more than cats. How many cats were in the Dark Valley?</text>
+		<text>In the Dark Valley was a herd of pseudo-giants, a pack of blind dogs and a bunch of Chernobyl cats. There were more dogs than pseudo-giants. Between the dogs and the giants there was a total of 100 heads and legs put together. Also the total number of dogs and giants together was three times more than the number of cats. How many cats were there in the Dark Valley?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_21">
-		<text>A Duty squad got into a bit of bother: while crossing a river, two out of the three soldiers got their cartridges wet, so that some of them turned out to be unfit for use. The three warriors divided equally between themselves what was left of their ammunition. After everyone made four shots, their combined total of cartridges, was the amount each had received at the time of sharing. How many suitable cartridges did the Duty member share?</text>
+		<text>A Duty squad got into a bit of bother: while crossing a river, two out of the three soldiers got all their cartridges wet, and these became unusable. The three warriors divided equally between themselves what was left of their ammunition. After everyone made four shots, their combined total of cartridges, was the amount each had received at the time of sharing. How many suitable cartridges did the Duty member share?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_22">
 		<text>Sidorovich makes a deal with a Stalker-hunter and promises him 0.5 roubles for every pseudo dog skin he brings him and 3 roubles for every wild boar skin. He pays 10 roubles for a chimera skin. "Well," said the stalker, "I'll get you all the skins for 100 roubles. You will receive exactly 100 pieces. Can you tell me, how may pseudo dog, wild boar and chimera hides should I bring you?"</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_23">
-		<text>30 bloodsuckers live inside the X-18 laboratory, which are gradually eating each other to death. A bloodsucker is considered well fed, if he has eaten three of his relatives. What is the greatest number of bloodsuckers can be satisfied?</text>
+		<text>30 bloodsuckers live inside the X-18 laboratory, which are gradually eating each other to death. A bloodsucker is considered well fed, if he has eaten three of his relatives. What is the greatest number of bloodsuckers that can be satisfied in the same meal?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_24">
 		<text>One veteran stalker can drink a keg of beer on his own in 14 days, but along with his buddy it takes them just 10 days. How many days will it take his buddy to drink a keg of beer by himself?</text>
@@ -2119,7 +2119,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>A stalker entered the 100 Rads Bar and asked the bartender for a glass of water. They had never met before. The bartender pulled out a gun from under the counter and pointed it at the Stalker. The stalker then said "thank you" and left. What had just happened?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_26">
-		<text>Five stalkers, three veterans and two novices equally share a loot they have earned during a campaign. In the loot there were three artifacts. They couldn't be divided, so they were taken by the three veteran stalkers. Each of veterans paid 80 roubles to the novices. The novices divided this money among themselves, and then all five stalkers had an equal amount. How much were the artifacts worth?</text>
+		<text>Five stalkers, three veterans and two novices equally share a loot they have earned during a campaign. In the loot there were three artifacts. They couldn't be divided, so they were taken by the three veteran stalkers. Each of veterans paid 80 roubles to the novices. The novices then divided this money among themselves, and then all five stalkers had an equal amount of valuables. How much were the artifacts worth?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_27">
 		<text>How many fingers are on a controller's hand?</text>
@@ -4662,10 +4662,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>The moonshine stills would not only be in the Dead City, but in villages, and on farms surrounding it.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_18">
-		<text>Could be there. But in the cities they were set up, not just for local use, but also for sale. So, I would be easier looking for the device in the city.</text>
+		<text>Could be there. But in the cities they were many set up, not just for local use, but also for sale. So, I would be easier looking for the device in the city.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_19">
-		<text>But where? The town is a small, but it would be like searching for a needle in a haystack.</text>
+		<text>But where? The town is small, but it would be like searching for a needle in a haystack.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_20">
 		<text>I'll give you a hint. Search the basements and the attics of buildings. Moonshining was illegal so the stills were hidden in out-of-the-way places.</text>
