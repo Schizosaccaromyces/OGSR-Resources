@@ -92,7 +92,7 @@
 	</string>
 <!-- 7.62x54mmR 7N1 -->
 	<string id="ammo-7.62x54-7h1">
-		<text>7.62x54mmR 7N1 rounds</text>
+		<text>7.62x54mmR 7N1</text>
 	</string>
 	<string id="ammo-7.62x54-7h1_s">
 		<text>7.62x54R 7N1</text>
@@ -112,7 +112,7 @@
 	</string>
 <!-- 7.62x54mmR 7N14 -->
 	<string id="ammo-7.62x54-7h14">
-		<text>7.62x54mmR 7N14 rounds</text>
+		<text>7.62x54mmR 7N14</text>
 	</string>
 	<string id="ammo-7.62x54-7h14_s">
 		<text>7.62x54R 7N14</text>

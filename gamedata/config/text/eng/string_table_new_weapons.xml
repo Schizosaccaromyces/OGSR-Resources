@@ -134,7 +134,7 @@
 	</string>
 <!-- // -->
 	<string id="ammo-7.62x54ap">
-		<text>7.62õ54mmR 7N26 cartridges</text>
+		<text>7.62õ54mmR 7N26</text>
 	</string>
 	<string id="ammo-7.62x54ap_s">
 		<text>7.62õ54mmR 7N26</text>
@@ -147,7 +147,7 @@
 		<text>7.62õ54mmR 7N14</text>
 	</string>
 	<string id="ammo-7.62x54-7h14_s">
-		<text>7.62õ54mmR 7N14 cartridges</text>
+		<text>7.62õ54mmR 7N14</text>
 	</string>
 	<string id="enc_weapons_ammo-7.62x54-7h14">
 		<text>7.62õ54mmR 7N14 AP armor-piercing sniper rifle cartridge. In 1990 there was a modernization program for 7.62x54mmR cartridges. One of the goals was to improve piercing ability for bullet. 7N14 sniper rifle cartridge has improved piercing ability and accuracy.</text>
