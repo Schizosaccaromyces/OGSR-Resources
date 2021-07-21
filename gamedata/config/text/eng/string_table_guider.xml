@@ -52,13 +52,13 @@
 	</string>
 <!-- locations names -->
 	<string id="guider_esc_lager">
-		<text>Escape. Novice camp.</text>
+		<text>Cordon. Novice camp.</text>
 	</string>
 	<string id="guider_esc_bridge">
-		<text>Escape. Army blockpost under the bridge.</text>
+		<text>Cordon. Army checkpoint under the bridge.</text>
 	</string>
 	<string id="guider_esc_to_garbage">
-		<text>Escape. Blockpost near the road to Garbage.</text>
+		<text>Cordon. Checkpoint, near the road to Garbage.</text>
 	</string>
 	<string id="guider_garb_junk_yard">
 		<text>Garbage. Camp near abandoned vehicles.</text>
@@ -85,7 +85,7 @@
 		<text>Dark Valley. Bandit base.</text>
 	</string>
 	<string id="guider_darval_farm">
-		<text>Darkvalley. Farm camp.</text>
+		<text>Dark Valley. Farm camp.</text>
 	</string>
 	<string id="guider_darkscape_bridge">
 		<text>Darkscape. Ruined bridge.</text>

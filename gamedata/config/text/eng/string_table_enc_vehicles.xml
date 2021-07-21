@@ -166,10 +166,10 @@ Items required for use: heavy accumulator battery, fuel.</text>
 		<text>Got Moskvitch 412. It is in abandoned car camp.</text>
 	</string>
 	<string id="uaz_garb_sidor_desc">
-		<text>There is UAZ in Garbage. It'll stay near the ruins against Duty blockpost.</text>
+		<text>There is an UAZ in Garbage. It'll be near the ruins, close to the Duty checkpoint.</text>
 	</string>
 	<string id="uaz_agr_sidor_desc">
-		<text>Can deliver Goat. You can get it near railroad tunnel.</text>
+		<text>Can deliver a Goat. You can get it near the railroad tunnel.</text>
 	</string>
 	<string id="niva_agr_sidor_desc">
 		<text>Maybe Niva. You can find it there... On the road near the exit of insitute...</text>

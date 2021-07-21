@@ -225,7 +225,7 @@
 	</string>
 
 	<string id="strange_zone1_charged_tip">
-		<text>%c[255,255,118,118]Anomal zone on Escape: sensor is indicating artifact presence%c[default]</text>
+		<text>%c[255,255,118,118]Anomal zone on Cordon: sensor is indicating artifact presence%c[default]</text>
 	</string>
 	<string id="strange_zone2_charged_tip">
 		<text>%c[255,255,118,118]Anomal zone on Garbage: sensor is indicating artifact presence%c[default]</text>
