@@ -939,8 +939,8 @@
 		<text>AK102-2 Custom</text>
 	</string>
 	<string id="enc_weapons1_wpn-ak102_custom">
-		<text>%c[255,1,255,255]Тип боеприпаса: %c[default] \n%c[255,1,255,255]• %c[default] 5,56х45 мм FMJ - основной \n%c[255,1,255,255]• %c[default] 5,56х45 мм AP - бронебойный \n
-		5,56-мм автомат Калашникова малагабаритный (6П44-02). АК101 является экспортной модификацией АК74М под боеприпас НАТО, для унификации производства сохранён ствол с 4 нарезами (для 5,56-мм характерны 6). В АК102 по сравнению с АК101 уменьшена длинна и масса, что привело к уменьшению прицельной дальности и кучности огня. Ствол укорочен в меньшей степени, чем у АКС74У, чтобы не переносить назад газовую камеру и не укорачивать шток поршня. АК102 имеет штатное боковое крепление типа «ласточкин хвост» справа на ствольной коробке для установки прицелов. АК102-2 отличается УСМ с дополнительным режимом с отсечкой по 3 выстрела. На данный образец АК102-2 установлен набор Custom АК Kit, включающий телескопический приклад, пистолетную анатомическую рукоятку и цевьё с нижним стандартным для стран НАТО креплением - планкой Пикатинни (Picatinny rail).</text>
+		<text>%c[255,1,255,255]Type of ammunition: %c[default] \n%c[255,1,255,255]- %c[default] 5.56x45 mm FMJ - basic \n%c[255,1,255,255]- %c[default] 5.56x45 mm AP - armor-piercing \n
+		\n 5.56mm Kalashnikov compact assault rifle (6P44-02). The AK101 is a modification of the AK74M for NATO-standard 5.56 ammunition, intended for export. Compared with the AK101, the AK102 has a shorter barrel and lower weight, leading to a decrease in effective range and accuracy of fire. The barrel is not as short as an AKS74U's, allowing for use of a full-length gas chamber and piston rod. The rifle also has a "dovetail" mount on the side of the receiver for mounting optics. "AK102-2" designation denotes a different firing mechanism allowing for 3-round bursts. This particular model is fitted with a telescopic buttstock, anatomical pistol grip and a NATO-standard Picatinny rail on the foregrip- this however prevents use of a GP-25 grenade launcher.</text>
 	</string>
 <!-- // --><!-- // --><!-- // -->
 <string id="wpn-aek">
