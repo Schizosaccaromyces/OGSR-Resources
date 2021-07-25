@@ -146,7 +146,7 @@
 		<text>Note</text>
 	</string>
 	<string id="item_zapis_a_case_desc">
-		<text>If you're the one I think you are, then you know, where Strelok's stash is. There you'll find the key-code for this case. And if i'm mistaken about your identity, then you better stay out of this matter for your own safety. Be aware: the main switch in the X-10 lab is booby trapped and connected to tanks with nerve gas. If disabled by a stranger, all the lab will blow up and the nerve gas will begin to fill all the rooms. Instructions for disabling the switch are located in the case which is protected as well: there's a ceramic flask with compressed "Witch's Jelly" which will be released in case of an unauthorized attempt to open the lid. All the data (and the cracksman) will then be destroyed. So, if you're a stranger - leave the case and walk your way.</text>
+		<text>If you're the one I think you are, then you know, where Strelok's stash is. There you'll find the key-code for this case. And if i'm mistaken about your identity, then you better stay out of this matter for your own safety. Be aware: the main switch in the X-10 lab is booby trapped and connected to tanks with nerve gas. If disabled by an unauthorized stranger, all the lab will blow up and the nerve gas will begin to fill all the rooms. Instructions for disabling the switch are located in the case which is protected as well: there's a ceramic flask with compressed "Witch's Jelly" which will be released in case of an unauthorized attempt to open the lid. All the data (and the cracksman) will then be destroyed. So, if you're a stranger - leave this case and walk your way.</text>
 	</string>
 	<string id="item_zapis_2_a_case_desc">
 		<text>If you're reading this, than I was right about you: you're exactly the person I hoped. But I still have some doubts about you, though I hope they are unnecessary.\nThere is only one part of the code inside the case. Messenger has the other part. Meet him by the old village near the "Freedom" base.\nLooks like Monolithians declared war on you, heh, like in those good old times. I can't help you so far, as I have so many enemies now. You don't need excessive attention. Hope, you'll recognize me when we meet.\n Case password: 20061204</text>
@@ -164,7 +164,7 @@
 		<text>Part of the case code</text>
 	</string>
 	<string id="item_pol_code_of_case_desc">
-		<text>First part of the code to the case: "cnfkrth"</text>
+		<text>First part of the code to the laptop at the Radar control room: "cnfkrth"</text>
 	</string>
 	
 	<string id="item_pda_scoryi_name">
