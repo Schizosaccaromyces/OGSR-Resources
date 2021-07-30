@@ -187,7 +187,7 @@
 		<text>Professor's note</text>
 	</string>
 	<string id="prof_zapiska_desc">
-		<text>Professor:\n"Borov, I'm sending a note to you to keep you informed. Kulgaviy wants all the money for himself, so we need to have him killed. He's currently sitting in a ravine on the northern farm, together with four men, two of them with heavy weapons and armor. Make sure that neither he nor his subordinates learn of my affairs or the situation we are all in. Regards.\n Oh, and also: what the hell is up with the fourth flash drive, (something about a scandal at the sawmill and an old hunter). We ought to smoke him, but there's no time."</text>
+		<text>Professor:\n"Borov, I'm sending a note to you to keep you informed. Kulgaviy wants all the money for himself, so we need to have him killed. He's currently sitting in the northern farm of the Darkscape, together with four men, two of them with heavy weapons and armor. Make sure that neither he nor his subordinates learn of my affairs or the situation we are all in. Regards.\n Oh, and also: what the hell is up with the fourth flash drive, (something about a scandal at the sawmill and an old hunter). We ought to smoke him, but there's no time."</text>
 	</string>
 
 	<string id="item_arsenal_key_name">
@@ -216,31 +216,31 @@
 		<text>Flash drive ¹1</text>
 	</string>
 	<string id="klondaik_flash_1_desc">
-		<text>Flash drive ¹1. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹1. Contains information on the whereabouts of the Klondike artifacts.</text>
 	</string>	
 	<string id="klondaik_flash_2_name">
 		<text>Flash drive ¹2</text>
 	</string>
 	<string id="klondaik_flash_2_desc">
-		<text>Flash drive ¹2. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹2. Contains information on the whereabouts of the Klondike artifacts.</text>
 	</string>
 	<string id="klondaik_flash_3_name">
 		<text>Flash drive ¹3</text>
 	</string>
 	<string id="klondaik_flash_3_desc">
-		<text>Flash drive ¹3. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹3. Contains information on the whereabouts of the Klondike artifacts.</text>
 	</string>
 	<string id="klondaik_flash_4_name">
 		<text>Flash drive ¹4</text>
 	</string>
 	<string id="klondaik_flash_4_desc">
-		<text>Flash drive ¹4. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹4. Contains information on the whereabouts of the Klondike artifacts.</text>
 	</string>
 	<string id="klondaik_flash_5_name">
 		<text>Flash drive ¹5</text>
 	</string>
 	<string id="klondaik_flash_5_desc">
-		<text>Flash drive ¹5. Contains information on the whereabouts of the Klondike of artifacts.</text>
+		<text>Flash drive ¹5. Contains information on the whereabouts of the Klondike artifacts.</text>
 	</string>	
 	<string id="af_kolya_name">
 		<text>Unknown artifact</text>
@@ -966,7 +966,7 @@
 		<text>Artifact-key</text>
 	</string>
 	<string id="klondaik_key_desc">
-		<text>An unknown type of artifact. Does not seem to have any effect. According to information from the flash drives, the artifact can activate Klondike of Artifacts.</text>
+		<text>An unknown type of artifact. Does not seem to have any effect. According to information from the flash drives, the artifact can activate Klondike artifacts.</text>
 	</string>
 	
 	<string id="mil_transponder_name">

@@ -6,31 +6,31 @@
   <text>Your belt can only hold one '%s'</text>
 </string>
 <string id="ui_inventory_art_burn_warning">
-  <text>Don't wear a belt of artifacts with a total fire protection exceeds %4.2f%% - you may be burned alive!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined fire protection greater than %4.2f%% - you may burn alive!</text>
 </string>
 <string id="ui_inventory_art_strike_warning">
-  <text>Don't wear a belt of artifacts with a total impact protection exceeds %4.2f%% - you would die from the hardening of internal organs!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined impact protection greater than %4.2f%% - you would die from internal organ hardening!</text>
 </string>
 <string id="ui_inventory_art_shock_warning">
-  <text>Don't wear a belt of artifacts with a total electric protection exceeds %4.2f%% - the static discharges from them will kill you!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined electric protection greater than %4.2f%% - the static discharges from them will kill you!</text>
 </string>
 <string id="ui_inventory_art_wound_warning">
-  <text>Don't wear a belt of artifacts with a total rupture protection exceeds %4.2f%% - the stress will tear your muscles apart!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined rupture protection greater than %4.2f%% - the stress will tear your muscles apart!</text>
 </string>
 <string id="ui_inventory_art_radiation_warning">
-  <text>Don't wear a belt of artifacts with a total radiation protection exceeds  %4.2f%% - you'd be much more irradiated!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined radiation protection greater than %4.2f%% - you'd be much more irradiated!</text>
 </string>
 <string id="ui_inventory_art_telepatic_warning">
-  <text>Don't wear a belt of artifacts with a total psy protection exceeds %4.2f%% - you could go insane!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined psychic protection greater than %4.2f%% - you could go insane!</text>
 </string>
 <string id="ui_inventory_art_chemical_burn_warning">
-  <text>Don't wear a belt of artifacts with a total protection against chemical burns exceeds %4.2f%% - you would die from irreversible changes in blood composition!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined protection against chemical burns greater than %4.2f%% - you would die from irreversible changes in blood composition!</text>
 </string>
 <string id="ui_inventory_art_explosion_warning">
-  <text>Don't wear a belt of artifacts with a total explosion protection exceeds %4.2f%% - you would die from the hardening of internal organs!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined explosion protection greater than %4.2f%% - you would die from internal organ hardening</text>
 </string>
 <string id="ui_inventory_art_fire_wound_warning">
-  <text>Don't wear a belt of artifacts with a total firearms protection exceeds %4.2f%% - you would die from the hardening of soft tissue!</text>
+  <text>Don't wear artifacts in your belt which add up to a combined firearms protection greater than %4.2f%% - you would die from internal organ hardening</text>
 </string>
 <string id="msg_crash_1_text">
   <text>-----------------------------</text>
@@ -285,7 +285,7 @@
   <text>Stalker</text>
 </string>
 <string id="univ_comm_names_monolith_text">
-  <text>Monolith</text>
+  <text>"Monolith"</text>
 </string>
 <string id="univ_comm_names_military_text">
   <text>Military</text>
@@ -423,7 +423,7 @@
   <text>You died from the premature activation of the body-heat warmed artifact while taking it from your belt. Remember, artifacts can only be taken in your hands from the backpack!</text>
 </string>
 <string id="inventory_art_warning_pattern_text">
-  <text>Don't wear a belt of artifacts with a total %s protection exceeding %s - %s</text>
+  <text>Don't wear artifacts in your belt which add up to a combined %s protection exceeding %s - %s</text>
 </string>
 <string id="inventory_fire_protect_text">
   <text>fire</text>
@@ -1029,7 +1029,7 @@
   <text>Radar</text>
 </string>
 <string id="ogse_car_trade_desc_11_text">
-  <text>At the Radar? There was a little something there...  Who knows what's on the tray, but the car's yours. It'll drive you straight through the Monolith checkpoint. Full service, so to speak.</text>
+  <text>At the Radar? There was a little something there...  Who knows what's on the tray, but the car's yours. It'll drive you straight through "Monolith" checkpoint. Full service, so to speak.</text>
 </string>
 <string id="ogse_dbg_tel_1_text">
   <text>Error on X axis</text>
@@ -1425,7 +1425,7 @@
   <text>Gather forces to storm the lab</text>
 </string>	
 <string id="final_assemble_force_text_desc">
-  <text>I know the location of the C-Consciousness lab, but to go there alone would be suicide. It is certainly protected by the elite of the Monolith, with the best equipment and weapons. I must speak with the head of every group, perhaps I'll be able to form a strike force that can distract the main protection force long enough for me to penetrate the complex.</text>
+  <text>I know the location of the C-Consciousness lab, but to go there alone would be suicide. It is certainly protected by the elite of "Monolith", with the best equipment and weapons. I must speak with the head of every group, perhaps I'll be able to form a strike force that can distract the main protection force long enough for me to penetrate the complex.</text>
 </string>	
 <string id="final_assemble_force_dolg_text">
   <text>Request the support of the Duty</text>

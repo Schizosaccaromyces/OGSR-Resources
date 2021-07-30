@@ -1,7 +1,7 @@
 wpn_l85_carryhandle \n
 ammo_5.56x45_ap \n
-wpn_beretta \n
-ammo_9x19_pbp \n
+wpn_apb \n
+ammo_9x18_pmm \n
 grenade_f1 \n
 
 device_torch \n

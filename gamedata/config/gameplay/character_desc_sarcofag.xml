@@ -20,11 +20,11 @@
         <supplies>
             [spawn] \n
 			wpn_fn2000 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -53,11 +53,11 @@
         <supplies>
             [spawn] \n
 			wpn_fn2000 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -86,11 +86,11 @@
         <supplies>
             [spawn] \n
 			wpn_fn2000 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -119,11 +119,11 @@
         <supplies>
             [spawn] \n
 			wpn_fn2000 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -152,11 +152,11 @@
         <supplies>
             [spawn] \n
 			wpn_fn2000 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -192,7 +192,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -225,7 +225,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -258,7 +258,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -292,7 +292,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -325,7 +325,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -358,7 +358,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -391,7 +391,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -422,7 +422,7 @@
             [spawn] \n
 			wpn_gauss \n
 			ammo_gauss \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -451,10 +451,10 @@
         <supplies>
 			[spawn] \n
 			wpn_m16a1_sk1 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -483,10 +483,10 @@
         <supplies>
 			[spawn] \n
 			wpn_m16a1_sk1 \n
-			ammo_5.56x45_ss190 \n
+			ammo_5.56x45_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -515,11 +515,11 @@
         <supplies>
 			[spawn] \n
 			wpn_fn2000 = 1, launcher \n
-            ammo_5.56x45_ss190 \n
+            ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-            grenade_f1 = 2 \n
+            grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -548,11 +548,11 @@
         <supplies>
 			[spawn] \n
 			wpn_fn2000 = 1, launcher \n
-            ammo_5.56x45_ss190 \n
+            ammo_5.56x45_ap \n
 			ammo_m209 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-            grenade_f1 = 2 \n
+            grenade_f1 = 1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -586,7 +586,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 		</supplies>
@@ -618,7 +618,7 @@
 			ammo_7.62x54_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 		</supplies>

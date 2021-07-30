@@ -23,7 +23,7 @@ The right skull answers...
 "Absolutely none, Kolya, nobody has ever seen 'em here..."</text>
 	</string>
 	<string id="joke_stalker_3">
-		<text>A Monolith militant is walking through a wood and sees a bloodsucker. He drops to his knees and preys: 
+		<text>A "Monolith" militant is walking through a wood and sees a bloodsucker. He drops to his knees and preys: 
 "Oh, Great and Allmighty Monolith! Please, fill the soul of this creature of yours with intelligence and religiousness!"
 Instantly, the bloodsucker also drops to his knees and lifts up hands to heavens: 
 "Oh, Great and Wise Monolith! Please, bless the food I'm going to partake of now!"</text>
@@ -161,7 +161,7 @@ The veteran sighs and says:
 "Mmm..."
 "Milk? Want some milk?"
 "Mmmmm...."
-"Monolithians? Monolith fanatics have wounded you?!"
+"Monolithians? "Monolith" fanatics have wounded you?!"
 "Mmmmmmm..... MMMMURDER YOU!!!!!!!!!!!"</text>
 	</string>
 	<string id="joke4_stalker_6">
@@ -266,7 +266,7 @@ Doctor examines the guy.
 		<text>An old woman stands in the market with a "Chernobyl mushrooms for sale" sign. A man goes up to her and asks, "Hey, what are you doing? Who's going to buy Chernobyl mushrooms?" And she tells him, "Why, lots of people. Some for their boss, others for their mother-in-law..."</text>
 	</string>
 	<string id="joke3_stalker_13">
-		<text>>"Hello, stalkers! You are probably going to the Monolith for fulfilment of your wishes?"
+		<text>>"Hello, stalkers! You are probably going to "Monolith" for fulfilment of your wishes?"
 "That's right! You are reading our thoughts!"
 "Nice! "Our thoughts"... Are you sure they are actually YOURS?" - the controller asked venomously...</text>
 	</string>
@@ -2068,7 +2068,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Old man, ask the riddle.</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_9">
-		<text>Barkeep decided one morning that it would be necessary to mow the grass in the fields near the Bar so that any approaching mutants could be spotted. He then hired some stalkers, and they began to mow. One field was twice the size of the other. For half a day, the stalker team mowed the larger field. After that, they split into two: The first group remained at the large field and kept mowing it until they finished at the end of the evening; the second group of stalkers mowed the smaller field, and by the evening, there was a plot left that could be mown the next day by one stalker on his own. How many stalkers did he hire to mow the grass?</text>
+		<text>Barkeep decided one morning that it would be necessary to mow the grass in the fields near the Bar so that any approaching mutants could be spotted. He then hired some stalkers, and they began to mow. One field was twice the size of the other. For half a day, the stalker team mowed the larger field. After that, they split into two: The first group remained at the large field and kept mowing it until they finished at the end of the evening; the second group of stalkers mowed the smaller field, and by the evening, there was a plot left in the second field that could be fully mown the next day by one stalker, on his own. How many stalkers did he hire to mow the grass?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_10">
 		<text>It takes 10 days for one stalker to go from the Cordon to Pripyat and another, 15 days using the same route. If both they both set off in opposite directions at the same time, one from Pripyat, and the other from the Cordon, after how many days they will meet?</text>
@@ -2095,22 +2095,22 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I have two pockets with money in them; when I shift one rouble from one pocket to another, the amount in each pocket will be equal, and when I shift the rouble back to the second pocket, what's in the first will be more than half what's in the second. How many roubles are in each pocket?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_18">
-		<text>Professor Kruglov gave four irradiated stalkers 2006 antirad tablets. Duty received one more than Freedom, the mercenary, one more than Duty, and the Loner - one more than the mercenary. How many tablets did the Loner receive?</text>
+		<text>Professor Kruglov gave four irradiated stalkers 2006 antirad tablets. The Duty soldier received one more than the Freedom member; the mercenary, one more than the Duty soldier, and the Loner - one more than the mercenary. How many tablets did the Loner receive?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_19">
 		<text>If three Chernobyl cats can eat three Chernobyl rats in three minutes, then how long will it take thirty cats to eat thirty rats?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_20">
-		<text>In the Dark Valley was a herd of pseudo-giants, a pack of blind dogs and a bunch of Chernobyl cats. There were more dogs than pseudo-giants. Between the dogs and the giants there was a total of 100 head and legs together. Also the total of dogs and giants together was three times more than cats. How many cats were in the Dark Valley?</text>
+		<text>In the Dark Valley was a herd of pseudo-giants, a pack of blind dogs and a bunch of Chernobyl cats. There were more dogs than pseudo-giants. Between the dogs and the giants there was a total of 100 heads and legs put together. Also the total number of dogs and giants together was three times more than the number of cats. How many cats were there in the Dark Valley?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_21">
-		<text>A Duty squad got into a bit of bother: while crossing a river, two out of the three soldiers got their cartridges wet, so that some of them turned out to be unfit for use. The three warriors divided equally between themselves what was left of their ammunition. After everyone made four shots, their combined total of cartridges, was the amount each had received at the time of sharing. How many suitable cartridges did the Duty member share?</text>
+		<text>A Duty squad got into a bit of bother: while crossing a river, two out of the three soldiers got all their cartridges wet, and these became unusable. The three warriors divided equally between themselves what was left of their ammunition. After everyone made four shots, their combined total of cartridges, was the amount each had received at the time of sharing. How many suitable cartridges did the Duty member share?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_22">
 		<text>Sidorovich makes a deal with a Stalker-hunter and promises him 0.5 roubles for every pseudo dog skin he brings him and 3 roubles for every wild boar skin. He pays 10 roubles for a chimera skin. "Well," said the stalker, "I'll get you all the skins for 100 roubles. You will receive exactly 100 pieces. Can you tell me, how may pseudo dog, wild boar and chimera hides should I bring you?"</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_23">
-		<text>30 bloodsuckers live inside the X-18 laboratory, which are gradually eating each other to death. A bloodsucker is considered well fed, if he has eaten three of his relatives. What is the greatest number of bloodsuckers can be satisfied?</text>
+		<text>30 bloodsuckers live inside the X-18 laboratory, which are gradually eating each other to death. A bloodsucker is considered well fed, if he has eaten three of his relatives. What is the greatest number of bloodsuckers that can be satisfied in the same meal?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_24">
 		<text>One veteran stalker can drink a keg of beer on his own in 14 days, but along with his buddy it takes them just 10 days. How many days will it take his buddy to drink a keg of beer by himself?</text>
@@ -2119,7 +2119,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>A stalker entered the 100 Rads Bar and asked the bartender for a glass of water. They had never met before. The bartender pulled out a gun from under the counter and pointed it at the Stalker. The stalker then said "thank you" and left. What had just happened?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_26">
-		<text>Five stalkers, three veterans and two novices equally share a loot they have earned during a campaign. In the loot there were three artifacts. They couldn't be divided, so they were taken by the three veteran stalkers. Each of veterans paid 80 roubles to the novices. The novices divided this money among themselves, and then all five stalkers had an equal amount. How much were the artifacts worth?</text>
+		<text>Five stalkers, three veterans and two novices equally share a loot they have earned during a campaign. In the loot there were three artifacts. They couldn't be divided, so they were taken by the three veteran stalkers. Each of veterans paid 80 roubles to the novices. The novices then divided this money among themselves, and then all five stalkers had an equal amount of valuables. How much were the artifacts worth?</text>
 	</string>
 	<string id="hunter_secrets_dialog_phrase_27">
 		<text>How many fingers are on a controller's hand?</text>
@@ -2713,7 +2713,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>No, I'll come another another time.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_2">
-		<text>What would you like to hear? I can sing:\n About the Chernobyl Disaster;\n about the Chernobyl Guerrillas;\n about the Monolith Stone; \n Stories I have heard; \n Farewell to the Zone; \n about the Sarcophagus; \n about the City of Chernobyl; \n the Evacuation of the Zone. \n You decide!</text>
+		<text>What would you like to hear? I can sing:\n About the Chernobyl Disaster;\n about the Chernobyl Guerrillas;\n about the Monolith; \n Stories I have heard; \n Farewell to the Zone; \n about the Sarcophagus; \n about the City of Chernobyl; \n the Evacuation of the Zone. \n You decide!</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_3">
 		<text>About the Chernobyl Disaster.</text>
@@ -2722,7 +2722,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>About the Chernobyl Guerrillas.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_5">
-		<text>About the Monolith Stone.</text>
+		<text>About the Monolith.</text>
 	</string>
 	<string id="muzikant_play_dialog_phrase_6">
 		<text>Stories you have heard.</text>
@@ -2845,7 +2845,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Is this the place?</text>
 	</string>
 	<string id="dik_goto_ochyag_dialog_phrase_2">
-		<text>Behold: before us is the grave where I had buried one of his friends. I know why you needed a "light" artifact - you want to get into the Death-zone to get a part of map that shows the location of the Klondike of artifacts.</text>
+		<text>Behold: before us is the grave where I had buried one of his friends. I know why you needed a "light" artifact - you want to get into the Death-zone to get a part of map that shows the location of the Klondike artifacts.</text>
 	</string>
 	<string id="dik_goto_ochyag_dialog_phrase_3">
 		<text>How do you know?</text>
@@ -3265,7 +3265,7 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>At this pace, can you achieve significant results? You appear to be a small group.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_10">
-		<text>Yes, we have a total of nine, but we have agents in almost all parts of the Zone and among all the factions, even in the "Monolith". They try to intercept large consignments of artifacts and to redirect them to the Darkscape, also reconnoitre places of group caches and warehouses, also block deliveries from dealers.</text>
+		<text>Yes, we have a total of nine, but we have agents in almost all parts of the Zone and among all the factions, even in "Monolith". They try to intercept large consignments of artifacts and to redirect them to the Darkscape, also reconnoitre places of group caches and warehouses, also block deliveries from dealers.</text>
 	</string>
 	<string id="vrach_agent_dialog_3_phrase_11">
 		<text>So that's why "Duty" is so mad at you. They don't want you to touch the artifacts so they can pass them on to the scientists.</text>
@@ -3640,52 +3640,52 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>I'll go and look.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_1">
-		<text>Hi brother. I have a message from Borov.</text>
+		<text>Hello, brother. I have a message from Borov.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_2">
 		<text>From whom?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_3">
-		<text>Borov, don't you know who he is? He's our godfather.</text>
+		<text>Don't you know Borov? He's the big boss.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_4">
-		<text>Yes, I know he's our godfather, but why the hell did he suddenly send us a message? We have a simpleton in custody, and he tells us to release him to you. You're not even Borov's right-hand man.</text>
+		<text>I know he's the big boss, but why the hell would he send us a message all of a sudden? We're on Friar's payroll, he is in charge of us. He's Borov's right-hand man.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_5">
-		<text>I know, I know... the retard was busy, so he sent me. In short, I have a release note from Borov.</text>
+		<text>I know, I know... Friar is busy, so he sent me. Anyway, I've got a message.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_6">
-		<text>Give it here.</text>
+		<text>Give it to me.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_7">
-		<text>Take it:</text>
+		<text>Here you go.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_8">
-		<text>So ... What's this garbage... Who is this from, I don't understand?</text>
+		<text>So... What the hell... Who the hell is this from, I don't understand?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_9">
 		<text>What's the problem?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_10">
-		<text>Borov didn't write this. What are these bullshit words: "wankers", "tear out you eyes and throat" and "reptile"? And why the hell all the errors? Borov is well educated, he is proud of this and his "Gladiators" respect him for it!.. Listen, this belongs in the waste paper basket, doesn't it?</text>
+		<text>Don't you dare tell me that Borov wrote it. What the hell is this crap: "wankers", "I'll poke your eye's out", "I'll get nasty"? What the hell is with all the mistakes? Borov is well educated, proud of it, and his men respect him for it...! Listen, this belongs in the trash, doesn't it?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_11">
-		<text>Why do you question me? If you're big-noting yourself, Borov will personally blow your brains out!</text>
+		<text>Why are you making such a big deal out of this? If you're trying to act like a big shot Borov will shoot you in the head himself!</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_12">
-		<text>Okay, I tell you how it is...</text>
+		<text>Okay, I'll tell it like it is...</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_13">
-		<text>Come on, just be quick. By the way: Who are you really? Why did you suddenly decide to stick your nose in here and bring me this note?</text>
+		<text>Come on, but make it quick. By the way: who are you? Our messages are always delivered by Nosey, and now you decide to come here in here and bring me this note??</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_14">
-		<text>I'm actually a stalker, not a bandit. Don't rush to shoot: I come in peace! Why shed more blood? It's better to negotiate.</text>
+		<text>I'm actually a stalker, not a bandit. Don't be in a hurry to shoot: I come in peace! Why spill blood unnecessarily? It is better to negotiate.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_15">
 		<text>Indeed, why not? Let's talk.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_16">
-		<text>Look: you release the prisoner, and I'll go to the stalkers who wait in ambush, there's ten of them, and I'll urge them not to attack you. How's that for an option?</text>
+		<text>Look: you release the prisoner, and I go to the stalkers who are sitting ready to ambush you (there are ten of them) and convince them not to attack you. How's that?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_17">
 		<text>Ten you say? Wow ... And where are they hiding?</text>
@@ -3694,19 +3694,19 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>In the bushes, fifty metres to the south of the here.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_19">
-		<text>Look, you're right... Let's do it, I value my boys, they are all I've got. Especially, as you have more guys. Now I'll give the order to release the prisoner, and you go and talk to him.</text>
+		<text>Look, you're right... Let's do it, I value my boys, you care about yours. Besides, the guys are kind of outnumbered. Now I'll give the signal to let the prisoner go, and you go and talk to yours.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_20">
-		<text>Well, I knew that you were a cool guy!</text>
+		<text>Great, I knew you were the reasonable man!</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_21">
-		<text>A cool guy? Hmm... Look, I almost forgot. What's this piece of bullshit sticking out of your pocket?</text>
+		<text>A reasonable man? Um... Hey, I almost forgot. What's that thing sticking out of your pocket?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_22">
 		<text>Where?</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_23">
-		<text>Borov wrote a transfer order for the prisoner, and asked me to deliver it on his behalf.</text>
+		<text>Friar wrote a transfer order for the prisoner, and asked me to deliver it on his behalf.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_24">
 		<text>Why is that?</text>
@@ -3715,10 +3715,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>Recently he scored big time, so he's decided to lay low for a while because he doesn't want to attract attention.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_26">
-		<text>Probably playing cards with the brothers and they lost again? Ha-ha, now he'll waffle on about his good luck. Okay, forget what I said, just give me the note and take your fucking ragged sucker and crawl out of here.</text>
+		<text>Probably lost at cards again, playing with the brothers. Ha-ha, now he won't be yapping about his good luck. Okay, forget what I said, just give me the note and take your fucking loser and get the hell out of here.</text>
 	</string>
 	<string id="atp_cheat_dialog_phrase_27">
-		<text>Well, okay.</text>
+		<text>All right, I got it.</text>
 	</string>
 	<string id="preasoner_free_dialog_phrase_1">
 		<text>I managed to trick the bandits and rescue Nimble.</text>
@@ -4662,10 +4662,10 @@ Suddenly I felt a hand on my shoulder!.. I turned around and, actually, realized
 		<text>The moonshine stills would not only be in the Dead City, but in villages, and on farms surrounding it.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_18">
-		<text>Could be there. But in the cities they were set up, not just for local use, but also for sale. So, I would be easier looking for the device in the city.</text>
+		<text>Could be there. But in the cities they were many set up, not just for local use, but also for sale. So, I would be easier looking for the device in the city.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_19">
-		<text>But where? The town is a small, but it would be like searching for a needle in a haystack.</text>
+		<text>But where? The town is small, but it would be like searching for a needle in a haystack.</text>
 	</string>
 	<string id="hunter_about_ufo_dialog1_phrase_20">
 		<text>I'll give you a hint. Search the basements and the attics of buildings. Moonshining was illegal so the stills were hidden in out-of-the-way places.</text>

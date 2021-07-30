@@ -46,7 +46,7 @@ cform				= skeleton
 visual				= equipments\item_merger.ogf
 radius				= 1
 quest_item			= true
-inv_weight			= 2.5
+inv_weight			= 0.5
 inv_grid_width		= 2
 inv_grid_height		= 1
 inv_grid_x			= 8
@@ -734,7 +734,7 @@ visual				= physics\af_light.ogf
 description			= unrecognised_art_desc
 inv_name			= af_light_name
 inv_name_short		= af_light_name
-inv_weight			= 0.3
+inv_weight			= 0.05
 inv_grid_x			= 27
 inv_grid_y			= 40
 quest_item			= false
@@ -774,7 +774,7 @@ visual				= physics\af_dark.ogf
 description			= unrecognised_art_desc
 inv_name			= af_dark_name
 inv_name_short		= af_dark_name
-inv_weight			= 0.3
+inv_weight			= 0.05
 inv_grid_x			= 30
 inv_grid_y			= 40
 quest_item			= false
@@ -919,7 +919,7 @@ slot			= 1
 description			= af_puzir_desc
 inv_name			= af_puzir_name
 inv_name_short		= af_puzir_name
-inv_weight			= 0.4
+inv_weight			= 0.1
 
 inv_grid_x			= 56
 inv_grid_y			= 38
@@ -1266,7 +1266,7 @@ visual				= physics\af_candle.ogf
 description			= af_candle_desc
 inv_name			= af_candle_name
 inv_name_short		= af_candle_name
-inv_weight			= 0.5
+inv_weight			= 0.01
 inv_grid_x			= 52
 inv_grid_y			= 38
 cost				= 6000
@@ -1363,13 +1363,13 @@ hit_absorbation_sect = af_ray_absorbation
 
 [af_ray_absorbation]
 burn_immunity     = 1.0				;коэффициенты иммунитета 
-strike_immunity   = 1.0
+strike_immunity   = 0.9
 shock_immunity    = 1.0
-wound_immunity    = 0.93		
+wound_immunity    = 0.85		
 radiation_immunity = 1.0
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
+explosion_immunity = 0.9
 fire_wound_immunity  = 0.85
 
 [af_steam]:af_base
@@ -2287,7 +2287,7 @@ inv_grid_y         = 32
 can_take			= true
 cost				= 0
 
-blast				= 150
+blast				= 5
 blast_r				= 50
 blast_impulse		= 5
 ;delete
@@ -2295,11 +2295,11 @@ blast_impulse_factor = 1
 
 frags				= 50
 frags_r				= 50
-frag_hit			= 5
+frag_hit			= 2
 frag_hit_impulse	= 5
 
 hit_type_blast		= burn
-hit_type_frag		= explosion
+hit_type_frag		= wound
 
 up_throw_factor		= 1.0
 wm_size                  = 0.1
@@ -2479,9 +2479,9 @@ inv_grid_width		= 6
 inv_grid_height		= 2
 inv_grid_x		= 0
 inv_grid_y		= 39
-cost				= 18000
-quest_item			= true
-can_trade			= false
+cost				= 1
+quest_item			= false
+can_trade			= true
 
 [first_neutral_planshet]:antir_f
 GroupControlSection		= spawn_group

@@ -92,7 +92,7 @@
 	</string>
 <!-- 7.62x54mmR 7N1 -->
 	<string id="ammo-7.62x54-7h1">
-		<text>7.62x54mmR 7N1 rounds</text>
+		<text>7.62x54mmR 7N1</text>
 	</string>
 	<string id="ammo-7.62x54-7h1_s">
 		<text>7.62x54R 7N1</text>
@@ -112,7 +112,7 @@
 	</string>
 <!-- 7.62x54mmR 7N14 -->
 	<string id="ammo-7.62x54-7h14">
-		<text>7.62x54mmR 7N14 rounds</text>
+		<text>7.62x54mmR 7N14</text>
 	</string>
 	<string id="ammo-7.62x54-7h14_s">
 		<text>7.62x54R 7N14</text>
@@ -299,7 +299,7 @@
 		<text>40MM ATOM</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-atom">
-		<text>40mm ATOM grenade - A nuclear charge packed in a standard 40mm grenade, compatible with most western grenade launchers with electronic targeting systems. Nobody knows who produces this type of ammunition, let alone where. How Monolith got their hands on such grenade - nobody knows.</text>
+		<text>40mm ATOM grenade - A nuclear charge packed in a standard 40mm grenade, compatible with most western grenade launchers with electronic targeting systems. Nobody knows who produces this type of ammunition, let alone where. How "Monolith" got their hands on such grenade - nobody knows.</text>
 	</string>
 <!-- 40mm VOG-25 Grenade -->
 	<string id="ammo-vog-25">
@@ -697,7 +697,7 @@
 		<text>Gauss rifle</text>
 	</string>
 	<string id="enc_weapons1_wpn-gauss">
-		<text>%c[255,1,255,255]Ammunition:\n• %c[default]2x10mm M62\n \nProject 62 Gauss Rifle - Incredibly accurate coilgun built on the principles of electromagnetism, developed in secret laboratories hidden deep within the Zone, which are now occupied by the Monolith. It is almost entirely noiseless as the gun utilizes energy of electromagnets instead of gunpowder. Despite the tremendous firepower of the Project 62, the recoil is insignificant. The accuracy of this gun combined with the stopping power and velocity of the cartridge exceed those of all other small arms as the bullet's high kinetic energy renders virtually every bulletproof vest useless. A weapon so rare that Stalkers think that the stories about it are bordering on fiction.</text>
+		<text>%c[255,1,255,255]Ammunition:\n• %c[default]2x10mm M62\n \nProject 62 Gauss Rifle - Incredibly accurate coilgun built on the principles of electromagnetism, developed in secret laboratories hidden deep within the Zone, which are now occupied by "Monolith". It is almost entirely noiseless as the gun utilizes energy of electromagnets instead of gunpowder. Despite the tremendous firepower of the Project 62, the recoil is insignificant. The accuracy of this gun combined with the stopping power and velocity of the cartridge exceed those of all other small arms as the bullet's high kinetic energy renders virtually every bulletproof vest useless. A weapon so rare that Stalkers think that the stories about it are bordering on fiction.</text>
 	</string>
 <!-- SIG SG 550-1 Sniper Rifle -->
 	<string id="ars-sg550sr">

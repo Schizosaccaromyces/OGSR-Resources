@@ -90,10 +90,10 @@
 		<text>Yes, I know. My clients should stay safe, huh? There are two paths to the Southern Zone: one to Dark Valley, other to Yantar. There are dangerous places over there so follow paths carefully! Say hello to Sidor, if you see him.</text>
 	</string>
 	<string id="monlit_trader_0">
-		<text>You must be Monolith supplier.</text>
+		<text>You must be "Monolith" supplier.</text>
 	</string>
 	<string id="monlit_trader_1">
-		<text>You're almost right, stalker. Don't ask me about my business here. Just remember - Monolith isn't just a bunch of fanatics like they appear. They have... patrons</text>
+		<text>You're almost right, stalker. Don't ask me about my business here. Just remember - "Monolith" isn't just a bunch of fanatics like they appear. They have... patrons</text>
 	</string>
 	<string id="monlit_trader_2">
 		<text>And what about the emission? This is Red Forest nearby!</text>

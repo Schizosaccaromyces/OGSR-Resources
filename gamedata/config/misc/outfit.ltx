@@ -30,19 +30,19 @@ artefact_count = 5
 
 [light_exo_visual_base]
 actor_visual	= actors\hero\light_exo_neytral_actor.ogf
-artefact_count = 13
+artefact_count = 11
 
 [light_exo_dolg_visual_base]
 actor_visual	= actors\hero\light_exo_dolg_actor.ogf
-artefact_count = 13
+artefact_count = 11
 
 [light_exo_freedom_visual_base]
 actor_visual	= actors\hero\light_exo_freedom_actor.ogf
-artefact_count = 13
+artefact_count = 11
 
 [heavy_exo_visual_base]
 actor_visual	= actors\hero\stalker_exoskeleton.ogf
-artefact_count = 13
+artefact_count = 11
 
 [without_outfit]:outfit_base
 ;базовый костюм сталкера - костюм новичка. Обычная одежда туриста - штормовка+сапоги
@@ -86,7 +86,7 @@ explosion_protection 	 = 	0.50
 
 ;запрещение режима Sprint для Актера
 additional_inventory_weight		= 30
-additional_inventory_weight2	= 30
+
 
 
 [sect_exo_outfit_immunities]
@@ -119,7 +119,7 @@ ef_equipment_type	= 3
 inv_name			= outfit_novice_name
 inv_name_short		= outfit_novice_name
 description			= outfit_novice_description
-inv_weight			= 3.0
+inv_weight			= 8.0
 inv_grid_width		= 2
 inv_grid_height		= 2
 inv_grid_x			= 41
@@ -149,7 +149,8 @@ repair_compatibility     = light_outfit
 ; Параметры для экзоскелетов
 exo1 = novice_outfit_exo1
 exo2 = novice_outfit_exo2
-
+additional_inventory_weight		= 10		; +max_walk_weight
+additional_inventory_weight2	= 10
 arm_set = stalker_kurtka
 
 [sect_novice_outfit_immunities]
@@ -172,7 +173,7 @@ $spawn 			= "outfit\novice_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 18
+inv_weight			= 24
 inv_grid_x			= 43
 inv_grid_y			= 0
 inv_name			= outfit_novice_exo1_name
@@ -189,7 +190,7 @@ explosion_protection 	 = 	0.17
 ; Параметры для ремонта
 tech_complication        = 100
 repair_compatibility     = light_outfit
-
+bones_koeff_protection = armor_1_0_0
 power_loss      = 0.16
 additional_inventory_weight		= 50
 additional_inventory_weight2	= 60
@@ -200,7 +201,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [novice_outfit_exo2]:novice_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\novice_outfit_exo2"
-inv_weight			= 23
+inv_weight			= 29
 inv_grid_x			= 45
 inv_grid_y			= 0
 inv_name			= outfit_novice_exo2_name
@@ -209,7 +210,7 @@ description			= outfit_novice_exo2_description
 full_icon_name		= npc_icon_novice_outfit_exo2
 cost				= 25500
 
-bones_koeff_protection = armor_5_4_0
+bones_koeff_protection = armor_5_4_1
 
 ; RESISTANCE
 ; защитные параметры одетой полной экзы высчитываются по формуле: (параметр костюма + параметр экзы) / 1.5 Исходные параметры RESISTANCE экзы смотерть в секции [exo_outfit] в начале файла
@@ -263,15 +264,16 @@ exo2 = novice_outfit_m1_exo2
 arm_set = stalker_kurtka_green
 
 artefact_count = 6
-
+additional_inventory_weight		= 10		; +max_walk_weight
+additional_inventory_weight2	= 10
 [outfit_novice_m1_repair]:novice_outfit_repair
 
 [novice_outfit_m1_exo1]:outfit_novice_m1,light_exo_visual_base
 $spawn 			= "outfit\novice_outfit_m1_exo1"
 visual          = equipments\exoskelet	
-
+bones_koeff_protection = armor_1_0_0
 ef_equipment_type	= 5
-inv_weight			= 18
+inv_weight			= 24
 inv_grid_x			= 43
 inv_grid_y			= 2
 
@@ -299,7 +301,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [novice_outfit_m1_exo2]:novice_outfit_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\novice_outfit_m1_exo2"
-inv_weight			= 23
+inv_weight			= 29
 inv_grid_x			= 45
 inv_grid_y			= 2
 inv_name			= novice_outfit_m1_exo2_name
@@ -308,7 +310,7 @@ description			= novice_outfit_m1_exo2_description
 full_icon_name		= npc_icon_novice_outfit_m1_exo2
 cost				= 36300
 
-bones_koeff_protection = armor_5_4_0
+bones_koeff_protection = armor_5_4_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.27
@@ -351,7 +353,7 @@ full_icon_name		            = npc_icon_outfit_bandit_m1
 description						= bandit_outfit_description
 visual                          = equipments\bandit_suit_m1.ogf
 actor_visual					= actors\hero\stalker_bandit.ogf
-inv_weight			            = 4.0
+inv_weight			            = 11.0
 inv_grid_x						= 41
 inv_grid_y						= 4
 cost				= 11330
@@ -367,7 +369,8 @@ telepatic_protection 	 = 	0.10
 strike_protection 	 = 	0.35
 wound_protection	 = 	0.45
 explosion_protection 	 = 	0.15
-
+additional_inventory_weight		= 10		; +max_walk_weight
+additional_inventory_weight2	= 10
 ; Параметры для ремонта
 repair_compatibility     = light_outfit
 tech_complication          = 110
@@ -385,9 +388,10 @@ artefact_count = 6
 [outfit_bandit_m1_exo1]:outfit_bandit_m1,light_exo_visual_base
 $spawn 			= "outfit\outfit_bandit_m1_exo1"
 visual          = equipments\exoskelet	
+bones_koeff_protection = armor_3_0_0
 
 ef_equipment_type	= 5
-inv_weight			= 19
+inv_weight			= 28
 inv_grid_x			= 43
 inv_grid_y			= 4
 
@@ -416,7 +420,7 @@ exo_section = exo1
 
 [outfit_bandit_m1_exo2]:outfit_bandit_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\outfit_bandit_m1_exo2"
-inv_weight			= 24
+inv_weight			= 37
 inv_grid_x			= 45
 inv_grid_y			= 4
 inv_name			= bandit_outfit_exo2_name
@@ -425,7 +429,7 @@ description			= bandit_outfit_exo2_description
 full_icon_name		= npc_icon_outfit_bandit_m1_exo2
 cost				= 34330
 
-bones_koeff_protection = armor_5_4_0
+bones_koeff_protection = armor_5_4_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.27
@@ -461,7 +465,7 @@ ef_equipment_type	= 3
 inv_name			= stalker_outfit_name
 inv_name_short		= stalker_outfit_name
 description			= stalker_outfit_description
-inv_weight			= 5.0
+inv_weight			= 13.0
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 41
@@ -471,7 +475,8 @@ full_icon_name		= npc_icon_stalker_outfit
 cost				= 28400
 
 immunities_sect			= sect_stalker_outfit_immunities
-
+additional_inventory_weight		= 29		; +max_walk_weight
+additional_inventory_weight2	= 29
 ; RESISTANCE
 bones_koeff_protection = armor_2_0_1
 
@@ -485,10 +490,11 @@ wound_protection	 = 	0.35
 explosion_protection 	 = 	0.25
 
 power_loss      = 1.15
-
+additional_inventory_weight		= 0		; +max_walk_weight
+additional_inventory_weight2	= 0
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = stalker_outfit_exo1
@@ -496,7 +502,7 @@ exo2 = stalker_outfit_exo2
 
 arm_set = stalker_outfit
 
-artefact_count = 8
+artefact_count = 10
 
 [sect_stalker_outfit_immunities]
 burn_immunity				= 0.09			;коэффициенты иммунитета самого костюма
@@ -511,14 +517,14 @@ fire_wound_immunity			= 0.015
 
 [stalker_outfit_repair]
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 [stalker_outfit_exo1]:stalker_outfit,light_exo_visual_base
 $spawn 			= "outfit\stalker_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 28
 inv_grid_x			= 43
 inv_grid_y			= 21
 inv_name			= stalker_outfit_exo1_name
@@ -526,15 +532,16 @@ inv_name_short		= stalker_outfit_exo1_name
 description			= stalker_outfit_exo1_description
 full_icon_name		= npc_icon_stalker_outfit_exo1
 cost				= 40400
+bones_koeff_protection = armor_3_0_1
 
 ; RESISTANCE
-strike_protection 	 =  0.27
-wound_protection	 = 	0.37
-explosion_protection 	 = 	0.27
+strike_protection 	 =  0.37
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.37
 
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -547,7 +554,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [stalker_outfit_exo2]:stalker_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\stalker_outfit_exo2"
-inv_weight			= 25
+inv_weight			= 33
 inv_grid_x			= 45
 inv_grid_y			= 21
 inv_name			= stalker_outfit_exo2_name
@@ -556,7 +563,7 @@ description			= stalker_outfit_exo2_description
 full_icon_name		= npc_icon_stalker_outfit_exo2
 cost				= 51400
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.43
@@ -570,7 +577,7 @@ explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 additional_inventory_weight = 70
 additional_inventory_weight2 = 80
@@ -589,6 +596,7 @@ inv_name_short					= stalker_outfit_name_m1
 full_icon_name		            = npc_icon_outfit_stalker_m1
 description						= stalker_outfit_description_m1
 health_restore_speed			= 0.008
+bleeding_restore_speed			= 0.005
 inv_grid_x     				    = 41
 inv_grid_y      				= 24
 
@@ -603,13 +611,13 @@ telepatic_protection 	 = 	0.10
 
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = outfit_stalker_m1_exo1
 exo2 = outfit_stalker_m1_exo2
 
-artefact_count = 9
+artefact_count = 10
 
 [outfit_stalker_m1_repair]:stalker_outfit_repair
 
@@ -618,7 +626,7 @@ $spawn 			= "outfit\outfit_stalker_m1_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 28
 inv_grid_x			= 43
 inv_grid_y			= 24
 inv_name			= stalker_outfit_exo1_name_m1
@@ -628,9 +636,10 @@ full_icon_name		= npc_icon_outfit_stalker_m1_exo1
 cost				= 51760
 
 ; RESISTANCE
-strike_protection 	 =  0.27
-wound_protection	 = 	0.37
-explosion_protection 	 = 	0.27
+strike_protection 	 =  0.37
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.37
+bones_koeff_protection = armor_3_0_1
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -638,7 +647,7 @@ additional_inventory_weight2 = 60
 
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 without_exoskeleton = outfit_stalker_m1					;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1 			                    ;формат записи параметра: exo_section = секция демонтируемого экзокаркаса
@@ -647,7 +656,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [outfit_stalker_m1_exo2]:outfit_stalker_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\outfit_stalker_m1_exo2"
-inv_weight			= 25
+inv_weight			= 33
 inv_grid_x			= 45
 inv_grid_y			= 24
 inv_name			= stalker_outfit_exo2_name_m1
@@ -657,7 +666,7 @@ full_icon_name		= npc_icon_outfit_stalker_m1_exo2
 
 cost				= 62760
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.50
@@ -671,7 +680,7 @@ explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 500
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 additional_inventory_weight = 70
 additional_inventory_weight2 = 80
@@ -697,12 +706,12 @@ inv_grid_y						= 27
 cost				= 31240
 
 power_loss      = 0.75
-additional_inventory_weight = 15
-additional_inventory_weight2 = 15
+additional_inventory_weight = 31
+additional_inventory_weight2 = 31
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = stalker_outfit_m2_exo1
@@ -710,7 +719,7 @@ exo2 = stalker_outfit_m2_exo2
 
 arm_set = nebo_sci
 
-artefact_count = 7
+artefact_count = 10
 
 [outfit_stalker_m2_repair]:stalker_outfit_repair
 tech_complication          = 800
@@ -720,7 +729,7 @@ $spawn 			= "outfit\stalker_outfit_m2_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 28
 inv_grid_x			= 43
 inv_grid_y			= 27
 inv_name			= stalker_outfit_exo1_name_m2
@@ -730,13 +739,13 @@ full_icon_name		= npc_icon_outfit_stalker_m2_exo1
 cost				= 43240
 
 ; RESISTANCE
-strike_protection 	 =  0.27
-wound_protection	 = 	0.37
-explosion_protection 	 = 	0.27
+strike_protection 	 =  0.37
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.37
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 power_loss      = 0.16
 additional_inventory_weight = 60
@@ -744,12 +753,13 @@ additional_inventory_weight2 = 70
 
 without_exoskeleton = outfit_stalker_m2					;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1
+bones_koeff_protection = armor_3_0_1
 
 [stalker_outfit_m2_exo1_repair]:outfit_stalker_m2_repair
 
 [stalker_outfit_m2_exo2]:stalker_outfit_m2_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\stalker_outfit_m2_exo2"
-inv_weight			= 25
+inv_weight			= 33
 inv_grid_x			= 45
 inv_grid_y			= 27
 inv_name			= stalker_outfit_exo2_name_m2
@@ -759,7 +769,7 @@ full_icon_name		= npc_icon_outfit_stalker_m2_exo2
 
 cost				= 54240
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.43
@@ -773,7 +783,7 @@ explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 additional_inventory_weight = 80
 additional_inventory_weight2 = 90
@@ -796,54 +806,56 @@ ef_equipment_type	= 2
 inv_name			= scientific_outfit_name
 inv_name_short		= scientific_outfit_name
 description			= scientific_outfit_description
-inv_weight			= 9
+inv_weight			= 22
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 53
 inv_grid_y			= 6
 full_icon_name		= npc_icon_scientific_outfit
-;nightvision_sect	= effector_nightvision_good
+nightvision_sect	= effector_nightvision_good
 
 power_loss          = 1.8
 
-cost				= 79940
+cost				= 90000
 
 bones_koeff_protection = armor_3_2_2
 
 immunities_sect			= sect_scientific_outfit_immunities
-
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 ; RESISTANCE
-burn_protection 	 = 	0.60
-shock_protection 	 = 	0.70
-chemical_burn_protection 	 = 	0.70
-radiation_protection 	 = 	0.75
-telepatic_protection 	 = 	0.40
+burn_protection 	 = 	0.75
+shock_protection 	 = 	0.95
+chemical_burn_protection 	 = 	0.95
+radiation_protection 	 = 	0.90
+telepatic_protection 	 = 	0.65
 strike_protection 	 = 	0.45
-wound_protection	 = 	0.45
-explosion_protection 	 = 	0.35
+wound_protection	 = 	0.55
+explosion_protection 	 = 	0.45
 
 ; Параметры для ремонта
-tech_complication          = 800
+tech_complication          = 1200
 repair_compatibility     = scientific_outfit
 
 arm_set = stalker_sci
 
-artefact_count = 9
+artefact_count = 13
 
 [sect_scientific_outfit_immunities]
-burn_immunity				= 0.04			;коэффициенты иммунитета самого костюма
+burn_immunity				= 0.007			;коэффициенты иммунитета самого костюма
 strike_immunity				= 0.01
-shock_immunity				= 0.03
-wound_immunity				= 0.05
+shock_immunity				= 0.005
+wound_immunity				= 0.012
 radiation_immunity			= 0.00
 telepatic_immunity			= 0.00
-chemical_burn_immunity		= 0.1
-explosion_immunity			= 0.03
-fire_wound_immunity			= 0.06
+chemical_burn_immunity		= 0.007
+explosion_immunity			= 0.015
+fire_wound_immunity			= 0.02
 
 [scientific_outfit_repair]
-tech_complication          = 800
+tech_complication          = 1200
 repair_compatibility     = scientific_outfit
+
 
 ;---------------------------------------------------------------------------------------------
 ;		Бандиты
@@ -859,7 +871,7 @@ ef_equipment_type	= 3
 inv_name			= bandit_plash_name
 inv_name_short		= bandit_plash_name
 description			= bandit_plash_description
-inv_weight			= 4.5
+inv_weight			= 12.5
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -867,17 +879,27 @@ inv_grid_y			= 24
 full_icon_name		= npc_icon_bandit_plash
 
 power_loss      = 1.6
-
-cost				= 39000
+additional_inventory_weight		= 16		; +max_walk_weight
+additional_inventory_weight2	= 16
+cost				= 29000
 
 bones_koeff_protection = armor_2_1_1
 
 ; RESISTANCE
-burn_protection 	 = 	0.45
+burn_protection 	 = 	0.15
+shock_protection 	 = 	0.25
+chemical_burn_protection 	 = 	0.15
+radiation_protection 	 = 	0.15
+telepatic_protection 	 = 	0.1
+strike_protection 	 = 	0.35
+wound_protection	 = 	0.40
+explosion_protection 	 = 	0.30
+
+burn_protection 	 = 	0.20
 shock_protection 	 = 	0.15
-chemical_burn_protection 	 = 	0.35
-radiation_protection 	 = 	0.25
-telepatic_protection 	 = 	0.10
+chemical_burn_protection 	 = 	0.15
+radiation_protection 	 = 	0.15
+telepatic_protection 	 = 	0.1
 strike_protection 	 = 	0.35
 wound_protection	 = 	0.40
 explosion_protection 	 = 	0.30
@@ -886,7 +908,7 @@ immunities_sect			= sect_bandit_plash_immunities
 
 ; Параметры для ремонта
 tech_complication          = 400
-repair_compatibility     = middle_outfit
+repair_compatibility     = light_outfit
 
 exo1 = ;
 exo2 = ;
@@ -896,7 +918,7 @@ arm_set = bandit_brown
 artefact_count = 6
 
 [sect_bandit_plash_immunities]
-burn_immunity				= 0.1
+burn_immunity				= 0.2
 strike_immunity				= 0.01
 shock_immunity				= 0.04
 wound_immunity				= 0.025
@@ -904,11 +926,11 @@ radiation_immunity			= 0.00
 telepatic_immunity			= 0.00
 chemical_burn_immunity		= 0.15
 explosion_immunity			= 0.04
-fire_wound_immunity			= 0.095
+fire_wound_immunity			= 0.035
 
 [bandit_plash_repair]
 tech_complication          = 400
-repair_compatibility     = middle_outfit
+repair_compatibility     = light_outfit
 ;---------------------------------------------------------------------------------------------
 ;		ПЛАЩ БАНДИТА МАСТЕРА
 ;---------------------------------------------------------------------------------------------
@@ -921,7 +943,7 @@ ef_equipment_type	= 3
 inv_name			= bandit_plash_m1_name
 inv_name_short		= bandit_plash_m1_name
 description			= bandit_plash_m1_description
-inv_weight			= 4.5
+inv_weight			= 12.5
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -930,16 +952,17 @@ full_icon_name		= npc_icon_bandit_plash_m1
 
 power_loss      = 1.6
 
-cost				= 47080
-
+cost				= 37080
+additional_inventory_weight		= 16		; +max_walk_weight
+additional_inventory_weight2	= 16
 bones_koeff_protection = armor_3_1_1
 
 ; RESISTANCE
-burn_protection 	 = 	0.50
-shock_protection 	 = 	0.15
-chemical_burn_protection 	 = 	0.35
-radiation_protection 	 = 	0.25
-telepatic_protection 	 = 	0.10
+burn_protection 	 = 	0.25
+shock_protection 	 = 	0.25
+chemical_burn_protection 	 = 	0.25
+radiation_protection 	 = 	0.1
+telepatic_protection 	 = 	0.1
 strike_protection 	 = 	0.45
 wound_protection	 = 	0.45
 explosion_protection 	 = 	0.35
@@ -948,7 +971,7 @@ immunities_sect			= sect_bandit_plash_m1_immunities
 
 ; Параметры для ремонта
 tech_complication          = 450
-repair_compatibility     = middle_outfit
+repair_compatibility     = light_outfit
 
 arm_set = bandit
 
@@ -958,7 +981,7 @@ artefact_count = 7
 strike_immunity				= 0.009
 wound_immunity				= 0.02
 explosion_immunity			= 0.035
-fire_wound_immunity			= 0.09
+fire_wound_immunity			= 0.03
 
 [bandit_plash_m1_repair]:bandit_plash_repair
 
@@ -977,7 +1000,7 @@ ef_equipment_type	= 3
 inv_name			= dolg_outfit_name
 inv_name_short		= dolg_outfit_name
 description			= dolg_outfit_description
-inv_weight			= 5.5
+inv_weight			= 13.5
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 41
@@ -985,7 +1008,8 @@ inv_grid_y			= 12
 full_icon_name		= npc_icon_dolg_outfit
 
 power_loss      = 1.2
-
+additional_inventory_weight		= 17		; +max_walk_weight
+additional_inventory_weight2	= 17
 cost				= 28400
 
 bones_koeff_protection = armor_3_1_1
@@ -993,10 +1017,10 @@ bones_koeff_protection = armor_3_1_1
 immunities_sect		= sect_dolg_outfit_immunities
 
 ; RESISTANCE
-burn_protection 	 = 	0.15
+burn_protection 	 = 	0.25
 shock_protection 	 = 	0.15
-chemical_burn_protection 	 = 	0.10
-radiation_protection 	 = 	0.20
+chemical_burn_protection 	 = 	0.20
+radiation_protection 	 = 	0.15
 telepatic_protection 	 = 	0.00
 strike_protection 	 = 	0.20
 wound_protection	 = 	0.35
@@ -1004,7 +1028,7 @@ explosion_protection 	 = 	0.30
 
 ; Параметры для ремонта
 tech_complication          = 650
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = dolg_outfit_exo1
@@ -1020,14 +1044,14 @@ wound_immunity				= 0.009
 
 [dolg_outfit_repair]
 tech_complication          = 650
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 [dolg_outfit_exo1]:dolg_outfit,light_exo_dolg_visual_base
 $spawn 			= "outfit\dolg_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20.5
+inv_weight			= 28.5
 inv_grid_x			= 43
 inv_grid_y			= 12
 inv_name			= dolg_outfit_exo1_name
@@ -1037,9 +1061,10 @@ full_icon_name		= npc_icon_dolg_outfit_exo1
 cost				= 40400
 
 ; RESISTANCE
-strike_protection 	 = 	0.22
-wound_protection	 = 	0.37
-explosion_protection 	 = 	0.32
+strike_protection 	 =  0.40
+wound_protection	 = 	0.55
+explosion_protection 	 = 	0.40
+bones_koeff_protection = armor_4_1_1
 
 power_loss      = 0.16
 additional_inventory_weight = 50
@@ -1047,7 +1072,7 @@ additional_inventory_weight2 = 60
 
 ; Параметры для ремонта
 tech_complication          = 650
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 without_exoskeleton = dolg_outfit					;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1
@@ -1056,7 +1081,7 @@ exo_section = exo1
 
 [dolg_outfit_exo2]:dolg_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\dolg_outfit_exo2"
-inv_weight			= 25.5
+inv_weight			= 33.5
 inv_grid_x			= 45
 inv_grid_y			= 12
 inv_name			= dolg_outfit_exo2_name
@@ -1065,12 +1090,12 @@ description			= dolg_outfit_exo2_description
 full_icon_name		= npc_icon_dolg_outfit_exo2
 cost				= 51400
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
-burn_protection 	 = 	0.27
+burn_protection 	 = 	0.40
 shock_protection 	 = 	-0.13
-chemical_burn_protection 	 = 	0.20
+chemical_burn_protection 	 = 	0.30
 radiation_protection 	 = 	0.40
 telepatic_protection 	 = 	0.30
 strike_protection 	 = 	0.53
@@ -1109,21 +1134,21 @@ cost				= 32340
 bones_koeff_protection = armor_3_1_2
 
 ; RESISTANCE
-burn_protection 	 = 	0.15
-shock_protection 	 = 	0.15
-chemical_burn_protection 	 = 	0.10
-radiation_protection 	 = 	0.20
+burn_protection 	 = 	0.25
+shock_protection 	 = 	0.25
+chemical_burn_protection 	 = 	0.50
+radiation_protection 	 = 	0.35
 telepatic_protection 	 = 	0.00
-strike_protection 	 = 	0.25
+strike_protection 	 = 	0.35
 wound_protection	 = 	0.45
 explosion_protection 	 = 	0.35
 
-additional_inventory_weight = 10
-additional_inventory_weight2 = 10
+additional_inventory_weight = 18
+additional_inventory_weight2 = 18
 
 ; Параметры для ремонта
 tech_complication       = 1200
-repair_compatibility    = heavy_outfit
+repair_compatibility    = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = outfit_dolg_m1_exo1
@@ -1139,7 +1164,7 @@ $spawn 			= "outfit\outfit_dolg_m1_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20.5
+inv_weight			= 28.5
 inv_grid_x			= 43
 inv_grid_y			= 15
 inv_name			= dolg_outfit_m1_exo1_name
@@ -1147,11 +1172,12 @@ inv_name_short		= dolg_outfit_m1_exo1_name
 description			= dolg_outfit_m1_exo1_description
 full_icon_name		= npc_icon_dolg_outfit_m1_exo1
 cost				= 44340
+bones_koeff_protection = armor_4_1_2
 
 ; RESISTANCE
-strike_protection 	 = 	0.27
-wound_protection	 = 	0.63
-explosion_protection 	 = 	0.37
+strike_protection 	 = 	0.45
+wound_protection	 = 	0.65
+explosion_protection 	 = 	0.45
 
 power_loss      = 0.16
 additional_inventory_weight = 60
@@ -1159,7 +1185,7 @@ additional_inventory_weight2 = 70
 
 ; Параметры для ремонта
 tech_complication       = 1200
-repair_compatibility    = heavy_outfit
+repair_compatibility    = middle_outfit
 
 without_exoskeleton = outfit_dolg_m1					;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1
@@ -1168,7 +1194,7 @@ exo_section = exo1
 
 [outfit_dolg_m1_exo2]:outfit_dolg_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\outfit_dolg_m1_exo2"
-inv_weight			= 25.5
+inv_weight			= 23.5
 inv_grid_x			= 45
 inv_grid_y			= 15
 inv_name			= dolg_outfit_m1_exo2_name
@@ -1177,13 +1203,13 @@ description			= dolg_outfit_m1_exo2_description
 full_icon_name		= npc_icon_dolg_outfit_m1_exo2
 cost				= 55340
 
-bones_koeff_protection = armor_5_4_2
+bones_koeff_protection = armor_5_4_3
 
 ; RESISTANCE
-burn_protection 	 = 	0.27
+burn_protection 	 = 	0.40
 shock_protection 	 = 	-0.13
-chemical_burn_protection 	 = 	0.20
-radiation_protection 	 = 	0.40
+chemical_burn_protection 	 = 	0.50
+radiation_protection 	 = 	0.55
 telepatic_protection 	 = 	0.30
 strike_protection 	 = 	0.57
 wound_protection	 = 	0.80
@@ -1216,7 +1242,7 @@ ef_equipment_type	= 3
 inv_name			= svoboda_heavy_outfit_name
 inv_name_short		= svoboda_heavy_outfit_name
 description			= svoboda_heavy_outfit_description
-inv_weight			= 7.5
+inv_weight			= 19
 inv_grid_width     = 2
 inv_grid_height    = 3
 inv_grid_x         = 41
@@ -1224,22 +1250,23 @@ inv_grid_y         = 18
 full_icon_name		= npc_icon_svoboda_heavy_outfit
 
 power_loss      = 1.3
-
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 cost				= 59620
 
-bones_koeff_protection = armor_4_2_3
+bones_koeff_protection = armor_4_3_3
 
 immunities_sect			= sect_svoboda_heavy_outfit_immunities
 
 ; RESISTANCE
-burn_protection 	 = 	0.15
-shock_protection 	 = 	0.00
-chemical_burn_protection 	 = 	0.20
-radiation_protection 	 = 	0.30
+burn_protection 	 = 	0.45
+shock_protection 	 = 	0.35
+chemical_burn_protection 	 = 	0.35
+radiation_protection 	 = 	0.50
 telepatic_protection 	 = 	0.15
-strike_protection 	 = 	0.50
-wound_protection	 = 	0.70
-explosion_protection 	 = 	0.45
+strike_protection 	 = 	0.4
+wound_protection	 = 	0.7
+explosion_protection 	 = 	0.4
 
 ; Параметры для ремонта
 tech_complication          = 1000
@@ -1255,6 +1282,7 @@ artefact_count = 11
 
 [sect_svoboda_heavy_outfit_immunities]:sect_stalker_outfit_immunities
 strike_immunity				= 0.009
+wound_immunity				= 0.012
 explosion_immunity			= 0.02
 fire_wound_immunity			= 0.02
 
@@ -1267,7 +1295,7 @@ $spawn 			= "outfit\svoboda_heavy_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 23.5
+inv_weight			= 34
 inv_grid_x			= 43
 inv_grid_y			= 18
 inv_name			= svoboda_heavy_outfit_exo1_name
@@ -1275,13 +1303,14 @@ inv_name_short		= svoboda_heavy_outfit_exo1_name
 description			= svoboda_heavy_outfit_exo1_description
 full_icon_name		= npc_icon_svoboda_heavy_outfit_exo1
 cost				= 71620
+bones_koeff_protection = armor_4_3_3
 
 ; RESISTANCE
-strike_protection 	 = 	0.52
-wound_protection	 = 	0.77
+strike_protection 	 = 	0.47
+wound_protection	 = 	0.82
 explosion_protection 	 = 	0.47
 
-power_loss      = 0.18
+power_loss      = 0.16
 additional_inventory_weight = 50
 additional_inventory_weight2 = 60
 
@@ -1291,12 +1320,14 @@ repair_compatibility     = heavy_outfit
 
 without_exoskeleton = svoboda_heavy_outfit		;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1 			                    ;формат записи параметра: exo_section = секция демонтируемого экзокаркаса
+jump_speed_dif			= 0.2
+sprint_koef_dif			= 0.15
 
 [svoboda_heavy_outfit_exo1_repair]:svoboda_heavy_outfit_repair
 
 [svoboda_heavy_outfit_exo2]:svoboda_heavy_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\svoboda_heavy_outfit_exo2"
-inv_weight			= 28.5
+inv_weight			= 39
 inv_grid_x			= 45
 inv_grid_y			= 18
 inv_name			= svoboda_heavy_outfit_exo2_name
@@ -1305,17 +1336,17 @@ description			= svoboda_heavy_outfit_exo2_description
 full_icon_name		= npc_icon_svoboda_heavy_outfit_exo2
 cost				= 82620
 
-bones_koeff_protection = armor_5_4_3
+bones_koeff_protection = armor_5_4_4
 
 ; RESISTANCE
-burn_protection 	 = 	0.27
-shock_protection 	 = 	-0.23
-chemical_burn_protection 	 = 	0.27
-radiation_protection 	 = 	0.47
+burn_protection 	 = 	0.47
+shock_protection 	 = 	0.0
+chemical_burn_protection 	 = 	0.40
+radiation_protection 	 = 	0.57
 telepatic_protection 	 = 	0.40
-strike_protection 	 = 	0.73
+strike_protection 	 = 	0.63
 wound_protection	 = 	0.97
-explosion_protection 	 = 	0.63
+explosion_protection 	 = 	0.57
 
 ; Параметры для ремонта
 tech_complication          = 1000
@@ -1344,7 +1375,7 @@ ef_equipment_type	= 4
 inv_name			= killer_outfit_name
 inv_name_short		= killer_outfit_name
 description			= killer_outfit_description
-inv_weight			= 5.0
+inv_weight			= 13.0
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -1354,7 +1385,8 @@ full_icon_name		= npc_icon_killer_outfit
 immunities_sect			= sect_killer_outfit_immunities
 
 power_loss      = 1.15
-
+additional_inventory_weight		= 16		; +max_walk_weight
+additional_inventory_weight2	= 16
 cost				= 32600
 
 bones_koeff_protection = armor_3_1_1
@@ -1394,7 +1426,7 @@ $spawn 			= "outfit\killer_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 28
 inv_grid_x			= 49
 inv_grid_y			= 0
 inv_name			= killer_outfit_exo1_name
@@ -1404,9 +1436,9 @@ full_icon_name		= npc_icon_killer_outfit_exo1
 cost				= 44600
 
 ; RESISTANCE
-strike_protection 	 = 	0.27
-wound_protection	 = 	0.37
-explosion_protection 	 = 	0.32
+strike_protection 	 =  0.42
+wound_protection	 = 	0.52
+explosion_protection 	 = 	0.43
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -1415,6 +1447,7 @@ additional_inventory_weight2 = 60
 ; Параметры для ремонта
 tech_complication          = 300
 repair_compatibility     = middle_outfit
+bones_koeff_protection = armor_4_1_1
 
 without_exoskeleton = killer_outfit				;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1 			                    ;формат записи параметра: exo_section = секция демонтируемого экзокаркаса
@@ -1423,7 +1456,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [killer_outfit_exo2]:killer_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\killer_outfit_exo2"
-inv_weight			= 25
+inv_weight			= 33
 inv_grid_x			= 51
 inv_grid_y			= 0
 inv_name			= killer_outfit_exo2_name
@@ -1432,7 +1465,7 @@ description			= killer_outfit_exo2_description
 full_icon_name		= npc_icon_killer_outfit_exo2
 cost				= 55600
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.27
@@ -1466,7 +1499,7 @@ inv_name						= killer_outfit_name_m1
 inv_name_short					= killer_outfit_name_m1
 full_icon_name		            = npc_icon_outfit_killer_m1
 description						= killer_outfit_description_m1
-inv_weight			            = 5.5
+inv_weight			            = 13.5
 
 cost				= 33000
 
@@ -1481,7 +1514,8 @@ telepatic_protection 	 = 	0.00
 strike_protection 	 = 	0.35
 wound_protection	 = 	0.45
 explosion_protection 	 = 	0.35
-
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 inv_grid_x						= 47
 inv_grid_y						= 3
 
@@ -1510,11 +1544,11 @@ inv_name_short		= killer_outfit_exo1_name_m1
 description			= killer_outfit_exo1_description_m1
 full_icon_name		= npc_icon_outfit_killer_m1_exo1
 cost				= 45000
-
+bones_koeff_protection = armor_4_1_2
 ; RESISTANCE
-strike_protection 	 = 	0.37
-wound_protection	 = 	0.47
-explosion_protection 	 = 	0.37
+strike_protection 	 =  0.45
+wound_protection	 = 	0.65
+explosion_protection 	 = 	0.45
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -1540,7 +1574,7 @@ description			= killer_outfit_exo2_description_m1
 full_icon_name		= npc_icon_outfit_killer_m1_exo2
 cost				= 56000
 
-bones_koeff_protection = armor_5_4_2
+bones_koeff_protection = armor_5_4_3
 
 ; RESISTANCE
 burn_protection 	 = 	0.27
@@ -1579,7 +1613,7 @@ ef_equipment_type	= 3
 inv_name			= monolit_outfit_name
 inv_name_short		= monolit_outfit_name
 description			= monolit_outfit_description
-inv_weight			= 5.0
+inv_weight			= 12.0
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -1587,7 +1621,8 @@ inv_grid_y			= 6
 full_icon_name		= npc_icon_monolit_outfit
 
 power_loss      = 1.15
-
+additional_inventory_weight		= 16		; +max_walk_weight
+additional_inventory_weight2	= 16
 cost				= 29100
 
 immunities_sect			= sect_monolit_outfit_immunities
@@ -1604,7 +1639,7 @@ explosion_protection 	 = 	0.25
 
 ; Параметры для ремонта
 tech_complication          = 600
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = monolit_outfit_exo1
@@ -1612,21 +1647,21 @@ exo2 = monolit_outfit_exo2
 
 arm_set = monolit_sci
 
-artefact_count = 8
+artefact_count = 10
 
 [sect_monolit_outfit_immunities]:sect_stalker_outfit_immunities
 chemical_burn_immunity		= 0.05
 
 [monolit_outfit_repair]
 tech_complication          = 600
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit, scientific_outfit
 
 [monolit_outfit_exo1]:monolit_outfit,light_exo_visual_base
 $spawn 			= "outfit\monolit_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 27
 inv_grid_x			= 49
 inv_grid_y			= 6
 inv_name			= monolit_outfit_exo1_name
@@ -1634,11 +1669,11 @@ inv_name_short		= monolit_outfit_exo1_name
 description			= monolit_outfit_exo1_description
 full_icon_name		= npc_icon_monolit_outfit_exo1
 cost				= 41100
-
+bones_koeff_protection = armor_3_0_1
 ; RESISTANCE
-strike_protection 	 = 	0.17
-wound_protection	 = 	0.32
-explosion_protection 	 = 	0.27
+strike_protection 	 =  0.37
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.37
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -1646,7 +1681,7 @@ additional_inventory_weight2 = 60
 
 ; Параметры для ремонта
 tech_complication          = 600
-repair_compatibility     = heavy_outfit
+repair_compatibility     =  middle_outfit
 
 without_exoskeleton = monolit_outfit			;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1 			                    ;формат записи параметра: exo_section = секция демонтируемого экзокаркаса
@@ -1655,7 +1690,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [monolit_outfit_exo2]:monolit_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\monolit_outfit_exo2"
-inv_weight			= 25
+inv_weight			= 32
 inv_grid_x			= 51
 inv_grid_y			= 6
 inv_name			= monolit_outfit_exo2_name
@@ -1664,7 +1699,7 @@ description			= monolit_outfit_exo2_description
 full_icon_name		= npc_icon_monolit_outfit_exo2
 cost				= 52100
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.40
@@ -1678,7 +1713,7 @@ explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 600
-repair_compatibility     = heavy_outfit
+repair_compatibility     =  middle_outfit
 
 additional_inventory_weight = 70
 additional_inventory_weight2 = 80
@@ -1707,13 +1742,13 @@ telepatic_protection	=	0.7
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 ; Параметры для экзоскелетов
 exo1 = monolit_outfit_m1_exo1
 exo2 = monolit_outfit_m1_exo2
 
-artefact_count = 9
+artefact_count = 10
 
 [monolit_outfit_m1_repair]:monolit_outfit_repair
 tech_complication          = 800
@@ -1723,20 +1758,20 @@ $spawn 			= "outfit\monolit_outfit_m1_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 20
+inv_weight			= 27
 inv_grid_x			= 49
 inv_grid_y			= 9
 inv_name			= monolit_outfit_exo1_m1_name
 inv_name_short		= monolit_outfit_exo1_m1_name
 description			= monolit_outfit_exo1_m1_description
 full_icon_name		= npc_icon_monolit_outfit_m1_exo1
-
+bones_koeff_protection = armor_3_0_1
 cost				= 66740
 
 ; RESISTANCE
-strike_protection 	 = 	0.17
-wound_protection	 = 	0.32
-explosion_protection 	 = 	0.27
+strike_protection 	 =  0.37
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.37
 
 power_loss      = 0.17
 additional_inventory_weight = 50
@@ -1744,7 +1779,7 @@ additional_inventory_weight2 = 60
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 without_exoskeleton = monolit_outfit_m1			;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 exo_section = exo1 			                    ;формат записи параметра: exo_section = секция демонтируемого экзокаркаса
@@ -1753,7 +1788,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [monolit_outfit_m1_exo2]:monolit_outfit_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\monolit_outfit_m1_exo2"
-inv_weight			= 25
+inv_weight			= 32
 inv_grid_x			= 51
 inv_grid_y			= 9
 inv_name			= monolit_outfit_exo2_m1_name
@@ -1762,7 +1797,7 @@ description			= monolit_outfit_exo2_m1_description
 full_icon_name		= npc_icon_monolit_outfit_m1_exo2
 cost				= 77740
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.40
@@ -1776,7 +1811,7 @@ explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 800
-repair_compatibility     = heavy_outfit
+repair_compatibility     = middle_outfit
 
 additional_inventory_weight = 70
 additional_inventory_weight2 = 80
@@ -1802,12 +1837,12 @@ inv_grid_y		= 17
 visual          = equipments\exoskelet_monolith
 full_icon_name	= npc_icon_monolit_exo_outfit
 
-inv_weight		= 12.5
+inv_weight		= 25
 cost			= 70600
 
 power_loss      = 0.13
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.40
@@ -1828,13 +1863,13 @@ exo_section = exo3
 
 ; Параметры для ремонта
 tech_complication          = 1200
-repair_compatibility     = exoskeleton_outfit
+repair_compatibility     = heavy_outfit
 
 arm_set = monolit_sci
 
 [monolit_exoskeleton_repair]
 tech_complication          = 1200
-repair_compatibility     = exoskeleton_outfit
+repair_compatibility     = heavy_outfit
 
 ;---------------------------------------------------------------------------------------------
 ;		Ученые
@@ -1851,7 +1886,7 @@ ef_equipment_type	= 2
 inv_name			= ecolog_outfit_name
 inv_name_short		= ecolog_outfit_name
 description			= ecolog_outfit_description
-inv_weight			= 5.5
+inv_weight			= 12
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 53
@@ -1860,13 +1895,14 @@ full_icon_name		= npc_icon_ecolog_outfit
 ;nightvision_sect	= effector_nightvision_good
 nightvision_sect	= effector_nightvision_elite
 
-power_loss      = 1.2
-
+power_loss      = 1.6
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 cost				= 48000
 
 immunities_sect			= sect_ecolog_outfit_immunities
 
-bones_koeff_protection = armor_1_1_1
+bones_koeff_protection = armor_1_2_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.65
@@ -1884,7 +1920,7 @@ repair_compatibility     = scientific_outfit
 
 arm_set = ecolog_o
 
-artefact_count = 10
+artefact_count = 13
 
 [sect_ecolog_outfit_immunities]
 burn_immunity				= 0.007			;коэффициенты иммунитета самого костюма
@@ -1912,21 +1948,22 @@ ef_equipment_type	= 2
 inv_name			= protection_outfit_name
 inv_name_short		= protection_outfit_name
 description			= protection_outfit_description
-inv_weight			= 9
+inv_weight			= 14
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 53
 inv_grid_y			= 3
 full_icon_name		= npc_icon_protection_outfit
 nightvision_sect	= effector_nightvision_good
-
-power_loss      = 1.35
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
+power_loss      = 1.7
 
 cost				= 59510
 
 immunities_sect			= sect_protection_outfit_immunities
 
-bones_koeff_protection = armor_2_1_1
+bones_koeff_protection = armor_2_2_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.75
@@ -1944,7 +1981,7 @@ repair_compatibility     = scientific_outfit
 
 arm_set = ecolog
 
-artefact_count = 11
+artefact_count = 13
 
 [sect_protection_outfit_immunities]
 burn_immunity				= 0.007			;коэффициенты иммунитета самого костюма
@@ -1954,8 +1991,8 @@ wound_immunity				= 0.015
 radiation_immunity			= 0.00
 telepatic_immunity			= 0.00
 chemical_burn_immunity		= 0.005
-explosion_immunity			= 0.03
-fire_wound_immunity			= 0.04
+explosion_immunity			= 0.02
+fire_wound_immunity			= 0.03
 
 [protection_outfit_repair]:scientific_outfit_repair
 ;---------------------------------------------------------------------------------------------
@@ -1973,7 +2010,7 @@ ef_equipment_type	= 3
 inv_name			= outfit_soldier_name
 inv_name_short		= outfit_soldier_name
 description			= outfit_soldier_description
-inv_weight			= 4.5
+inv_weight			= 10.5
 inv_grid_width		= 2
 inv_grid_height		= 2
 inv_grid_x			= 41
@@ -1982,12 +2019,13 @@ inv_grid_y			= 6
 full_icon_name		= npc_icon_soldier_outfit
 
 power_loss      = 1.15
-
+additional_inventory_weight		= 14		; +max_walk_weight
+additional_inventory_weight2	= 14
 cost				= 22400
 
 immunities_sect			= sect_soldier_outfit_immunities
 
-bones_koeff_protection = armor_2_0_0
+bones_koeff_protection = armor_2_0_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.15
@@ -2031,7 +2069,7 @@ $spawn 			= "outfit\soldier_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 19.5
+inv_weight			= 25.5
 inv_grid_x			= 43
 inv_grid_y			= 6
 inv_name			= outfit_soldier_exo1_name
@@ -2039,11 +2077,11 @@ inv_name_short		= outfit_soldier_exo1_name
 description			= outfit_soldier_exo1_description
 full_icon_name		= npc_icon_soldier_outfit_exo1
 cost				= 44400
-
+bones_koeff_protection = armor_3_0_0
 ; RESISTANCE
-strike_protection 	 = 	0.15
-wound_protection	 = 	0.25
-explosion_protection 	 = 	0.25
+strike_protection 	 =  0.27
+wound_protection	 = 	0.47
+explosion_protection 	 = 	0.47
 
 power_loss      = 0.17
 additional_inventory_weight		= 50
@@ -2060,7 +2098,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [soldier_outfit_exo2]:soldier_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\soldier_outfit_exo2"
-inv_weight			= 24.5
+inv_weight			= 32.5
 inv_grid_x			= 45
 inv_grid_y			= 6
 inv_name			= outfit_soldier_exo2_name
@@ -2069,7 +2107,7 @@ description			= outfit_soldier_exo2_description
 full_icon_name		= npc_icon_soldier_outfit_exo2
 cost				= 55400
 
-bones_koeff_protection = armor_5_4_0
+bones_koeff_protection = armor_5_4_1
 
 ; RESISTANCE
 burn_protection 	 = 	0.27
@@ -2106,7 +2144,7 @@ ef_equipment_type	= 3
 inv_name			= specops_outfit_name
 inv_name_short		= specops_outfit_name
 description			= specops_outfit_description
-inv_weight			= 7.0
+inv_weight			= 20.0
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -2114,7 +2152,8 @@ inv_grid_y			= 12
 full_icon_name		= npc_icon_specops_outfit
 
 power_loss      = 1.25
-
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 cost				= 44100
 
 immunities_sect			= sect_specops_outfit_immunities
@@ -2124,12 +2163,12 @@ bones_koeff_protection = armor_4_3_1
 ; RESISTANCE
 burn_protection 	 = 	0.45
 shock_protection 	 = 	0.35
-chemical_burn_protection 	 = 	0.25
+chemical_burn_protection 	 = 	0.35
 radiation_protection 	 = 	0.45
 telepatic_protection 	 = 	0.15
-strike_protection 	 = 	0.45
-wound_protection	 = 	0.65
-explosion_protection 	 = 	0.45
+strike_protection 	 = 	0.4
+wound_protection	 = 	0.6
+explosion_protection 	 = 	0.4
 
 ; Параметры для ремонта
 tech_complication          = 650
@@ -2158,7 +2197,7 @@ $spawn 			= "outfit\specops_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 22
+inv_weight			= 35
 inv_grid_x			= 49
 inv_grid_y			= 12
 
@@ -2167,11 +2206,11 @@ inv_name_short		= specops_outfit_exo1_name
 description			= specops_outfit_exo1_description
 full_icon_name		= npc_icon_specops_outfit_exo1
 cost				= 56100
-
+bones_koeff_protection = armor_4_3_1
 ; RESISTANCE
-strike_protection 	 = 	0.45
+strike_protection 	 = 	0.55
 wound_protection	 = 	0.65
-explosion_protection 	 = 	0.45
+explosion_protection 	 = 	0.50
 
 ; Параметры для ремонта
 tech_complication          = 650
@@ -2188,7 +2227,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [specops_outfit_exo2]:specops_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\specops_outfit_exo2"
-inv_weight			= 27
+inv_weight			= 40
 inv_grid_x			= 51
 inv_grid_y			= 12
 inv_name			= specops_outfit_exo2_name
@@ -2197,18 +2236,17 @@ description			= specops_outfit_exo2_description
 full_icon_name		= npc_icon_specops_outfit_exo2
 cost				= 67100
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.47
 shock_protection 	 = 	0.00
-chemical_burn_protection 	 = 	0.30
-radiation_protection 	 = 	0.57
+chemical_burn_protection 	 = 	0.40
+radiation_protection 	 = 	0.55
 telepatic_protection 	 = 	0.40
-strike_protection 	 = 	0.70
-wound_protection	 = 	0.93
-explosion_protection 	 = 	0.63
-
+strike_protection 	 = 	0.63
+wound_protection	 = 	0.80
+explosion_protection 	 = 	0.57
 ; Параметры для ремонта
 tech_complication          = 650
 repair_compatibility     = heavy_outfit
@@ -2242,7 +2280,7 @@ repair_compatibility     = heavy_outfit
 
 ; Параметры для экзоскелетов
 exo1 = outfit_specnaz_m1_exo1
-;exo2 = outfit_specnaz_m1_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы экзоскелета
+exo2 = outfit_specnaz_m1_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы экзоскелета
 
 [outfit_specnaz_m1_repair]:specops_outfit_repair
 tech_complication          = 1200
@@ -2252,7 +2290,7 @@ $spawn 			= "outfit\outfit_specnaz_m1_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 22
+inv_weight			= 35
 inv_grid_x			= 49
 inv_grid_y			= 15
 inv_name			= specnaz_outfit_exo1_name_m1
@@ -2262,10 +2300,9 @@ full_icon_name		= npc_icon_specops_outfit_m1_exo1
 cost				= 73740
 
 ; RESISTANCE
-strike_protection 	 = 	0.45
+strike_protection 	 = 	0.55
 wound_protection	 = 	0.65
-explosion_protection 	 = 	0.45
-
+explosion_protection 	 = 	0.50
 ; Параметры для ремонта
 tech_complication          = 1200
 repair_compatibility     = heavy_outfit
@@ -2281,7 +2318,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [outfit_specnaz_m1_exo2]:outfit_specnaz_m1_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\outfit_specnaz_m1_exo2"
-inv_weight			= 27
+inv_weight			= 40
 inv_grid_x			= 51
 inv_grid_y			= 15
 inv_name			= specnaz_outfit_exo2_name_m1
@@ -2290,17 +2327,18 @@ description			= specnaz_outfit_exo2_description_m1
 full_icon_name		= npc_icon_specops_outfit_m1_exo2
 cost				= 84740
 
-bones_koeff_protection = armor_5_4_1
+bones_koeff_protection = armor_5_4_2
 
 ; RESISTANCE
 burn_protection 	 = 	0.47
 shock_protection 	 = 	0.00
-chemical_burn_protection 	 = 	0.30
-radiation_protection 	 = 	0.57
+chemical_burn_protection 	 = 	0.40
+radiation_protection 	 = 	0.55
 telepatic_protection 	 = 	0.40
-strike_protection 	 = 	0.70
-wound_protection	 = 	0.93
-explosion_protection 	 = 	0.63
+strike_protection 	 = 	0.63
+wound_protection	 = 	0.80
+explosion_protection 	 = 	0.57
+
 
 ; Параметры для ремонта
 tech_complication          = 1200
@@ -2327,7 +2365,7 @@ ef_equipment_type	= 4
 inv_name			= military_outfit_name
 inv_name_short		= military_outfit_name
 description			= military_outfit_description
-inv_weight			= 9.0
+inv_weight			= 23.0
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x			= 47
@@ -2335,22 +2373,24 @@ inv_grid_y			= 18
 full_icon_name		= npc_icon_military_outfit
 
 power_loss      = 1.7
-
+additional_inventory_weight		= 18		; +max_walk_weight
+additional_inventory_weight2	= 18
 cost				= 60000
 
 immunities_sect			= sect_military_stalker_outfit_immunities
 
-bones_koeff_protection = armor_4_3_2
+bones_koeff_protection = armor_5_4_3
 
 ; RESISTANCE
 burn_protection 	 = 	0.60
 shock_protection 	 = 	0.55
-chemical_burn_protection 	 = 	0.55
-radiation_protection 	 = 	0.60
+chemical_burn_protection 	 = 	0.45
+radiation_protection 	 = 	0.50
 telepatic_protection 	 = 	0.45
-strike_protection 	 = 	0.35
-wound_protection	 = 	0.45
-explosion_protection 	 = 	0.35
+strike_protection 	 = 	0.45
+wound_protection	 = 	0.65
+explosion_protection 	 = 	0.45
+
 
 ; Параметры для ремонта
 tech_complication          = 850
@@ -2358,7 +2398,7 @@ repair_compatibility     = heavy_outfit
 
 ; Параметры для экзоскелетов
 exo1 = military_outfit_exo1
-; exo2 = military_outfit_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы
+;exo2 = military_outfit_exo2 ; невозможно одеть из-за крупногабаритного бронекостюма, мешающего одеванию бронекирасы
 ; не раскомментировать, такой костюм есть уникальный, по квесту Лукаша на БТР
 
 arm_set = soldier_skat
@@ -2383,7 +2423,7 @@ $spawn 			= "outfit\military_outfit_exo1"
 visual          = equipments\exoskelet	
 
 ef_equipment_type	= 5
-inv_weight			= 24
+inv_weight			= 38
 inv_grid_x			= 49
 inv_grid_y			= 18
 inv_name			= military_outfit_exo1_name
@@ -2392,11 +2432,10 @@ description			= military_outfit_exo1_description
 full_icon_name		= npc_icon_military_outfit_exo1
 cost				= 72000
 
-; RESISTANCE
-strike_protection 	 = 	0.35
-wound_protection	 = 	0.45
-explosion_protection 	 = 	0.35
 
+strike_protection 	 = 	0.50
+wound_protection	 = 	0.77
+explosion_protection 	 = 	0.55
 power_loss      = 0.18
 additional_inventory_weight = 50
 additional_inventory_weight2 = 60
@@ -2412,7 +2451,7 @@ exo_section = exo1 			                    ;формат записи параметра: exo_section 
 
 [military_outfit_exo2]:military_outfit_exo1,heavy_exo_visual_base
 $spawn 			= "outfit\military_outfit_exo2"
-inv_weight			= 29
+inv_weight			= 42
 inv_grid_x			= 51
 inv_grid_y			= 18
 inv_name			= military_outfit_exo2_name
@@ -2421,17 +2460,17 @@ description			= military_outfit_exo2_description
 full_icon_name		= npc_icon_military_outfit_exo2
 cost				= 83000
 
-bones_koeff_protection = armor_5_4_2
+bones_koeff_protection = armor_5_4_4
 
 ; RESISTANCE
 burn_protection 	 = 	0.57
 shock_protection 	 = 	0.13
 chemical_burn_protection 	 = 	0.50
-radiation_protection 	 = 	0.67
+radiation_protection 	 = 	0.60
 telepatic_protection 	 = 	0.60
-strike_protection 	 = 	0.63
-wound_protection	 = 	0.80
-explosion_protection 	 = 	0.57
+strike_protection 	 = 	0.70
+wound_protection	 = 	0.93
+explosion_protection 	 = 	0.63
 
 ; Параметры для ремонта
 tech_complication          = 850
@@ -2441,5 +2480,6 @@ additional_inventory_weight = 70
 additional_inventory_weight2 = 80
 exo_section			= exo2 ;exo_fast ;KRodin: поправил.
 can_detach_exo = false
+without_exoskeleton = military_outfit			;формат записи параметра: without_exoskeleton = секция костюма, получаемого при демонтаже экзокаркаса
 
 [military_outfit_exo2_repair]:military_outfit_repair

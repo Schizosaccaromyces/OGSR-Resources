@@ -251,16 +251,16 @@
 		<text>Zaharich</text>
 	</string>
 	<string id="monolit_leader_name">
-		<text>"Monolith" leader</text>
+		<text>Monolithian leader</text>
 	</string>
 	<string id="monolit_left_hand_name">
-		<text>"Monolith" leader's left hand</text>
+		<text>Monolithian leader's left hand</text>
 	</string>
 	<string id="monolit_right_hand_name">
-		<text>"Monolith" leader's right hand</text>
+		<text>Monolithian leader's right hand</text>
 	</string>
 	<string id="monolit_regular_basic_name">
-		<text>"Monolith" stalker</text>
+		<text>Monolithian stalker</text>
 	</string>
 	<string id="rad_company_mikluha_name">
 		<text>Mikluha</text>
@@ -335,19 +335,19 @@
 		<text>Dead stalker</text>
 	</string>
 	<string id="aes_Monolit_master_bio">
-		<text>Sentinel of the "Monolith" faction. Better stay away from him. No details available.</text>
+		<text>Monolithian sentinel. Better stay away from him. No details available.</text>
 	</string>
 	<string id="aes_Monolit_rpg_bio">
-		<text>Stalker from the "Monolith" faction. No details available.</text>
+		<text>Monolithian stalker. No details available.</text>
 	</string>
 	<string id="aes_Monolit_sniper_bio">
-		<text>Stalker from the "Monolith" faction. No details available.</text>
+		<text>Monolithian stalker. No details available.</text>
 	</string>
 	<string id="aes_Monolit_sniper_gauss_bio">
-		<text>Stalker from the "Monolith" faction. No details available.</text>
+		<text>Monolithian stalker. No details available.</text>
 	</string>
 	<string id="aes_Monolit_specnaz_bio">
-		<text>Militant from the "Monolith" faction. Well equipped. No details available.</text>
+		<text>Monolithian militant. Well equipped. No details available.</text>
 	</string>
 	<string id="aes_Soldier_commander_bio">
 		<text>Commander of the military raid.</text>
@@ -359,13 +359,13 @@
 		<text>No details available.</text>
 	</string>
 	<string id="aes_Soldier_specnaz_aes_bio">
-		<text>Army Spetsnaz. Well equipped. No details available.</text>
+		<text>Army, Spetsnaz operative. Well equipped. No details available.</text>
 	</string>
 	<string id="aes_Soldier_specnaz_aes_name">
 		<text>Vasil "Luckless"</text>
 	</string>
 	<string id="aes_Soldier_specnaz_bio">
-		<text>Army Spetsnaz. Well equipped. No details available.</text>
+		<text>Army, Spetsnaz operative. Well equipped. No details available.</text>
 	</string>
 	<string id="agr_krot_bio">
 		<text>Former digger who raids all the desolate laboratories and bunkers he and his associates come across.</text>
@@ -383,7 +383,7 @@
 		<text>Arnie</text>
 	</string>
 	<string id="bar_bar_guard_bio">
-		<text>Bouncer at the bar. Or the Barkeep's bodyguard if you wish. Nothing is known about his present or his past.</text>
+		<text>Bouncer at the bar. Or the Barkeep's bodyguard if you wish. Nothing is known about him or his past.</text>
 	</string>
 	<string id="bar_bar_guard_name">
 		<text>Garik</text>
@@ -395,7 +395,7 @@
 		<text>Zhorik</text>
 	</string>
 	<string id="bar_barmen_bio">
-		<text>Neither a saint, nor a scoundrel. The Barkeep knows his worth and is respected by all stalkers. Rumor has it he is hiding in the Zone from some dark events in his past. After an encounter with the anomaly, he started limping slightly and decided to change jobs. He set up a bar by the Duty faction, and the place gradually turned into the meeting point for all the Zone's veterans. The Barkeep has numerous connections both in the Zone and in the outside world.</text>
+		<text>Neither a saint, nor a scoundrel. The Barkeep knows his worth and is respected by all stalkers. Rumor has it he is hiding in the Zone from some dark events in his past. After an encounter with an anomaly, he started limping slightly and decided to change jobs. He set up a bar by the Duty headquarters, and the place gradually turned into the meeting point for all the Zone's veterans. The Barkeep has numerous connections both in the Zone and in the outside world.</text>
 	</string>
 	<string id="bar_barmen_name">
 		<text>Barkeep</text>
@@ -665,10 +665,10 @@
 		<text>Unknown mercenary. Possibly well armed. No details available.</text>
 	</string>
 	<string id="mil_Monolit_master_bio">
-		<text>Sentinel of the Monolith faction. Better stay away from him. No details available.</text>
+		<text>Monolitian sentinel. Better stay away from him. No details available.</text>
 	</string>
 	<string id="mil_Monolit_regular_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="mil_Stalker_master_bio">
 		<text>One of the veterans. Knows the Zone like the back of his hand. Usually well equipped and highly dangerous. No details available.</text>
@@ -755,22 +755,22 @@
 		<text>Veteran stalker. Possibly well equipped. No details available.</text>
 	</string>
 	<string id="pri_monolith_common_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="pri_monolith_exo_bio">
-		<text>Elite stalker from the Monolith faction. No details available.</text>
+		<text>Elite Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="pri_monolith_leader_bio">
-		<text>Leader of the Monolith faction. No details available.</text>
+		<text>Leader of "Monolith" faction. No details available.</text>
 	</string>
 	<string id="pri_monolith_leader_name">
 		<text>Charon</text>
 	</string>
 	<string id="pri_monolith_regular_bio">
-		<text>Regular stalker from the Monolith faction. No details available.</text>
+		<text>Regular Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="pri_monolith_specnaz_bio">
-		<text>Stalker from the special forces of the Monolith faction. No details available.</text>
+		<text>Stalker from the special forces of "Monolith" faction. No details available.</text>
 	</string>
 	<string id="pri_zombied_soldier_bio">
 		<text>Regular soldier. No details available.</text>
@@ -800,10 +800,10 @@
 		<text>Research assistant</text>
 	</string>
 	<string id="rad_monolith_general_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="rad_monolith_specnaz_bio">
-		<text>Militant from the Monolith faction. Well equipped. No details available.</text>
+		<text>Monolitian militant. Well equipped. No details available.</text>
 	</string>
 	<string id="rad_specnaz_bio">
 		<text>Spetsnaz. Well equipped. No details available.</text>
@@ -854,10 +854,10 @@
 		<text>Wolfhound</text>
 	</string>
 	<string id="sar_monolith_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="sar_monolith_cristall_bio">
-		<text>Stalker from the Monolith's special group "Crystal," responsible for the safety of the Monolith itself.</text>
+		<text>Stalker from "Monolith"'s special group "Crystal," responsible for the safety of "Monolith" itself.</text>
 	</string>
 	<string id="sar2_arena_manager_name">
 		<text>Arnie</text>
@@ -869,7 +869,7 @@
 		<text>Vasya "Boar"</text>
 	</string>
 	<string id="sar2_bio">
-		<text>A psychomaterial form created by the Monolith.</text>
+		<text>A psychomaterial form created by "Monolith".</text>
 	</string>
 	<string id="sar2_borov_name">
 		<text>Borov</text>
@@ -1040,16 +1040,16 @@
 		<text>Unknown mercenary. Possibly well armed. No details available.</text>
 	</string>
 	<string id="sim_monolith_master_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="sim_monolith_regular_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="sim_monolith_sniper_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="sim_monolith_specnaz_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="sim_soldier_commander_bio">
 		<text>No details available.</text>
@@ -1163,7 +1163,7 @@
 		<text>Stalker from the Duty faction. No details available.</text>
 	</string>
 	<string id="val_monolith_common_bio">
-		<text>Stalker from the Monolith faction. No details available.</text>
+		<text>Monolitian Stalker. No details available.</text>
 	</string>
 	<string id="val_prisoner_bio">
 		<text>Stalker from the Duty faction. No details available.</text>
@@ -1286,10 +1286,10 @@
 		<text>Kolya</text>
 	</string>
 	<string id="hvost_bio">
-		<text>Experienced stalker. He often gives hand to newbies in the Zone.</text>
+		<text>Experienced stalker. A helping hand to Rookies in the Zone.</text>
 	</string>
 	<string id="kolya_bio">
-		<text>Experienced stalker. Known by his trips to north unexplored lands.</text>
+		<text>Experienced stalker. Known by his trips to the unexplored lands of the North.</text>
 	</string>
 	<string id="bar_arena_kaligula_name">
 		<text>Kaligula</text>
@@ -1298,7 +1298,7 @@
 		<text>Owl</text>
 	</string>
 	<string id="filin_bio">
-		<text>Experienced stalker. Plans a trip to the North to find the legendary Klondike of artifacts.</text>
+		<text>Experienced stalker. Plans a trip to the North to find the legendary Klondike artifacts.</text>
 	</string>
 	<string id="barman_mg_name">
 		<text>Bosun</text>
@@ -1310,7 +1310,7 @@
 		<text>Colonel Prokhorov</text>
 	</string>
 	<string id="deadcity_bar_nardyman_bio">
-		<text>He is the only survived man from an international expedition to the Zone. He has not much business out of the Zone, so he's stuck here.</text>
+		<text>Sole survivor from an international expedition to the Zone. Doesn´t have much business out of the Zone, so he's stuck here.</text>
 	</string>	
 	<string id="deadcity_bar_billiardman_name">
 		<text>Pasha Katala</text>

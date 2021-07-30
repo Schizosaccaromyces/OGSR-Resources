@@ -428,11 +428,12 @@
   		<crouch_type>0</crouch_type>
         <supplies>
             [spawn] \n
-			wpn_pkm \n
-			ammo_7.62x54_ap \n
+			wpn_groza \n
+			ammo_9x39_pab9 \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
+			ammo_vog-25 = 2 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
         </supplies>
@@ -531,8 +532,6 @@
 			[spawn] \n
 			wpn_m16a1_sk1 \n
             ammo_5.56x45_ss190 \n
-			wpn_wincheaster1300 \n
-			ammo_12x70_kart \n
             grenade_f1 = 2 \n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_items.xml" \n
@@ -563,9 +562,7 @@
 		<supplies>
 			[spawn] \n
             wpn_val \n
-            ammo_9x39_pab9 \n
-			wpn_bm16 \n
-			ammo_12x70_kart \n
+            ammo_9x39_ap \n
 			grenade_f1 = 2 \n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_items.xml" \n
@@ -596,7 +593,7 @@
 		<supplies>
 			[spawn] \n
             wpn_rpk74p_rpk45_side_rail_1p29 \n
-            ammo_5.45x39_fmj \n
+            ammo_5.45x39_ap \n
 			wpn_pm \n
 			ammo_9x18_pmm \n
 			grenade_f1 = 2 \n
@@ -663,8 +660,6 @@
 			[spawn] \n
             wpn_a91_m20_side_rail_pso \n
             ammo_9x39_pab9 \n
-            wpn_bm16 \n
-			ammo_12x70_kart \n
 			grenade_f1 = 2 \n
 #include "gameplay\character_drugs.xml" \n
 #include "gameplay\character_items.xml" \n

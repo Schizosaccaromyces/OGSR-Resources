@@ -538,7 +538,7 @@
 		<text>OK.</text>
 	</string>
 	<string id="mil_freedom_commander_1001">
-		<text>What's up, stalker! You're just in time. We're defending against Monolith jerks, and the next wave is about to arrive! Believe it or not, we just had our last sniper knocked off! Can you help? We'll pay back after the fight - you won't be sorry!</text>
+		<text>What's up, stalker! You're just in time. We're defending against "Monolith" jerks, and the next wave is about to arrive! Believe it or not, we just had our last sniper knocked off! Can you help? We'll pay back after the fight - you won't be sorry!</text>
 	</string>
 	<string id="mil_freedom_commander_10011">
 		<text>No, I cannot help you.</text>
@@ -559,7 +559,7 @@
 		<text>As it should be. I hope to talk to you in the morning. Oh, and don't walk off too far... Or I might think you've decided to run off. And that would mean you-know-what, so keep that in mind! Now, assume your position.</text>
 	</string>
 	<string id="mil_freedom_commander_1007">
-		<text>That's right. OK, let's get to work. A Monolith group might be trying to break through here. That means it's gonna get hot real soon.</text>
+		<text>That's right. OK, let's get to work. A "Monolith" group might be trying to break through here. That means it's gonna get hot real soon.</text>
 	</string>
 	<string id="mil_freedom_commander_1008">
 		<text>Got it.</text>
@@ -595,7 +595,7 @@
 		<text>Yes. He asked me to help you.</text>
 	</string>
 	<string id="mil_freedom_commander_4003">
-		<text>You're just in time. We're fending off the Monolith jerks, and the next wave is almost here! Believe it or not, we just had our last sniper knocked off! Can you help? We'll pay back after the fight - you won't be sorry!</text>
+		<text>You're just in time. We're fending off "Monolith" jerks, and the next wave is almost here! Believe it or not, we just had our last sniper knocked off! Can you help? We'll pay back after the fight - you won't be sorry!</text>
 	</string>
 	<string id="mil_freedom_commander_5001">
 		<text>Looks like we took them all down. I say that's enough for today. Thanks for your help! Here, take this - a little bit of money to cheer you up.</text>
@@ -640,7 +640,7 @@
 		<text>What is there beyond it?</text>
 	</string>
 	<string id="mil_freedom_commander_common2_3">
-		<text>Only death... or serving Monolith. "Our Monolith! In your name we..." Damn! In short, no one needs to go there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedi's, he-he. We also detain the really stupid ones - or at least try not to let them creep into the centre.</text>
+		<text>Only death... or serving "Monolith". "Our "Monolith"! In your name we..." Damn! In short, no one needs to go there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedi's, he-he. We also detain the really stupid ones - or at least try not to let them creep into the centre.</text>
 	</string>
 	<string id="mil_freedom_commander_common2_4">
 		<text>Why do you do that?</text>
@@ -916,7 +916,7 @@
 		<text>Lukash, you don't expect me to go to the Radar to get you a tank?</text>
 	</string>
 	<string id="mil_leader_start_dialog_1_3">
-		<text>Judging by the way the Monolith keep trying to break through the Barrier, we need to improve the situation in some way, especially as we have few fighters. It's necessary to strengthen the Barrier, and to strengthen it properly. For this we need - an armoured vehicle...</text>
+		<text>Judging by the way "Monolith" keep trying to break through the Barrier, we need to improve the situation in some way, especially as we have few fighters. It's necessary to strengthen the Barrier, and to strengthen it properly. For this we need - an armoured vehicle...</text>
 	</string>
 	<string id="mil_leader_start_dialog_1_2">
 		<text>What is it??</text>
@@ -1021,7 +1021,7 @@
 		<text>What exactly?</text>
 	</string>
 	<string id="mil_leader_start_dialog_5003">
-		<text>If you feel up to it, go to the outpost near the Red Forest exit. We've had reports claiming that either mutants or Monolith are planning a new attempt to break through there. The guys need help.</text>
+		<text>If you feel up to it, go to the outpost near the Red Forest exit. We've had reports claiming that either mutants or "Monolith" are planning a new attempt to break through there. The guys need help.</text>
 	</string>
 	<string id="mil_leader_start_dialog_5004">
 		<text>Well, you did help the guys at the Barrier, so - relax.</text>
@@ -1036,7 +1036,7 @@
 		<text>What chance?</text>
 	</string>
 	<string id="mil_leader_start_dialog_7003">
-		<text>Certain things point to the fact that very soon Monolith is going to try to break through from the Red Forest side. You gotta go see Cap - he's the commander at the Barrier - and see if he needs any help. Well, it's pretty obvious he does, really...</text>
+		<text>Certain things point to the fact that very soon "Monolith" is going to try to break through from the Red Forest side. You gotta go see Cap - he's the commander at the Barrier - and see if he needs any help. Well, it's pretty obvious he does, really...</text>
 	</string>
 	<string id="mil_leader_start_dialog_7004">
 		<text>OK, I'll do it.</text>
@@ -1882,7 +1882,7 @@
 		<text>Go to the Radar.</text>
 	</string>
 	<string id="shurup_car_trade_41">
-		<text>18000 roubles. Fuck knows what condition it's in, but the car is yours. It's at the Monolith checkpoint. So it should be fully serviced.</text>
+		<text>18000 roubles. Fuck knows what condition it's in, but the car is yours. It's at "Monolith" checkpoint. So it should be fully serviced.</text>
 	</string>
 	<string id="shurup_car_trade_42">
 		<text>Can I buy it on credit? No? Well, okay...</text>

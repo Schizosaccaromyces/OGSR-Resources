@@ -58,26 +58,26 @@ cr_turn_left_0				=	1,	  0.2,	    0.1,   0.65,     0.1
 cr_turn_right_0				=	1,	  0.2,	    0.1,   0.65,     0.1
 
 [stalker_vision_free]
-min_view_distance 		= 0.4				; коэффициент, который множится на eye_range, в зависимости от угла
-max_view_distance 		= 0.8				; коэффициент, который множится на eye_range, в зависимости от угла
-visibility_threshold	= 30 ;120.0				; значение, при достижении суммой которого объект считается видимым
-always_visible_distance = 0.1
-time_quant			    = 0.005
-decrease_value			= 0.1				; значение, на которое уменьшается вес, если объект попал в фрустум, но отсёкся по каким-то причинам
-velocity_factor		    = 0.5
-luminocity_factor		= 0.5				; фактор освещения (только для Актёра)
-transparency_threshold	= 0.8				; 0.75
+min_view_distance = 0.4 ; min range of cone based on eye_range
+max_view_distance = 1.6 ; max range of cone based on eye_range
+visibility_threshold = 40 ;Threshold in which object becomes visible based on factors
+always_visible_distance = 0.2 ;Distance object is always considered visible (float)
+time_quant = 0.005 ;step increment to for sight calculations
+decrease_value = 0.1 ;Decrease over time to overall threshold
+velocity_factor = 0.8 ;Higher value = greater bonus to detection speed when target is moving (depended on movement speed)
+luminocity_factor = 0.62 ;Low value = easier to see at night
+transparency_threshold = 0.82 ;Low value = easier to see through objects
 
 [stalker_vision_danger]
-min_view_distance   	= 0.7				; коэффициент, который множится на eye_range, в зависимости от угла
-max_view_distance	 	= 1.0				; коэффициент, который множится на eye_range, в зависимости от угла
-visibility_threshold	= 10 ;15 ;100.0				; значение, при достижении суммой которого объект считается видимым
-always_visible_distance = 0.15
-time_quant			    = 0.001
-decrease_value			= 0.01				; значение, на которое уменьшается вес, если объект попал в фрустум, но отсёкся по каким-то причинам
-velocity_factor		    = 0.5
-luminocity_factor		= 0.4				; фактор освещения (только для Актёра)
-transparency_threshold	= 0.25 ;Чтоб НПС лучше стреляли сквозь кусты ;0.6
+min_view_distance = 0.4 ; min range of cone based on eye_range
+max_view_distance = 1.6 ; max range of cone based on eye_range
+visibility_threshold = 15 ;Threshold in which object becomes visible based on factors
+always_visible_distance = 0.2 ;Distance object is always considered visible (float)
+time_quant = 0.0010 ;step increment to for sight calculations
+decrease_value = 0.01 ;Decrease over time to overall threshold
+velocity_factor = 0.8 ;Higher value = greater bonus to detection speed when target is moving (depended on movement speed)
+luminocity_factor = 0.5 ;Low value = easier to see at night
+transparency_threshold = 0.45 ;Low value = easier to see through objects (if greater then 1 then enemies are blind)
 
 [stalker_sound_perceive]
 SoundThreshold		 	= 0.6
@@ -88,56 +88,55 @@ SoundThreshold		 	= 0.6
 	world				= 0.2 ; коэффициент усиления приоритета\силы звука
 
 [stalker_damage]
-default					= 1.0, -1, 1.0
+default					= 0.5, -1, 0.5
 
-bip01_pelvis 			= 1.0, 2, 0.3
-bip01_spine 		 	= 1.0, 2, 0.8
-bip01_spine1 		 	= 0.5, 2, 0.8
-bip01_spine2 		 	= 0.5, 2, 0.8
-bip01_neck 			 	= 2.5, 0, 1.0
-bip01_head 			 	= 2.5, 0, 1.0, 5.0
-eyelid_1 			 	= 2.5, 0, 1.0, 5.0
-eye_left 			 	= 2.5, 0, 1.0, 5.0
-eye_right 			 	= 2.5, 0, 1.0, 5.0
-jaw_1 		 		 	= 1.5, 0, 1.0
+bip01_pelvis 				= 0.75, 4, 1.6
+bip01_spine 		 		= 0.85, 4, 1.8
+bip01_spine1 		 		= 0.85, 4, 1.9
+bip01_spine2 		 		= 0.9, 4, 2.1
+bip01_neck 			 	= 0.6, 0, 3.2
+bip01_head 			 	= 1.55, 0, 3.6
+eyelid_1 			 	= 1.55, 0, 2.8
+eye_left 			 	= 1.55, 0, 2.65
+eye_right 			 	= 1.55, 0, 2.65
+jaw_1 		 		 	= 1.45, 0, 1.6
 
-bip01_l_clavicle	 	= 1.0, 10, 0.7
-bip01_l_upperarm	 	= 1.0, 10, 0.6
-bip01_l_forearm	 	 	= 0.2, 10, 0.5
-bip01_l_hand	 	 	= 0.1, -1, 0.2
-bip01_l_finger0	 	 	= 0.0, -1, 0.1
-bip01_l_finger01	 	= 0.0, -1, 0.1
-bip01_l_finger02	 	= 0.0, -1, 0.1
-bip01_l_finger1	 	 	= 0.0, -1, 0.1
-bip01_l_finger11	 	= 0.0, -1, 0.1
-bip01_l_finger12	 	= 0.0, -1, 0.1
-bip01_l_finger2	 	 	= 0.0, -1, 0.1
-bip01_l_finger21	 	= 0.0, -1, 0.1
-bip01_l_finger22	 	= 0.0, -1, 0.1
+bip01_l_clavicle	 		= 0.35, 8, 0.65
+bip01_l_upperarm	 		= 0.2, 8, 0.45
+bip01_l_forearm	 	 	    = 0.1, 8, 0.25
+bip01_l_hand	 	 	   	= 0.05, -1, 0.05
+bip01_l_finger0	 	 	    = 0.01, -1, 0.01
+bip01_l_finger01	 		= 0.01, -1, 0.01
+bip01_l_finger02	 		= 0.01, -1, 0.01
+bip01_l_finger1	 	 	    = 0.01, -1, 0.01
+bip01_l_finger11	 		= 0.01, -1, 0.01
+bip01_l_finger12	 		= 0.01, -1, 0.01
+bip01_l_finger2	 	 	    = 0.01, -1, 0.01
+bip01_l_finger21	 		= 0.01, -1, 0.01
+bip01_l_finger22	 		= 0.01, -1, 0.01
 
-bip01_r_clavicle	 	= 1.0, 8, 0.7
-bip01_r_upperarm	 	= 1.0, 8, 0.6
-bip01_r_forearm	 	 	= 0.2, 8, 0.5
-bip01_r_hand	 	 	= 0.1, -1, 0.2
-bip01_r_finger0	 	 	= 0.0, -1, 0.1
-bip01_r_finger01	 	= 0.0, -1, 0.1
-bip01_r_finger02	 	= 0.0, -1, 0.1
-bip01_r_finger1	 	 	= 0.0, -1, 0.1
-bip01_r_finger11	 	= 0.0, -1, 0.1
-bip01_r_finger12	 	= 0.0, -1, 0.1
-bip01_r_finger2	 	 	= 0.0, -1, 0.1
-bip01_r_finger21	 	= 0.0, -1, 0.1
-bip01_r_finger22	 	= 0.0, -1, 0.1
+bip01_r_clavicle	 		= 0.3, 8, 0.65
+bip01_r_upperarm	 		= 0.2, 8, 0.45
+bip01_r_forearm	 	 	   	= 0.1, 8, 0.25
+bip01_r_hand	 	 	   	= 0.01, -1, 0.05
+bip01_r_finger0	 	 		= 0.01, -1, 0.01
+bip01_r_finger01	 		= 0.01, -1, 0.01
+bip01_r_finger02	 		= 0.01, -1, 0.01
+bip01_r_finger1	 	 		= 0.01, -1, 0.01
+bip01_r_finger11	 		= 0.01, -1, 0.01
+bip01_r_finger12	 		= 0.01, -1, 0.01
+bip01_r_finger2	 	 	 	= 0.01, -1, 0.01
+bip01_r_finger21	 		= 0.01, -1, 0.01
+bip01_r_finger22	 		= 0.01, -1, 0.01
 
-bip01_l_thigh	 	 	= 1.0, 4, 0.5
-bip01_l_calf	 	 	= 1.0, 4, 0.4
-bip01_l_foot	 	 	= 0.2, 4, 0.3
-bip01_l_toe0	 	 	= 0.0, -1, 0.2
-bip01_r_thigh	 	 	= 1.0, 6, 0.5
-bip01_r_calf	 	 	= 1.0, 6, 0.4
-bip01_r_foot	 	 	= 0.2, 6, 0.3
-bip01_r_toe0	 	 	= 0.0, -1, 0.2
-
+bip01_l_thigh	 	 		= 0.3, 4, 1.8
+bip01_l_calf	 	 		= 0.17, 4, 0.85
+bip01_l_foot	 	 		= 0.05, 4, 0.09
+bip01_l_toe0	 	 		= 0.01, -1, 0.12
+bip01_r_thigh	 	 		= 0.3, 4, 1.8
+bip01_r_calf	 	 		= 0.17, 4, 0.85
+bip01_r_foot	 	 		= 0.05, 4, 0.09
+bip01_r_toe0	 	 		= 0.01, -1, 0.12
 [critical_wound_head_section]
 	bip01_head
 	eyelid_1
@@ -204,16 +203,16 @@ bip01_r_toe0	 	 	= 0.0, -1, 0.2
 	leg_right				= critical_wound_leg_right_section
   
 [stalker_immunities]
-burn_immunity 				= 1.0				;коэффициенты иммунитета 
-strike_immunity 			= 0.8
-shock_immunity 				= 1.0
-wound_immunity				= 0.6
-radiation_immunity 			= 0.0
-telepatic_immunity 			= 0.9
-chemical_burn_immunity 		= 1.0
-explosion_immunity 			= 1.0
-fire_wound_immunity  		= 1.0 
-wound_2_immunity  			= 1.0
+burn_immunity           = 1.30 ;коэффициенты иммунитета 
+strike_immunity         = 1.0
+shock_immunity          = 1.30
+wound_immunity          = 0.8
+radiation_immunity      = 0.0
+telepatic_immunity      = 1.0
+chemical_burn_immunity  = 1.30
+explosion_immunity      = 1.0
+fire_wound_immunity     = 0.66
+wound_2_immunity  			= 0.66
 
 [stalker_condition]
 satiety_v					= 0.00001				;скорость уменьшения сытости со временем
@@ -241,9 +240,9 @@ limping_health_end          = 0.5
 limping_threshold			= 0.5
 
 ;открытые раны
-bleeding_v				    = 0.001						;потеря крови при номинальной ране в секунду
-wound_incarnation_v			= 0.003					;крутизна кривой заживления (какой процент раны останется после заживления в игровую секунду)
-min_wound_size				= 0.0256
+bleeding_v                 = 0.00122    ;потеря крови при номинальной ране в секунду
+wound_incarnation_v        = 0.003    ;скорость заживления раны
+min_wound_size             = 0.0256   ;минимальный размер раны, после которого она считается зажившей
 
 [stalker_terrain]
 	255,000,255,255
@@ -637,16 +636,16 @@ species			= bandit
 immunities_sect	= bandit_immunities
 
 [bandit_immunities]
-burn_immunity 				= 1.0				
-strike_immunity 			= 1.0
-shock_immunity 				= 1.0
-wound_immunity				= 1.0
-radiation_immunity 			= 0.0
-telepatic_immunity 			= 1.0
-chemical_burn_immunity 		= 1.0
-explosion_immunity 			= 1.0
-fire_wound_immunity  		= 0.7 
-wound_2_immunity  			= 0.9
+burn_immunity           = 1.1 ;коэффициенты иммунитета 
+strike_immunity         = 0.8
+shock_immunity          = 1.1
+wound_immunity          = 0.65
+radiation_immunity      = 0.0
+telepatic_immunity      = 0.75
+chemical_burn_immunity  = 1.1
+explosion_immunity      = 0.75
+fire_wound_immunity     = 0.5
+wound_2_immunity  			= 0.5
 
 [quest_stalker]:stalker
 $spawn = "stalkers\quest_stalker"			; option for Level Editor
@@ -685,16 +684,16 @@ species			= kulg_band
 immunities_sect	= kulg_band_immunities
 
 [kulg_band_immunities]
-burn_immunity 				= 0.01 
-strike_immunity 			= 0.04
-shock_immunity 				= 1.0
-wound_immunity				= 0.0
-radiation_immunity 			= 0.0
-telepatic_immunity 			= 0.0
-chemical_burn_immunity 		= 0.02
-explosion_immunity 			= 0.003
-fire_wound_immunity  		= 0.003 
-wound_2_immunity  			= 0.07
+burn_immunity = 0.75 ; immunity coefficients 
+strike_immunity         = 0.5
+shock_immunity          = 0.75
+wound_immunity          = 0.4
+radiation_immunity      = 0.0
+telepatic_immunity      = 0.5
+chemical_burn_immunity  = 0.75
+explosion_immunity      = 0.5
+fire_wound_immunity     = 0.3
+wound_2_immunity  			= 0.3
 
 
 [kulg_band_2]:stalker
@@ -710,16 +709,16 @@ species			= kulg_band_2
 immunities_sect	= kulg_band_2_immunities
 
 [kulg_band_2_immunities]
-burn_immunity 				= 1.0 
-strike_immunity 			= 0.8
-shock_immunity 				= 1.0
-wound_immunity				= 0.0
-radiation_immunity 			= 0.0
-telepatic_immunity 			= 0.9
-chemical_burn_immunity 		= 1.0
-explosion_immunity 			= 1.0
-fire_wound_immunity  		= 1.0 
-wound_2_immunity  			= 1.0
+burn_immunity           = 1.30 ;коэффициенты иммунитета 
+strike_immunity         = 1.0
+shock_immunity          = 1.30
+wound_immunity          = 0.8
+radiation_immunity      = 0.0
+telepatic_immunity      = 1.0
+chemical_burn_immunity  = 1.30
+explosion_immunity      = 1.0
+fire_wound_immunity     = 0.66
+wound_2_immunity  			= 0.66
 
 
 [iskatel]:stalker

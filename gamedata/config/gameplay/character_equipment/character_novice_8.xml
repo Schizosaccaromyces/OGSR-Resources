@@ -1,14 +1,14 @@
-wpn_desert_eagle \n
-ammo_7.62x25_p \n
+wpn_sks \n
+ammo_7.62x39_fmj \n
 grenade_rgd5 = 1, prob = 0.3 \n
 
 harmonica_a = 1, prob = 0.3 \n
 guitar_a = 1, prob = 0.6 \n
 device_torch \n
 device_pda \n
-sigaret = 1, prob = 0.7 \n
+sigaret = 1, prob=0.7 \n
 
-medkit = 1, prob = 0.7 \n
+medkit = 1, prob=0.7 \n
 bandage = 1, prob = 0.8 \n
 medkit_army \n
 bandage \n

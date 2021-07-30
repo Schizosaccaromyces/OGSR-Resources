@@ -512,7 +512,7 @@ artefact_activation_seq		= af_activation_zharka
 health_restore_speed        = 0.0
 radiation_restore_speed 	= -0.001
 satiety_restore_speed       = 0.0
-power_restore_speed         = -0.001
+power_restore_speed         = -0.0015
 bleeding_restore_speed      = 0.0
 hit_absorbation_sect        = af_drops_absorbation
 
@@ -559,7 +559,7 @@ artefact_activation_seq		= af_activation_zharka
 health_restore_speed        = 0.0			
 radiation_restore_speed 	= -0.002
 satiety_restore_speed       = 0.0
-power_restore_speed         = -0.0013
+power_restore_speed         = -0.0018
 bleeding_restore_speed      = 0.0
 hit_absorbation_sect = af_fireball_absorbation
 
@@ -601,7 +601,7 @@ artefact_activation_seq		= af_activation_zharka
 health_restore_speed    = 0.0			
 radiation_restore_speed = -0.0035
 satiety_restore_speed   = 0.0
-power_restore_speed     = -0.0015
+power_restore_speed     = -0.0022
 bleeding_restore_speed  = 0.0
 hit_absorbation_sect    = af_cristall_absorbation
 
@@ -652,11 +652,11 @@ burn_immunity = 1.0				;коэффициенты иммунитета
 strike_immunity = 1.06
 shock_immunity = 1.0
 wound_immunity = 1.07		
-radiation_immunity = 1.0
+radiation_immunity = 1.05
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
-fire_wound_immunity  = 1.05
+explosion_immunity = 1.06
+fire_wound_immunity  = 1.00
 
 ; Ломоть мяса
 [af_mincer_meat]:af_base_slot
@@ -692,11 +692,11 @@ burn_immunity = 1.0				;коэффициенты иммунитета
 strike_immunity = 1.05
 shock_immunity = 1.0
 wound_immunity = 1.05	
-radiation_immunity = 1.0
+radiation_immunity = 1.05
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
-fire_wound_immunity  = 1.03
+explosion_immunity = 1.05
+fire_wound_immunity  = 1.00
 
 ; Душа
 [af_soul]:af_base_slot
@@ -733,10 +733,10 @@ burn_immunity = 1.0				;коэффициенты иммунитета
 strike_immunity = 1.05
 shock_immunity = 1.0
 wound_immunity = 1.05	
-radiation_immunity = 1.0
+radiation_immunity = 1.10
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
+explosion_immunity = 1.05
 fire_wound_immunity  = 1.0
 
 ;----------------------------------------------------------------------------------------------------------------------------------------
@@ -769,7 +769,7 @@ artefact_activation_seq		= af_activation_electra
 health_restore_speed     = 0.0			
 radiation_restore_speed  = 0.0
 satiety_restore_speed    = 0.0
-power_restore_speed 	 = 0.0025
+power_restore_speed 	 = 0.0035
 bleeding_restore_speed   = 0.0
 
 additional_inventory_weight  = 2
@@ -817,7 +817,7 @@ artefact_activation_seq		= af_activation_electra
 health_restore_speed = 0.0			
 radiation_restore_speed = 0.0
 satiety_restore_speed = 0.0
-power_restore_speed 	=	0.005
+power_restore_speed 	=	0.0075
 bleeding_restore_speed = 0.0
 
 additional_inventory_weight  = 4
@@ -865,7 +865,7 @@ artefact_activation_seq		= af_activation_electra
 health_restore_speed    = 0.0			
 radiation_restore_speed = 0.0
 satiety_restore_speed   = 0.0
-power_restore_speed 	= 0.007
+power_restore_speed 	= 0.01
 bleeding_restore_speed  = 0.0
 
 additional_inventory_weight  = 8
@@ -1165,7 +1165,7 @@ wound_immunity 	=	0.86
 radiation_immunity = 1.0
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
+explosion_immunity = 0.92
 fire_wound_immunity  = 1.0
 
 ; Пустышка
@@ -1196,7 +1196,7 @@ hit_absorbation_sect = af_dummy_dummy_absorbation
 
 [af_dummy_dummy_absorbation]
 burn_immunity = 0.82			;коэффициенты иммунитета 
-strike_immunity = 1.0
+strike_immunity = 0.86
 shock_immunity = 1.0
 wound_immunity = 1.0		
 radiation_immunity = 1.0
@@ -1325,7 +1325,7 @@ wound_immunity      = 1.0
 radiation_immunity 	= 1.0
 telepatic_immunity  = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity 	= 1.0
+explosion_immunity 	= 0.96
 fire_wound_immunity = 0.93
 
 ;----------------------------------------------------------------------------------------------------------------------------------------
@@ -1360,7 +1360,7 @@ hit_absorbation_sect = af_fuzz_kolobok_absorbation
 
 [af_fuzz_kolobok_absorbation]
 burn_immunity       = 1.0				;коэффициенты иммунитета 
-strike_immunity 	= 0.95
+strike_immunity 	= 0.9
 shock_immunity      = 1.0
 wound_immunity      = 0.8		
 radiation_immunity  = 1.0
@@ -1396,8 +1396,8 @@ satiety_restore_speed		= 0.0
 power_restore_speed			= 0.001
 bleeding_restore_speed		= 0.0
 
-additional_inventory_weight  = 1
-additional_inventory_weight2 = 1
+additional_inventory_weight  = 2
+additional_inventory_weight2 = 2
 
 hit_absorbation_sect		= af_kaktus_absorbation
 
@@ -1539,8 +1539,8 @@ cost				= 15000
 jump_height			= 0.4
 
 psy_health_restore_speed = 0.01
-additional_inventory_weight  = 10
-additional_inventory_weight2 = 10
+additional_inventory_weight  = 9
+additional_inventory_weight2 = 9
 
 lights_enabled = false
 hit_absorbation_sect = af_mopheus_absorbation
@@ -1699,7 +1699,7 @@ wound_immunity = 0.8
 radiation_immunity = 1.0
 telepatic_immunity = 1.0
 chemical_burn_immunity = 1.0
-explosion_immunity = 1.0
+explosion_immunity = 0.8
 fire_wound_immunity  = 1.0
 
 

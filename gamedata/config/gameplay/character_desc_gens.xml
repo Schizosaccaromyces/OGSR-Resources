@@ -24,7 +24,9 @@
       [spawn] \n
 	  		wpn_gauss \n
             ammo_gauss \n
-			grenade_f1 = 2 \n
+			grenade_f1 = 1 \n
+			wpn_eagle_m2 = 1\n
+			ammo_9x39_ap =1 \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -57,7 +59,7 @@
       [spawn] \n
 	  		wpn_pkm \n
             ammo_7.62x54_ap \n
-			wpn_beretta \n
+			wpn_hpsa \n
 			ammo_9x19_pbp \n
 			grenade_f1 = 2 \n
             device_torch \n
@@ -90,7 +92,7 @@
     <visual>actors\militari\stalker_warlab_guard</visual>
     <supplies>
       [spawn] \n
-	  		wpn_ak102_ak10230_stok_kobra \n
+	  		wpn_fn2000 \n
             ammo_5.56x45_ap \n
 			wpn_beretta \n
 			ammo_9x19_pbp \n
@@ -125,10 +127,10 @@
 		<visual>actors\unic\npc_kap</visual>
 		<supplies>
 			[spawn] \n
-	  		wpn_pkm \n
+	  		wpn_svu_svd20_kobra \n
             ammo_7.62x54_ap \n
-			wpn_beretta \n
-			ammo_9x19_pbp \n
+			wpn_colt_m1 \n
+			ammo_11.43x23_hydro \n
 			grenade_f1 \n			
 #include "gameplay\character_items.xml" \n
 #include "gameplay\character_drugs.xml" \n
@@ -194,7 +196,7 @@
 		<visual>actors\stalker_svoboda\stalker_svoboda_skat</visual>
 		<supplies>
 			[spawn] \n
-	  		wpn_m16a1_sk1 \n
+	  		wpn_g36 \n
             ammo_5.56x45_ap \n
             device_torch \n
 #include "gameplay\character_drugs.xml"
@@ -224,8 +226,8 @@
 		<visual>actors\unic\npc_cherep</visual>
 		<supplies>
 			[spawn] \n
-	  		wpn_pkm \n
-            ammo_7.62x54_ap \n
+	  		wpn_aek_nomag_mtk83_acog \n
+            ammo_7.62x39_ap \n
 			grenade_f1 \n				
 #include "gameplay\character_items.xml" \n
 #include "gameplay\character_drugs.xml" \n
@@ -323,8 +325,8 @@
 		<crouch_type>-1</crouch_type>
 		<supplies>
 			[spawn] \n
-	  		wpn_rpk74p_rpk45_side_rail_1p29 \n
-            ammo_5.45x39_ap \n
+	  		wpn_vss_m20_side_rail_1pn51_grip \n
+            ammo_9x39_ap \n
 #include "gameplay\character_items.xml"\n
 #include "gameplay\character_food.xml" \n
 #include "gameplay\character_drugs.xml"

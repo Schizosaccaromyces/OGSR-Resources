@@ -59,7 +59,7 @@ cam_dispersion          = 1.8	;увеличения угла (в градусах) с каждым выстрелом
 cam_dispersion_inc		= 0.5	;увеличениe cam_dispersion с каждым выстрелом
 cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
 cam_max_angle			= 4.0	;10.0	;максимальный угол отдачи
-cam_max_angle_horz		= 1.0	;3.0	;(degree) maximum shot horizontal degree 
+cam_max_angle_horz		= 12.0	;3.0	;(degree) maximum shot horizontal degree 
 cam_step_angle_horz		= 0.25	;(degree) size of step camera moved in horizontal position while shooting
 
 fire_dispersion_condition_factor = 3.3	;увеличение дисперсии в процентах при максимальном износе 
@@ -77,7 +77,7 @@ animation_slot				= 2
 
 inv_name					= wpn-swd
 inv_name_short				= wpn-swd_s
-inv_weight					= 4.31
+inv_weight					= 4.12
 
 inv_grid_width				= 6
 inv_grid_height				= 2
@@ -125,7 +125,7 @@ silencer_fire_distance   	= 500
 silencer_bullet_speed	 	= 730
 ; end ttc
 
-use_aim_bullet				= true
+use_aim_bullet = false;				= false
 time_to_aim					= 1.0	
 
 hud                     	= wpn_swd_hud

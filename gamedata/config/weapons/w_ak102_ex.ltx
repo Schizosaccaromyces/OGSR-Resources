@@ -293,10 +293,10 @@ bones = d2											;custom (телескопический приклад +пистолетная рукоять)
 [ak102_custom_p] ; имитация движкового параметра
 
 ;+ТЕСТ точности LR-300
-fire_dispersion_base	= 0.165	;ОГСЕ 0.15
+fire_dispersion_base	= 0.15	;ОГСЕ 0.15
 disp_rate 				= 1.5
 control_inertion_factor	= 1.25f		;ОГСЕ 1.1f АК, АК74 1.25f ;Эмка 1.25, LR-300 1.2		;удобность
-cam_dispersion_inc		= 0.29		;ОГСЕ 0.25 АК74 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispersion_inc		= 0.25		;ОГСЕ 0.25 АК74 0.3		;увеличениe cam_dispersion с каждым выстрелом
 PDM_disp_vel_factor 	= 1.12		;1.13
 PDM_disp_accel_factor 	= 1.25		;1.3
 
@@ -338,7 +338,7 @@ repair_compatibility = ak
 ;можно взять из ak102_ak10230_p
 ;или перекрыть тут
 cost 			= 4050
-inv_weight 		= 3.63
+inv_weight 		= 3.33
 ;прицелы на боковую планку
 wpn_addon_scope_kobra    = wpn_ak102_ak10230_stok_kobra
 wpn_addon_scope_1pn51    = wpn_ak102_ak10230_stok_1pn51
@@ -352,7 +352,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_1p29
 ; Кобра, магазин АК101
 [wpn_ak102_ak10230_stok_kobra]:wpn_ak102_stok,ak102_kobra_p,ak102_stok_p,ak102_ak10230_p
 cost 			= 4050
-inv_weight 		= 3.63
+inv_weight 		= 3.33
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_ak10230_stok_1p29
 wpn_addon_scope_1pn51    = wpn_ak102_ak10230_stok_1pn51
@@ -366,7 +366,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_kobra
 ; Казуар, магазин АК101
 [wpn_ak102_ak10230_stok_1pn51]:wpn_ak102_stok,ak102_1pn51_p,ak102_stok_p,ak102_ak10230_p
 cost 			= 4050
-inv_weight 		= 3.63
+inv_weight 		= 3.33
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_ak10230_stok_1p29
 wpn_addon_scope_kobra    = wpn_ak102_ak10230_stok_kobra
@@ -381,7 +381,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_1pn51
 ; УСП-1, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_stok_1p29]:wpn_ak102_stok,ak102_1p29_p,ak102_stok_p,ak102_cmag100_p
 cost 			= 4500
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 ;прицелы на боковую планку
 wpn_addon_scope_kobra    = wpn_ak102_cmag100_stok_kobra
 wpn_addon_scope_1pn51    = wpn_ak102_cmag100_stok_1pn51
@@ -395,7 +395,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_1p29
 ; Кобра, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_stok_kobra]:wpn_ak102_stok,ak102_kobra_p,ak102_stok_p,ak102_cmag100_p
 cost 			= 4500
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_cmag100_stok_1p29
 wpn_addon_scope_1pn51    = wpn_ak102_cmag100_stok_1pn51
@@ -409,7 +409,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_kobra
 ; Казуар, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_stok_1pn51]:wpn_ak102_stok,ak102_1pn51_p,ak102_stok_p,ak102_cmag100_p
 cost 			= 4500
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_cmag100_stok_1p29
 wpn_addon_scope_kobra    = wpn_ak102_cmag100_stok_kobra
@@ -424,7 +424,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_1pn51
 ; УСП-1, нет магазина
 [wpn_ak102_nomag_stok_1p29]:wpn_ak102_stok,ak102_1p29_p,ak102_stok_p,ak102_nomag_p
 cost 			= 3900
-inv_weight 		= 3.30
+inv_weight 		= 3.00
 ;прицелы на боковую планку
 wpn_addon_scope_kobra    = wpn_ak102_nomag_stok_kobra
 wpn_addon_scope_1pn51    = wpn_ak102_nomag_stok_1pn51
@@ -438,7 +438,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_stok_1p29
 ; Кобра, нет магазина
 [wpn_ak102_nomag_stok_kobra]:wpn_ak102_stok,ak102_kobra_p,ak102_stok_p,ak102_nomag_p
 cost 			= 3900
-inv_weight 		= 3.30
+inv_weight 		= 3.00
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_nomag_stok_1p29
 wpn_addon_scope_1pn51    = wpn_ak102_nomag_stok_1pn51
@@ -452,7 +452,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_stok_kobra
 ; Казуар, нет магазина
 [wpn_ak102_nomag_stok_1pn51]:wpn_ak102_stok,ak102_1pn51_p,ak102_stok_p,ak102_nomag_p
 cost 			= 3900
-inv_weight 		= 3.30
+inv_weight 		= 3.00
 ;прицелы на боковую планку
 wpn_addon_scope_1p29     = wpn_ak102_nomag_stok_1p29
 wpn_addon_scope_kobra    = wpn_ak102_nomag_stok_kobra
@@ -467,7 +467,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_stok_1pn51
 ; Пикатинни, ACOG, магазин АК101
 [wpn_ak102_ak10230_stok_mtk83_acog]:wpn_ak102_stok,ak102_acog_p,ak102_stok_p,ak102_mtk83_p,ak102_ak10230_p
 cost 			= 5050
-inv_weight 		= 3.94
+inv_weight 		= 3.64
 ;прицелы на планку Пикатинни
 wpn_addon_scope_eotech   = wpn_ak102_ak10230_stok_mtk83_eotech
 ;секция при снятой планке Пикатинни
@@ -480,7 +480,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_mtk83_acog
 ; Пикатинни, EOTech, магазин АК101
 [wpn_ak102_ak10230_stok_mtk83_eotech]:wpn_ak102_stok,ak102_eotech_p,ak102_stok_p,ak102_mtk83_p,ak102_ak10230_p
 cost 			= 5050
-inv_weight 		= 3.94
+inv_weight 		= 3.64
 ;прицелы на планку Пикатинни
 wpn_addon_acog           = wpn_ak102_ak10230_stok_mtk83_acog
 ;секция при снятой планке Пикатинни
@@ -494,7 +494,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_mtk83_eotech
 ; Пикатинни, ACOG, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_stok_mtk83_acog]:wpn_ak102_stok,ak102_acog_p,ak102_stok_p,ak102_mtk83_p,ak102_cmag100_p
 cost 			= 5500
-inv_weight 		= 4.61
+inv_weight 		= 3.91
 ;прицелы на планку Пикатинни
 wpn_addon_scope_eotech   = wpn_ak102_cmag100_stok_mtk83_eotech
 ;секция при снятой планке Пикатинни
@@ -507,7 +507,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_mtk83_acog
 ; Пикатинни, EOTech, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_stok_mtk83_eotech]:wpn_ak102_stok,ak102_eotech_p,ak102_stok_p,ak102_mtk83_p,ak102_cmag100_p
 cost 			= 5500
-inv_weight 		= 4.61
+inv_weight 		= 3.91
 ;прицелы на планку Пикатинни
 wpn_addon_acog           = wpn_ak102_cmag100_stok_mtk83_acog
 ;секция при снятой планке Пикатинни
@@ -521,7 +521,7 @@ magazine_removed_section = wpn_ak102_nomag_stok_mtk83_eotech
 ; Пикатинни, ACOG, нет магазина
 [wpn_ak102_nomag_stok_mtk83_acog]:wpn_ak102_stok,ak102_acog_p,ak102_stok_p,ak102_mtk83_p,ak102_nomag_p
 cost 			= 4900
-inv_weight 		= 3.61
+inv_weight 		= 3.31
 ;прицелы на планку Пикатинни
 wpn_addon_scope_eotech   = wpn_ak102_nomag_stok_mtk83_eotech
 ;секция при снятой планке Пикатинни
@@ -534,7 +534,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_stok_mtk83_acog
 ; Пикатинни, EOTech, нет магазина
 [wpn_ak102_nomag_stok_mtk83_eotech]:wpn_ak102_stok,ak102_eotech_p,ak102_stok_p,ak102_mtk83_p,ak102_nomag_p
 cost 			= 4900
-inv_weight 		= 3.61
+inv_weight 		= 3.31
 ;прицелы на планку Пикатинни
 wpn_addon_acog           = wpn_ak102_nomag_stok_mtk83_acog
 ;секция при снятой планке Пикатинни
@@ -565,7 +565,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_stok_mtk83_eotech
 ;можно взять из ak102_ak10230_p
 ;или перекрыть тут 
 cost 			= 6050
-inv_weight 		= 4.63
+inv_weight 		= 3.93
 inv_grid_x			= 64
 inv_grid_y			= 12
 ;прицелы на боковую планку
@@ -583,7 +583,7 @@ wpn_addon_afg = wpn_ak102_ak10230_custom_grip_1p29
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_ak10230_custom_1p29
 cost 			= 7350
-inv_weight 		= 4.71
+inv_weight 		= 4.01
 inv_grid_x			= 69
 inv_grid_y			= 12
 ;прицелы на боковую планку
@@ -599,7 +599,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_1p29
 ; Кобра, магазин АК101
 [wpn_ak102_ak10230_custom_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_ak10230_p
 cost 			= 6050
-inv_weight 		= 4.63
+inv_weight 		= 3.93
 inv_grid_x			= 64
 inv_grid_y			= 12
 ;прицелы на боковую планку
@@ -615,7 +615,7 @@ wpn_addon_afg = wpn_ak102_ak10230_custom_grip_kobra
 [wpn_ak102_ak10230_custom_kobra_repair]:wpn_ak1022_repair
 [wpn_ak102_ak10230_custom_grip_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_ak10230_p,ak102_grip_p
 cost 			= 7350
-inv_weight 		= 4.71
+inv_weight 		= 4.01
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_ak10230_custom_kobra
 inv_grid_x			= 69
@@ -633,7 +633,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_kobra
 ; Казуар, магазин АК101
 [wpn_ak102_ak10230_custom_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_ak10230_p
 cost 			= 6050
-inv_weight 		= 4.63
+inv_weight 		= 3.93
 inv_grid_x			= 64
 inv_grid_y			= 12
 ;прицелы на боковую планку
@@ -649,7 +649,7 @@ wpn_addon_afg = wpn_ak102_ak10230_custom_grip_1pn51
 [wpn_ak102_ak10230_custom_1pn51_repair]:wpn_ak1022_repair
 [wpn_ak102_ak10230_custom_grip_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_ak10230_p,ak102_grip_p
 cost 			= 7350
-inv_weight 		= 4.71
+inv_weight 		= 4.01
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_ak10230_custom_1pn51
 inv_grid_x			= 69
@@ -668,7 +668,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_1pn51
 ; УСП-1, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_custom_1p29]:wpn_ak102_custom,ak102_1p29_p,ak102_custom_p,ak102_cmag100_p
 cost 			= 6500
-inv_weight 		= 5.30
+inv_weight 		= 4.60
 inv_grid_x			= 64
 inv_grid_y			= 14
 ;прицелы на боковую планку
@@ -684,7 +684,7 @@ wpn_addon_afg = wpn_ak102_cmag100_custom_grip_1p29
 [wpn_ak102_cmag100_custom_1p29_repair]:wpn_ak1022_repair
 [wpn_ak102_cmag100_custom_grip_1p29]:wpn_ak102_custom,ak102_1p29_p,ak102_custom_p,ak102_cmag100_p,ak102_grip_p
 cost 			= 7800
-inv_weight 		= 5.38
+inv_weight 		= 4.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_cmag100_custom_1p29
 inv_grid_x			= 69
@@ -702,7 +702,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_1p29
 ; Кобра, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_custom_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_cmag100_p
 cost 			= 6500
-inv_weight 		= 5.30
+inv_weight 		= 4.60
 inv_grid_x			= 64
 inv_grid_y			= 14
 ;прицелы на боковую планку
@@ -718,7 +718,7 @@ wpn_addon_afg = wpn_ak102_cmag100_custom_grip_kobra
 [wpn_ak102_cmag100_custom_kobra_repair]:wpn_ak1022_repair
 [wpn_ak102_cmag100_custom_grip_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_cmag100_p,ak102_grip_p
 cost 			= 7800
-inv_weight 		= 5.38
+inv_weight 		= 4.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_cmag100_custom_kobra
 inv_grid_x			= 69
@@ -736,7 +736,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_kobra
 ; Казуар, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_custom_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_cmag100_p
 cost 			= 6500
-inv_weight 		= 5.30
+inv_weight 		= 4.60
 inv_grid_x			= 64
 inv_grid_y			= 14
 ;прицелы на боковую планку
@@ -752,7 +752,7 @@ wpn_addon_afg = wpn_ak102_cmag100_custom_grip_1pn51
 [wpn_ak102_cmag100_custom_1pn51_repair]:wpn_ak1022_repair
 [wpn_ak102_cmag100_custom_grip_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_cmag100_p,ak102_grip_p
 cost 			= 7800
-inv_weight 		= 5.38
+inv_weight 		= 4.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_cmag100_custom_1pn51
 inv_grid_x			= 69
@@ -772,7 +772,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_1pn51
 ; УСП-1, нет магазина
 [wpn_ak102_nomag_custom_1p29]:wpn_ak102_custom,ak102_1p29_p,ak102_custom_p,ak102_nomag_p
 cost 			= 5900
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 inv_grid_x				= 64
 inv_grid_y				= 16
 ;прицелы на боковую планку
@@ -788,7 +788,7 @@ wpn_addon_afg = wpn_ak102_nomag_custom_grip_1p29
 [wpn_ak102_nomag_custom_1p29_repair]:wpn_ak1022_repair
 [wpn_ak102_nomag_custom_grip_1p29]:wpn_ak102_custom,ak102_1p29_p,ak102_custom_p,ak102_nomag_p,ak102_grip_p
 cost 			= 7200
-inv_weight 		= 4.38
+inv_weight 		= 3.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_nomag_custom_1p29
 inv_grid_x				= 69
@@ -806,7 +806,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_custom_grip_1p29
 ; Кобра, нет магазина
 [wpn_ak102_nomag_custom_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_nomag_p
 cost 			= 5900
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 inv_grid_x				= 64
 inv_grid_y				= 16
 ;прицелы на боковую планку
@@ -822,7 +822,7 @@ wpn_addon_afg = wpn_ak102_nomag_custom_grip_kobra
 [wpn_ak102_nomag_custom_kobra_repair]:wpn_ak1022_repair
 [wpn_ak102_nomag_custom_grip_kobra]:wpn_ak102_custom,ak102_kobra_p,ak102_custom_p,ak102_nomag_p,ak102_grip_p
 cost 			= 7200
-inv_weight 		= 4.38
+inv_weight 		= 3.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_nomag_custom_kobra
 inv_grid_x				= 69
@@ -840,7 +840,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_custom_grip_kobra
 ; Казуар, нет магазина
 [wpn_ak102_nomag_custom_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_nomag_p
 cost 			= 5900
-inv_weight 		= 4.30
+inv_weight 		= 3.60
 inv_grid_x				= 64
 inv_grid_y				= 16
 ;прицелы на боковую планку
@@ -856,7 +856,7 @@ wpn_addon_afg = wpn_ak102_nomag_custom_grip_1pn51
 [wpn_ak102_nomag_custom_1pn51_repair]:wpn_ak1022_repair
 [wpn_ak102_nomag_custom_grip_1pn51]:wpn_ak102_custom,ak102_1pn51_p,ak102_custom_p,ak102_nomag_p,ak102_grip_p
 cost 			= 7200
-inv_weight 		= 4.38
+inv_weight 		= 3.68
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_nomag_custom_1pn51
 inv_grid_x				= 69
@@ -875,7 +875,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_custom_grip_1pn51
 ; Пикатинни, ACOG, магазин АКМ
 [wpn_ak102_ak10230_custom_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_ak10230_p
 cost 			= 7050
-inv_weight 		= 4.94
+inv_weight 		= 4.24
 inv_grid_x			= 64
 inv_grid_y			= 12
 ;прицелы на планку Пикатинни
@@ -890,7 +890,7 @@ wpn_addon_afg = wpn_ak102_ak10230_custom_grip_mtk83_acog
 [wpn_ak102_ak10230_custom_mtk83_acog_repair]:wpn_ak1022_repair
 [wpn_ak102_ak10230_custom_grip_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_ak10230_p,ak102_grip_p
 cost 			= 8350
-inv_weight 		= 5.02
+inv_weight 		= 4.32
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_ak10230_custom_mtk83_acog
 inv_grid_x			= 69
@@ -907,7 +907,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_mtk83_acog
 ; Пикатинни, EOTech, магазин АКМ
 [wpn_ak102_ak10230_custom_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_ak10230_p
 cost 			= 7050
-inv_weight 		= 4.94
+inv_weight 		= 4.24
 inv_grid_x			= 64
 inv_grid_y			= 12
 ;прицелы на планку Пикатинни
@@ -922,7 +922,7 @@ wpn_addon_afg = wpn_ak102_ak10230_custom_grip_mtk83_eotech
 [wpn_ak102_ak10230_custom_mtk83_eotech_repair]:wpn_ak1022_repair
 [wpn_ak102_ak10230_custom_grip_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_ak10230_p,ak102_grip_p
 cost 			= 8350
-inv_weight 		= 5.02
+inv_weight 		= 4.32
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_ak10230_custom_mtk83_eotech
 inv_grid_x			= 69
@@ -940,7 +940,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_mtk83_eotech
 ; Пикатинни, ACOG, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_custom_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_cmag100_p
 cost 			= 7500
-inv_weight 		= 5.61
+inv_weight 		= 4.91
 inv_grid_x			= 64
 inv_grid_y			= 14
 ;прицелы на планку Пикатинни
@@ -955,7 +955,7 @@ wpn_addon_afg = wpn_ak102_cmag100_custom_grip_mtk83_acog
 [wpn_ak102_cmag100_custom_mtk83_acog_repair]:wpn_ak1022_repair
 [wpn_ak102_cmag100_custom_grip_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_cmag100_p,ak102_grip_p
 cost 			= 8800
-inv_weight 		= 5.69
+inv_weight 		= 4.99
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_cmag100_custom_mtk83_acog
 inv_grid_x			= 69
@@ -972,7 +972,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_mtk83_acog
 ; Пикатинни, EOTech, магазин Beta C-Mag 100
 [wpn_ak102_cmag100_custom_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_cmag100_p
 cost 			= 7500
-inv_weight 		= 5.61
+inv_weight 		= 4.91
 inv_grid_x			= 64
 inv_grid_y			= 14
 ;прицелы на планку Пикатинни
@@ -987,7 +987,7 @@ wpn_addon_afg = wpn_ak102_cmag100_custom_grip_mtk83_eotech
 [wpn_ak102_cmag100_custom_mtk83_eotech_repair]:wpn_ak1022_repair
 [wpn_ak102_cmag100_custom_grip_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_cmag100_p,ak102_grip_p
 cost 			= 8800
-inv_weight 		= 5.69
+inv_weight 		= 4.99
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_cmag100_custom_mtk83_eotech
 inv_grid_x			= 69
@@ -1005,7 +1005,7 @@ magazine_removed_section = wpn_ak102_nomag_custom_grip_mtk83_eotech
 ; Пикатинни, ACOG, нет магазина
 [wpn_ak102_nomag_custom_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_nomag_p
 cost 			= 6900
-inv_weight 		= 4.61
+inv_weight 		= 3.91
 inv_grid_x				= 64
 inv_grid_y				= 16
 ;прицелы на планку Пикатинни
@@ -1020,7 +1020,7 @@ wpn_addon_afg = wpn_ak102_nomag_custom_grip_mtk83_acog
 [wpn_ak102_nomag_custom_mtk83_acog_repair]:wpn_ak1022_repair
 [wpn_ak102_nomag_custom_grip_mtk83_acog]:wpn_ak102_custom,ak102_acog_p,ak102_custom_p,ak102_mtk83_p,ak102_nomag_p,ak102_grip_p
 cost 			= 8200
-inv_weight 		= 4.69
+inv_weight 		= 3.99
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_nomag_custom_mtk83_acog
 inv_grid_x				= 69
@@ -1037,7 +1037,7 @@ wpn_addon_mag_cmag100      = wpn_ak102_cmag100_custom_grip_mtk83_acog
 ; Пикатинни, EOTech, нет магазина
 [wpn_ak102_nomag_custom_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_nomag_p
 cost 			= 6900
-inv_weight 		= 4.61
+inv_weight 		= 3.91
 inv_grid_x				= 64
 inv_grid_y				= 16
 ;прицелы на планку Пикатинни
@@ -1052,7 +1052,7 @@ wpn_addon_afg = wpn_ak102_nomag_custom_grip_mtk83_eotech
 [wpn_ak102_nomag_custom_mtk83_eotech_repair]:wpn_ak1022_repair
 [wpn_ak102_nomag_custom_grip_mtk83_eotech]:wpn_ak102_custom,ak102_eotech_p,ak102_custom_p,ak102_mtk83_p,ak102_nomag_p,ak102_grip_p
 cost 			= 8200
-inv_weight 		= 4.69
+inv_weight 		= 3.99
 ;grip_status				= 2
 grip_removed_section = wpn_ak102_nomag_custom_mtk83_eotech
 inv_grid_x				= 69
